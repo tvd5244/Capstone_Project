@@ -1,0 +1,1 @@
+Use these folders to commit resources and test code used to learn about various topics i.e. a language, AI usage, etc.
