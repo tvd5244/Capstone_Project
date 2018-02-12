@@ -8,7 +8,7 @@ from watson_developer_cloud import PersonalityInsightsV2 as PersonalityInsights
 def analyze(handle):
 
 	consumer_key = ''
-        consumer_secret = ''
+    consumer_secret = ''
 	access_token = ''
 	access_secret = ''
 
@@ -19,6 +19,6 @@ def analyze(handle):
 	compared_data = {}
 	for keys in dict1:
     		if dict1[keys] != dict2[keys]:
-			compared_data[keys] = abs(dict1[keys] - dict2[keys])
+				compared_data[keys] = abs(dict1[keys] - dict2[keys])
 	return compared_data
   
