@@ -1,0 +1,52 @@
+
+<html>
+<body style = "
+margin: auto;
+">
+<form action = "/scripts/signup.py" 
+	method = "POST" 
+	name = "form" 
+	onsubmit = "
+return form_pwd_validate();
+">
+<label for "mail"><strong>E-mail Address: </strong></label>
+<br/>
+<input type = "email" 
+	name = "mail" 
+	placeholder = "student@psu.edu" 
+	value = "<?mail>"
+	required/>
+<br/>
+<label for = "pwd"><strong>Password: </strong></label>
+<br/>
+<input type = "password" 
+	name = "pwd" 
+	id = "pwd" 
+	value = "<?pwd>"
+	required/>
+<br/>
+<label for = "pwd_conf"><strong>Confirm Password: </strong></label>
+<br/>
+<input type = "password"
+	id = "pwd_conf" 
+	required/>
+<br/>
+<input type = "submit" 
+	value = "submit"/>
+<br/>
+</form>
+<script defer>
+let pwd = document.getElementById("pwd");
+let pwd_conf = document.getElementById("pwd_conf");
+
+form_pwd_validate = 
+function() {
+	return true;
+};
+
+pwd.onchange = form_pwd_validate;
+pwd_conf.onchange = form_pwd_validate;
+
+</script>
+</body>
+</html>
