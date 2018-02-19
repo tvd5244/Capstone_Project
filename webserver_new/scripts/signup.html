@@ -1,47 +1,55 @@
-
 <html>
 <head>
 	<title>LionPals - Sign-Up</title>
-	<link href="../signup.css" type="text/css" rel="stylesheet">
+	<link href="./css/signup.css" type="text/css" rel="stylesheet">
 </head>
-<body style = "
-border: 0.1em solid black; 
-max-width: 50em; 
-margin: auto;
-">
-<h1>Signup.</h1>
+<body>
+<img src="./css/lionpals logo.png" class="logo">
+
+<h1>Account Sign-Up</h1>
 <form action = "/scripts/signup.py" 
 	method = "POST" 
 	name = "form" 
 	onsubmit = "
 return form_pwd_validate();
 ">
-<label for "mail"><strong>E-mail Address: </strong></label>
+<label for "mail"><strong>PSU E-mail Address: </strong></label>
 <br/>
 <input type = "email" 
 	name = "mail" 
+	class = "email"
 	placeholder = "student@psu.edu" 
-	value = "<?mail>"
 	required/>
 <br/>
+
 <label for = "pwd"><strong>Password: </strong></label>
 <br/>
 <input type = "password" 
 	name = "pwd" 
 	id = "pwd" 
-	value = "<?pwd>"
+	class = "pwd"
 	required/>
 <br/>
+
 <label for = "pwd_conf"><strong>Confirm Password: </strong></label>
 <br/>
 <input type = "password"
-	id = "pwd_conf" 
+	id = "pwd_conf"
+	class = "pwd_conf"
 	required/>
 <br/>
 <input type = "submit" 
-	value = "submit"/>
+	id = "submit"
+	value = "Create Account"
+	class = "button"/>
+<br/>
 <strong>or</strong>
-<a href = "/scripts/login.py">login</a>
+<br/>
+<input type="submit"
+	class="button"
+	value="Login"
+	action="/scripts/login.py"/>
+
 <br/>
 </form>
 <script defer>
