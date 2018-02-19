@@ -7,5 +7,5 @@ Content-Type: text/html
 \r\n
 """)
 
-print(open("scripts/login.html", "r").read())
+print(open("login.html", "r").read())
 

@@ -14,8 +14,8 @@ try:
 	
 	user.commit()
 
-	print(open("scripts/verify_successful.html", "r").read().replace("<?mail>", user.mail))
+	print(open("verify_successful.html", "r").read().replace("<?mail>", user.mail))
 
 except Exception: 
-	print(open("scripts/verify_failure.html", "r").read())
+	print(open("verify_failure.html", "r").read())
 
