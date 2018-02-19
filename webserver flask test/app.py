@@ -1,5 +1,7 @@
 # import the Flask class from the flask module
 from flask import Flask, render_template, redirect, url_for, request
+import UserAccountSet
+import re
 
 # create the application object
 app = Flask(__name__)
@@ -15,7 +17,13 @@ def signup():
 	if request.method =="POST":
 		if request.form['password'] != request.form['confirm_password']:
 			error = 'Confirmation password is different from entered password!'
+		elif re.match(r"[a-z]{3}[0-9]{4}@psu\.edu", request.form['username']) is None:
+			error = 'Email must be a PSU email!'
+		elif len(request.form['password']) < 8:
+			error = 'Password must be at least 8 characters!'
 		else:
+			user = UserAccountSet.UserAccount.create(request.form['username'], request.form['password'])
+			user.commit()
 			return redirect(url_for('home'))
 	return render_template('signup.html', error=error)
 	
