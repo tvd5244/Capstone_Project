@@ -1,11 +1,11 @@
 @font-face {
 	font-family: "Avenir";
-	src: url("../fonts/Avenir-Medium.ttf");
+	src: url("../scripts/fonts/Avenir-Medium.ttf");
 }
 
 @font-face {
 	font-family: "Serifa";
-	src: url("../fonts/Serifa-Black.otf");
+	src: url("../scripts/fonts/Serifa-Black.otf");
 }
 
 h1 {
