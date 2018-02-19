@@ -1,10 +1,22 @@
-body {
-	
+@font-face {
+	font-family: "Avenir";
+	src: url("../fonts/Avenir-Medium.ttf");
+}
+
+@font-face {
+	font-family: "Serifa";
+	src: url("../fonts/Serifa-Black.otf");
 }
 
 h1 {
+	font-family: "Avenir";
 	margin-top: 100px;
 	text-align: center;
+}
+
+strong {
+	font-family: "Serifa";
+	font-weight: normal;
 }
 
 img.logo {
@@ -19,6 +31,8 @@ form {
 
 input {
 	margin-bottom: 6px;
+	border-radius: 4px;
+	width: 180px;
 }
 
 input.button {
