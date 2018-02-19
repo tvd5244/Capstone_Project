@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+
 <html>
-	<head>
-		<title>LionPals - Signup</title>
-	</head>
 <body style = "
+border: 0.1em solid black; 
+max-width: 50em; 
 margin: auto;
 ">
+<h1>Signup.</h1>
 <form action = "/scripts/signup.py" 
 	method = "POST" 
 	name = "form" 
@@ -36,6 +36,8 @@ return form_pwd_validate();
 <br/>
 <input type = "submit" 
 	value = "submit"/>
+<strong>or</strong>
+<a href = "/scripts/login.py">login</a>
 <br/>
 </form>
 <script defer>
@@ -44,7 +46,14 @@ let pwd_conf = document.getElementById("pwd_conf");
 
 form_pwd_validate = 
 function() {
-	return true;
+	if (pwd.value != pwd_conf.value) {
+		pwd_conf.setCustomValidity("the passwords do not match.")
+		return false;
+	} 
+	else {
+		pwd_conf.setCustomValidity("")
+		return true;
+	}
 };
 
 pwd.onchange = form_pwd_validate;

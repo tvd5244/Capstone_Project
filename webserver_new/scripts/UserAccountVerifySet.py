@@ -4,68 +4,69 @@ import UserAccountSet
 import smtplib
 from email.mime.text import MIMEText
 import secrets
+import socket
 
+ip_addr = socket.gethostbyname("localhost")
 
 class UserAccount(UserAccountSet.UserAccount): 
-
-	@property
-	def awaiting_verify(self): 
-		return VerifyEmail.get_verify_email(self) is not None
-
-	def __str__(self): 
-		return "UserAccountVerifySet.UserAccount(mail = " + self.mail + ", pwd = " + self.pwd + ", awaiting_verify = " + str(self.awaiting_verify) + ")"
-
-	@classmethod
-	def create(cls, mail, pwd):
-		self = UserAccountSet.UserAccount.create(mail, pwd)
-		VerifyEmail.create(self)
-
-		return self
-
-
-
-class VerifyEmail: 
 	conn = sqlite3.connect("accounts.db")
 	conn.executescript("""
 create table if not exists UserAccountVerifySet (
-	ID int, 
+	ID integer primary key, 
 	secret String unique, 
-	foreign key (ID) references UserAccountSet (ROWID), 
-	primary key (ID)
+	foreign key (ID) references UserAccountSet (ROWID)
 )
 """)
 	conn.commit()
 	conn.close()
 
-	def __init__(self): 
-		self.conn = sqlite3.connect("accounts.db")
-		
-
-	@classmethod
-	def get_verify_email(cls, user): 
-		self = cls()
-		self.ID = user.ROWID
+	@property
+	def done_verify(self): 
 		cursor = self.conn.cursor()
 		res = cursor.execute("""\
 select 1 
 from UserAccountVerifySet 
 where ID = ?
-"""		, (self.ID, )).fetchone()
+"""		, (self.ROWID, )).fetchone()
 		cursor.close()
 
-		if res is None: 
-			del self
-			return None
+		return res is None
 
-		return res
-	
+
+	def __str__(self): 
+		return "UserAccountVerifySet.UserAccount(mail = " + self.mail + ", pwd = " + self.pwd + ", awaiting_verify = " + str(self.done_verify) + ")"
+
+
+	def send_verify_email(self): 
+		secret = secrets.token_urlsafe()
+		self.conn.execute("""
+delete from UserAccountVerifySet 
+where ROWID = ?
+"""		, (self.ROWID, ))
+		self.conn.execute("""
+insert into UserAccountVerifySet  
+(ID, secret)
+values (?, ?)
+"""		, (self.ROWID, secret, ))
+
+		server = smtplib.SMTP("smtp.gmail.com:587")
+		server.ehlo()
+		server.starttls()
+		server.login("psulionpals@gmail.com", "ab12cd34")
+		message = MIMEText("""
+verify link: http://""" + ip_addr + "/scripts/verify.py?user_id=" + str(self.ROWID) + "&secret=" + secret + """
+"""		, "html")
+		server.send_message(message, "psulionpals@gmail.com", self.mail)
+		server.quit()
+
+
 	def do_verify(self, secret): 
 		cursor = self.conn.cursor()
 		res = cursor.execute("""\
 select 1 
 from UserAccountVerifySet 
 where ID = ? and secret = ?
-"""		, (self.ID, secret, )).fetchone()
+"""		, (self.ROWID, secret, )).fetchone()
 		cursor.close()
 
 		if res is None: 
@@ -74,23 +75,19 @@ where ID = ? and secret = ?
 		self.conn.execute("""\
 delete from UserAccountVerifySet 
 where ID = ? and secret = ?
-"""		, (self.ID, secret, ))
+"""		, (self.ROWID, secret, ))
 		return True
 
-	@classmethod
-	def create(cls, user): 
-		self = cls()
-		self.ID = user.ROWID
-		self.conn.execute("""
+	def remove(self): 
+		self.conn.execute("""\
 delete from UserAccountVerifySet 
-where ROWID = ?
-"""	, (user.ROWID, ))
-		self.conn.execute("""
-insert into UserAcccountVerifySet 
-values (?, ?)
-"""		, (user.ROWID, secrets.token_urlsafe))
-		return self
-	
+where ID = ? 
+"""		, (self.ROWID, ))
+		super().remove()
+
+
+
+
 
 def print_table(): 
 	conn = sqlite3.connect("accounts.db")

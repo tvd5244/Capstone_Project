@@ -1,16 +1,21 @@
 
 import cgitb; cgitb.enable()
 import cgi; fields = cgi.FieldStorage()
-from UserAccountVerifySet import VerifyEmail, UserAccount
+from UserAccountVerifySet import UserAccount
 
 user_id = fields.getvalue("user_id")
 secret = fields.getvalue("secret")
 
 try: 
-	if not(VerifyEmail.get_verify_email(UserAccount.get_account(user_id)).do_verify(secret)): 
+	user = UserAccount.get_account_by_id(user_id)
+
+	if not(user.do_verify(secret)): 
 		raise Exception
 	
-	print(open("verify_success.html", "r").read().replace("<?mail>", UserAccount.get_account(user_id).mail))
-except: 
-	print(open("verify_failure.html", "r").read())
+	user.commit()
+
+	print(open("scripts/verify_successful.html", "r").read().replace("<?mail>", user.mail))
+
+except Exception: 
+	print(open("scripts/verify_failure.html", "r").read())
 
