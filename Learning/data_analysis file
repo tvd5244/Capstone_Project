@@ -4,7 +4,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfVectorizer 
 
 
-df = pd.read_csv(PATH + "train.csv", index_col="RecipeId")
+df = pd.read_csv(PATH + "train.csv", index_col="PersonId")
 df.target = df.Target.astype('category')
 df.head()
 import operator
@@ -33,8 +33,6 @@ topInterests.sort_values(by="TfIdf",ascending=False)
 import nltk
 from nltk.stem.porter import PorterStemmer
 
-nltk.download('punkt') # Download the required nltk data files
-
 def tokenize(text):
     tokens = nltk.word_tokenize(text)
     stems = []
@@ -44,7 +42,7 @@ def tokenize(text):
 
 ITEMS = 50
 v = TfidfVectorizer(sublinear_tf=True, tokenizer=tokenize, stop_words='english', ngram_range=(1,3),max_features=ITEMS)
-df_x = v.fit_transform(df.Ingredients.values.astype('U'))
+df_x = v.fit_transform(df.Interests.values.astype('U'))
 idf = v.idf_
 
 topInterests = pd.DataFrame({"Interest": v.get_feature_names(),"TfIdf":idf})
