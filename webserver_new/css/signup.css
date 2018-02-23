@@ -1,17 +1,29 @@
 @font-face {
 	font-family: "Avenir";
-	src: url("../fonts/Avenir-Medium.ttf");
+	src: url("/fonts/Avenir-Medium.ttf");
 }
 
 @font-face {
 	font-family: "Serifa";
-	src: url("../fonts/Serifa-Black.otf");
+	src: url("/fonts/Serifa-Black.otf");
 }
 
 h1 {
 	font-family: "Avenir";
-	margin-top: 100px;
+	margin-top: 75px;
 	text-align: center;
+}
+
+p {
+	font-family: "Avenir";
+	font-weight: normal;
+	font-size: 14pt;
+	text-align: center;
+	margin-top: 100px;
+}
+
+p.error {
+	color: red;
 }
 
 strong {
@@ -29,14 +41,15 @@ form {
 	text-align: center;
 }
 
-input {
+input, button {
 	margin-bottom: 6px;
 	border-radius: 4px;
 	width: 180px;
 }
 
-input.button {
+input.button, button {
 	outline: none;
+	margin-top: 4px;
 	margin-bottom: 0px;
 	width: 114px;
 	padding: 2px;
@@ -44,8 +57,4 @@ input.button {
 	border-style: outset;
 	text-align: center;
 	vertical-align: middle;
-}
-
-#submit {
-	margin-top: 4px;
 }

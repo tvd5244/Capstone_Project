@@ -14,8 +14,10 @@ try:
 	
 	user.commit()
 
-	print(open("verify_successful.html", "r").read().replace("<?mail>", user.mail))
+	status = "<?mail> has been verified successfully"
+	print(open("signup_verify_result.html", "r").read().replace("<?status>", status).replace("<?mail>", user.mail))
 
-except Exception: 
-	print(open("verify_failure.html", "r").read())
+except Exception:
+	status = "An error occurred while verifying <?mail>. Your verification link may have expired. Please try registering again." 
+	print(open("signup_verify_result.html", "r").read().replace("<?mail>", user.mail).replace("<?status>", status))
 

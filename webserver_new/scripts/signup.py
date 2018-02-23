@@ -19,8 +19,10 @@ else:
 		user.send_verify_email()
 		user.commit()
 	except: 
-		print(open("signup_failure.html", "r").read())
+		status = "<?mail> has already been registered"
+		print(open("signup_verify_result.html", "r").read().replace("<?status>", status).replace("<?mail>", mail))
 	else: 
-		print(open("signup_successful.html", "r").read().replace("<?mail>", mail))
+		status = "To finish the sign-up process, please click the verification link sent to <?mail>"
+		print(open("signup_verify_result.html", "r").read().replace("<?status>", status).replace("<?mail>", mail))
 
 
