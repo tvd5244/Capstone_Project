@@ -3,7 +3,6 @@
 <head>
 	<title>LionPals - Sign-Up</title>
 	<link href="./css/signup.css" type="text/css" rel="stylesheet"/>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -59,17 +58,19 @@
 			value = "Create Account"
 			class = "button"/>
 
-		<br/>
 	</form>
 
-	<strong>or</strong>
+	<div class="buttongroup">
+		<strong>or</strong>
 
-	<br/>
+		<br/>
 
-	<button	class="button"
-		action="/scripts/login.py">
-		Login
-	</button>
+		<button type="button"
+			class="button"
+			onclick="location.href='/login.html'">
+			Login
+		</button>
+	</div>
 
 	<script defer>
 		//let email = document.getElementById("email");

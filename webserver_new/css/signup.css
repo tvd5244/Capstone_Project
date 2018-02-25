@@ -10,7 +10,7 @@
 
 h1 {
 	font-family: "Avenir";
-	margin-top: 75px;
+	margin-top: 60px;
 	text-align: center;
 }
 
@@ -20,6 +20,35 @@ p {
 	font-size: 14pt;
 	text-align: center;
 	margin-top: 100px;
+}
+
+table.account {
+	font-family: 'Serifa'
+	margin-top: 20px;
+	margin-left: 50px;
+	align-items: center;
+}
+
+tr {
+
+}
+
+td {
+	padding-bottom: 15px;
+	padding-right: 40px;
+}
+
+td.title {
+	font-family: "Serifa";
+}
+
+td.data, textarea.interests {
+	font-family: "Avenir";
+}
+
+textarea {
+	margin-top: 4px;
+	resize: none;
 }
 
 p.error {
@@ -39,9 +68,10 @@ img.logo {
 
 form {
 	text-align: center;
+	margin-bottom: 0px;
 }
 
-input, button {
+input.email, input.pwd, input.pwd_conf, button {
 	margin-bottom: 6px;
 	border-radius: 4px;
 	width: 180px;
@@ -56,9 +86,30 @@ input.button, button {
 	border-radius: 10px;
 	border-style: outset;
 	text-align: center;
-	vertical-align: middle;
+}
+
+input.interests {
+	width: 200px;
+	height: 80px;
+	word-wrap: break-word;
+}
+
+input.savechanges {
+	outline: none;
+	margin-top: 4px;
+	margin-bottom: 0px;
+	width: 114px;
+	padding: 2px;
+	border-radius: 10px;
+	border-style: outset;
+	text-align: center;
+	
 }
 
 div.buttongroup {
 	text-align: center;
+}
+
+tr {
+	vertical-align: top;
 }
