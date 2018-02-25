@@ -7,8 +7,57 @@
 
 <body>
 	<img class="logo" src="/css/lionpals logo.png"/>
+
+	<!-- This message is passed from signup.py -->
+	<p id="message" ><?message></p>
+
+	<div class="buttongroup"
+		style="text-align: center;">
+		<button formaction="/signup.html"
+			class="button"
+			style="margin-right: 20px">
+			Sign-Up	
+		</button>
+
+		<button formaction="/login.html"
+			class="button"
+			style="margin-right: 20px">
+			Login
+		</button>
+
+		<button formaction="/accountdetails.html"
+			class="button">
+			Account Details
+		</button>
+	</div>
 	
-	<!-- This status message is passed from signup.py -->
-	<p><?status></p>
+	<!--
+	<script type="text/javascript">
+		let script = <?script>;
+		let status = <?status>;
+		let message = document.getElementById("message");
+
+		alert("hi");
+		alert(message.text);
+
+		parse_status =
+		function() {
+			alert("hi");
+			if(status != "0") { // an error occurred, so display text in red
+				alert(status);
+				message.style.color = "Red";
+			}
+			else {
+				alert(status);
+				// When account is successfully verified, redirect to Account Details page
+				setTimeout("location.href = '/accountdetails.html';", 1500); 
+			}
+
+			window.onload = parse_status();
+		}
+
+	</script>
+	-->
+
 </body>
 </html>
