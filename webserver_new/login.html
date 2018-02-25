@@ -2,38 +2,62 @@
 <html>
 	<head>
 		<title>LionPals - Login</title>
+		<link href="./css/signup.css" type="text/css" rel="stylesheet"/>
 	</head>
-<body style = "
-border: 0.1em solid black; 
-max-width: 50em; 
-margin: auto;
-">
-<h1>Login.</h1>
-<form action = "/scripts/signup.py" 
-	method = "POST" 
-	name = "form" 
-	onsubmit = "
-return form_pwd_validate();
-">
-<label for "mail"><strong>E-mail Address: </strong></label>
-<br/>
-<input type = "email" 
-	name = "mail" 
-	placeholder = "student@psu.edu" 
-	required/>
-<br/>
-<label for = "pwd"><strong>Password: </strong></label>
-<br/>
-<input type = "password" 
-	name = "pwd" 
-	id = "pwd" 
-	required/>
-<br/>
-<input type = "submit" 
-	value = "submit"/>
-<strong>or</strong>
-<a href = "/scripts/signup.py">signup</a>
-<br/>
-</form>
-</body>
+
+	<body>
+
+	<img src="./css/lionpals logo.png" class="logo"/>
+
+	<h1>Login</h1>
+
+	<form action = "/scripts/signup.py" 
+		method = "POST" 
+		name = "form" 
+		onsubmit = "
+	return form_pwd_validate();
+	">
+		<label for "mail"><strong>E-mail Address: </strong></label>
+		
+		<br/>
+		
+		<input type = "email" 
+			class="email" 
+			name = "mail" 
+			placeholder = "student@psu.edu" 
+			required/>
+		
+		<br/>
+		
+		<label for = "pwd"><strong>Password: </strong></label>
+		
+		<br/>
+		
+		<input type = "password"
+			class="pwd" 
+			name = "pwd" 
+			id = "pwd" 
+			required/>
+		
+		<br/>
+		
+		<input type = "submit"
+			class="button" 
+			value = "Login"/>
+		
+	</form>
+		
+	<div class="buttongroup">
+		<strong>or</strong>
+
+		<br/>
+		
+		<button type="button"
+			class="button"
+			onclick="location.href='/signup.html'">
+			Sign-Up
+		</button>
+	</div>
+
+	</body>
 </html>
