@@ -5,7 +5,7 @@ class UserAccount:
 	conn = sqlite3.connect("database.db")
 	conn.executescript("""
 create table if not exists UserAccountSet (
-	ROWID integer primary key autoincrement, 
+	ROWID Integer primary key autoincrement, 
 	mail String unique, 
 	pwd String
 )

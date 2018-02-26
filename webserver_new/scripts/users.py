@@ -27,10 +27,11 @@ margin: auto;
 
 print("""
 <table>
+<tr>
 """)
 
 
-conn = sqlite3.connect("accounts.db")
+conn = sqlite3.connect("database.db")
 cursor = conn.cursor()
 res = cursor.execute("""\
 pragma table_info(UserAccountSet)
