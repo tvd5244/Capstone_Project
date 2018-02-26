@@ -2,11 +2,11 @@
 
 <head>
 	<title>LionPals - Sign-Up</title>
-	<link href="./css/signup.css" type="text/css" rel="stylesheet"/>
+	<link href="{{url_for('static', filename = 'styles/signup.css')}}" type="text/css" rel="stylesheet"/>
 </head>
 
 <body>
-	<img src="./css/lionpals logo.png" class="logo"/>
+	<img src="static/lionpals logo.png" class="logo"/>
 
 	<h1>Account Sign-Up</h1>
 	
@@ -67,7 +67,7 @@
 
 		<button type="button"
 			class="button"
-			onclick="location.href='/login.html'">
+			onclick="location.href='/login'">
 			Login
 		</button>
 	</div>
