@@ -9,7 +9,7 @@ import socket
 ip_addr = socket.gethostbyname("localhost")
 
 class UserAccount(UserAccountSet.UserAccount): 
-	conn = sqlite3.connect("accounts.db")
+	conn = sqlite3.connect("database.db")
 	conn.executescript("""
 create table if not exists UserAccountVerifySet (
 	ID integer primary key, 
@@ -90,7 +90,7 @@ where ID = ?
 
 
 def print_table(): 
-	conn = sqlite3.connect("accounts.db")
+	conn = sqlite3.connect("database.db")
 	cursor = conn.cursor()
 	res = cursor.execute("""\
 select ROWID 
