@@ -2,7 +2,7 @@
 import sqlite3
 
 class UserAccount: 
-	conn = sqlite3.connect("accounts.db")
+	conn = sqlite3.connect("database.db")
 	conn.executescript("""
 create table if not exists UserAccountSet (
 	ROWID integer primary key autoincrement, 
@@ -15,7 +15,7 @@ create table if not exists UserAccountSet (
 	
 
 	def __init__(self): 
-		self.conn = sqlite3.connect("accounts.db")
+		self.conn = sqlite3.connect("database.db")
 
 
 	def __del__(self): 
