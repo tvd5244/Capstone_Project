@@ -29,7 +29,7 @@ create table if not exists Sessions (
 
 	@classmethod
 	def get_session(cls): 
-		regex = re.compile("SESSION=([A-Za-z0-9\\+/]+)")
+		regex = re.compile("SESSION=(\\S+)")
 		secret = regex.match(os.environ["HTTP_COOKIE"]).group(1)
 		self = cls()
 		cursor = self.conn.cursor()
@@ -53,9 +53,6 @@ update Sessions
 set secret = ? 
 where ROWID = ?
 """		, (secrets.token_urlsafe(), self.ROWID, ))
-
-
-	def commit(self): 
 		self.conn.commit()
 
 
@@ -74,7 +71,9 @@ insert into Sessions
 (secret, acc_id) 
 values (?, ?)
 """		, (secrets.token_urlsafe(), user.ROWID, )).lastrowid
+		self.conn.commit()
 
+		cursor.close()
 		self.ROWID = res
 		return self
 	
@@ -101,6 +100,7 @@ where ROWID = ?
 delete from Sessions 
 where ROWID = ?
 """		, (self.ROWID, ))
+		self.conn.commit()
 
 
 	def get_account_id(self): 
