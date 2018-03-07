@@ -1,0 +1,115 @@
+@font-face {
+	font-family: "Avenir";
+	src: url("/fonts/Avenir-Medium.ttf");
+}
+
+@font-face {
+	font-family: "Serifa";
+	src: url("/fonts/Serifa-Black.otf");
+}
+
+h1 {
+	font-family: "Avenir";
+	margin-top: 60px;
+	text-align: center;
+}
+
+p {
+	font-family: "Avenir";
+	font-weight: normal;
+	font-size: 14pt;
+	text-align: center;
+	margin-top: 100px;
+}
+
+table.account {
+	font-family: 'Serifa'
+	margin-top: 20px;
+	margin-left: 50px;
+	align-items: center;
+}
+
+tr {
+
+}
+
+td {
+	padding-bottom: 15px;
+	padding-right: 40px;
+}
+
+td.title {
+	font-family: "Serifa";
+}
+
+td.data, textarea.interests {
+	font-family: "Avenir";
+}
+
+textarea {
+	margin-top: 4px;
+	resize: none;
+}
+
+p.error {
+	color: red;
+}
+
+strong {
+	font-family: "Serifa";
+	font-weight: normal;
+}
+
+img.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+form {
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+input.email, input.pwd, input.pwd_conf, button {
+	margin-bottom: 6px;
+	border-radius: 4px;
+	width: 180px;
+}
+
+input.button, button {
+	outline: none;
+	margin-top: 4px;
+	margin-bottom: 0px;
+	width: 114px;
+	padding: 2px;
+	border-radius: 10px;
+	border-style: outset;
+	text-align: center;
+}
+
+input.interests {
+	width: 200px;
+	height: 80px;
+	word-wrap: break-word;
+}
+
+input.savechanges {
+	outline: none;
+	margin-top: 4px;
+	margin-bottom: 0px;
+	width: 114px;
+	padding: 2px;
+	border-radius: 10px;
+	border-style: outset;
+	text-align: center;
+	
+}
+
+div.buttongroup {
+	text-align: center;
+}
+
+tr {
+	vertical-align: top;
+}
