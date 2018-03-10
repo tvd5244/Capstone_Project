@@ -4,7 +4,10 @@ from collections import OrderedDict
 import re
 
 
-#this function assumes emails are 1 to 1
+#this function assumes psu emails are 1 to 1 (i.e only 1 result in student directory per email)
+
+#takes a psu email as a string and returns -1 if no results are found in student directory,
+#or a list containing the account info if a result is found.
 
 def getAccountInfo(email):
     r = requests.post('http://www.work.psu.edu/cgi-bin/ldap/ldap_query.cgi', data={'mail': email})
