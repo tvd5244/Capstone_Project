@@ -23,4 +23,4 @@ def getAccountInfo(email):
         accountInfo = list(OrderedDict.fromkeys(accountInfo))
         return accountInfo
 
-print(getAccountInfo('njc5250@psu.edu'))
+
