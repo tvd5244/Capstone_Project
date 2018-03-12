@@ -5,17 +5,17 @@ class UserAccount:
 	conn = sqlite3.connect("database.db")
 	conn.executescript("""
 create table if not exists UserAccountSet (
-	ROWID Integer primary key autoincrement, 
+	ID Integer primary key autoincrement, 
 	mail String unique, 
 	pwd String
 )
 """	)
 	conn.commit()
-	conn.close()
-	
 
-	def __init__(self): 
+
+	def __init__(self, ID): 
 		self.conn = sqlite3.connect("database.db")
+		self.ID = ID
 
 
 	def __del__(self): 
@@ -28,8 +28,8 @@ create table if not exists UserAccountSet (
 		res = cursor.execute("""\
 select mail 
 from UserAccountSet 
-where ROWID == ? 
-"""		, (self.ROWID, )).fetchone()[0]
+where ID == ? 
+"""		, (self.ID, )).fetchone()[0]
 		cursor.close()
 
 		return str(res)
@@ -40,8 +40,8 @@ where ROWID == ?
 		self.conn.execute("""\
 update UserAccountSet 
 set mail = ? 
-where ROWID = ?
-"""		, (value, self.ROWID, ))
+where ID = ?
+"""		, (value, self.ID, ))
 
 
 	@property
@@ -50,11 +50,11 @@ where ROWID = ?
 		res = cursor.execute("""\
 select pwd 
 from UserAccountSet 
-where ROWID == ? 
-"""		, (self.ROWID, )).fetchone()[0]
+where ID == ? 
+"""		, (self.ID, )).fetchone()
 		cursor.close()
 
-		return str(res)
+		return str(res[0])
 
 
 	@pwd.setter
@@ -62,34 +62,30 @@ where ROWID == ?
 		self.conn.execute("""\
 update UserAccountSet 
 set pwd = ? 
-where ROWID = ?
-"""		, (value, self.ROWID, ))
+where ID = ?
+"""		, (value, self.ID, ))
 
 
 	@classmethod
 	def get_account(cls, mail): 
-		self = cls()
-		cursor = self.conn.cursor()
+		cursor = cls.conn.cursor()
 		res = cursor.execute("""\
-select ROWID 
+select ID 
 from UserAccountSet 
 where mail = ?
 """		, (mail, )).fetchone()
 		
+		cursor.close()
+
 		if res is None: 
-			del self
 			return None
 
-		self.ROWID = res[0]
-		cursor.close()
-		return self
+		return cls(res[0])
 
 
 	@classmethod
-	def get_account_by_id(cls, user_id):
-		self = cls()
-		self.ROWID = user_id
-		return self
+	def get_account_by_id(cls, ID):
+		return cls(ID)
 
 
 	def __str__(self): 
@@ -102,22 +98,28 @@ where mail = ?
 
 	@classmethod
 	def create(cls, mail, pwd): 
-		self = cls()
-		cursor = self.conn.cursor()
-		cursor.execute("""\
+		cursor = cls.conn.cursor()
+		try: 
+			cursor.execute("""\
 insert into UserAccountSet 
 (mail, pwd) 
 values (?, ?)
-"""		, (mail, pwd, ))
-		self.ROWID = cursor.lastrowid
+"""			, (mail, pwd, ))
+		except: 
+			raise "AlreadyExists"
+		
+		
+		ID = cursor.lastrowid
 		cursor.close()
-		return self
+		
+		return cls(ID)
+
 
 	def remove(self): 
 		self.conn.execute("""\
 delete from UserAccountSet 
-where ROWID = ?
-"""		, (self.ROWID, ))
+where ID = ?
+"""		, (self.ID, ))
 
 
 

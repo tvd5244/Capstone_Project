@@ -3,4 +3,4 @@ from http.server import HTTPServer, CGIHTTPRequestHandler
 
 CGIHTTPRequestHandler.cgi_directories = ["/scripts"]
 
-HTTPServer(("", 80), CGIHTTPRequestHandler).serve_forever()
+HTTPServer(("", 8001), CGIHTTPRequestHandler).serve_forever()

@@ -32,7 +32,7 @@
 					Academic Program:
 				</td>
 				<td class="data">
-					Computer Science
+					<?program>
 				</td>
 			</tr>
 
@@ -50,13 +50,16 @@
 					Interests:
 				</td>
 				<td class="data">
-					<form id="interests">
+					<form id="interests" 
+						action = "/scripts/account_details.py" 
+						method = "POST">
 						<textarea type="text" 
 							class="interests"
-							id="interests_textbox"
+							id="interests_textbox" 
+							name = "interests"
 							placeholder="Enter your interests"
 							rows="5"
-							cols="40"></textarea>
+							cols="40"><?interests></textarea>
 
 					<br/>
 					</form>
