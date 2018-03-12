@@ -44,7 +44,7 @@ ITEMS = 50
 v = TfidfVectorizer(sublinear_tf=True, tokenizer=tokenize, stop_words='english', ngram_range=(1,3),max_features=ITEMS)
 df_x = v.fit_transform(df.Interests.values.astype('U'))
 idf = v.idf_
-
+ 
 topInterests = pd.DataFrame({"Interest": v.get_feature_names(),"TfIdf":idf})
 print("Top",ITEMS,"Interests")
 topInterests.sort_values(by="TfIdf",ascending=False)
