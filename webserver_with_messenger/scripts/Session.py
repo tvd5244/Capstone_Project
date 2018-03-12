@@ -16,7 +16,6 @@ create table if not exists Sessions (
 )
 """	)
 	conn.commit()
-	conn.close()
 
 
 	def __init__(self, ID): 
@@ -67,11 +66,11 @@ where ID = ?
 insert into Sessions 
 (secret, acc_id) 
 values (?, ?)
-"""		, (secrets.token_urlsafe(), user.ID, )).lastrowid
+"""		, (secrets.token_urlsafe(), user.ID, ))
 		cls.conn.commit()
 		cursor.close()
 
-		return cls(res[0])
+		return cls(res.lastrowid)
 	
 
 	@property

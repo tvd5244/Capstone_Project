@@ -14,14 +14,10 @@ pwd = fields.getvalue("pwd")
 if mail is None or pwd is None: 
 	print(open("signup.html", "r").read().replace("<?mail>", mail or "").replace("<?pwd>", pwd or ""))
 else: 
-	user = UserAccount.create(mail, pwd)
-	user.send_verify_email()
-	user.commit()
 	try: 
-		#user = UserAccount.create(mail, pwd)
-		#user.send_verify_email()
-		#user.commit()
-		pass
+		user = UserAccount.create(mail, pwd)
+		user.send_verify_email()
+		user.commit()
 	except: 
 		message = "<?mail> has already been registered"
 		print(open("signup_verify_result.html", "r").read()

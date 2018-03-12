@@ -2,6 +2,12 @@
 import sqlite3
 
 class UserAccount: 
+	
+	@classmethod
+	def create_conn(cls): 
+		return sqlite3.connect("database.db")
+
+
 	conn = sqlite3.connect("database.db")
 	conn.executescript("""
 create table if not exists UserAccountSet (
@@ -13,8 +19,8 @@ create table if not exists UserAccountSet (
 	conn.commit()
 
 
-	def __init__(self, ID): 
-		self.conn = sqlite3.connect("database.db")
+	def __init__(self, conn, ID): 
+		self.conn = conn
 		self.ID = ID
 
 
@@ -68,7 +74,8 @@ where ID = ?
 
 	@classmethod
 	def get_account(cls, mail): 
-		cursor = cls.conn.cursor()
+		conn = cls.create_conn()
+		cursor = conn.cursor()
 		res = cursor.execute("""\
 select ID 
 from UserAccountSet 
@@ -80,12 +87,12 @@ where mail = ?
 		if res is None: 
 			return None
 
-		return cls(res[0])
+		return cls(conn, res[0])
 
 
 	@classmethod
 	def get_account_by_id(cls, ID):
-		return cls(ID)
+		return cls(cls.create_conn(), ID)
 
 
 	def __str__(self): 
@@ -98,7 +105,8 @@ where mail = ?
 
 	@classmethod
 	def create(cls, mail, pwd): 
-		cursor = cls.conn.cursor()
+		conn = cls.create_conn()
+		cursor = conn.cursor()
 		try: 
 			cursor.execute("""\
 insert into UserAccountSet 
@@ -112,7 +120,7 @@ values (?, ?)
 		ID = cursor.lastrowid
 		cursor.close()
 		
-		return cls(ID)
+		return cls(conn, ID)
 
 
 	def remove(self): 

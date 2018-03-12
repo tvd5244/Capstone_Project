@@ -16,8 +16,8 @@ create table if not exists UserAccountPropertySet (
 	conn.commit()
 
 
-	def __init__(self, ID):
-		super().__init__(ID)
+	def __init__(self, conn, ID):
+		super().__init__(conn, ID)
 		self.conn.execute("""
 insert into UserAccountPropertySet 
 select ?, ?, ? 
@@ -28,6 +28,7 @@ from UserAccountPropertySet
 where ID = ?
 )
 """		, (self.ID, "", "", self.ID, ))
+
 
 
 	@property
@@ -53,7 +54,7 @@ where ID = ?
 update UserAccountPropertySet 
 set interests = ? 
 where ID = ?
-"""		(text, self.ID, ))
+"""		, (text, self.ID, ))
 
 
 	@property
@@ -79,5 +80,5 @@ where ID = ?
 update UserAccountPropertySet 
 set program = ? 
 where ID = ?
-"""		(text, self.ID, ))
+"""		, (text, self.ID, ))
 

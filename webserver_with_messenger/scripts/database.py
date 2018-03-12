@@ -1,2 +1,2 @@
 
-# TODO: unify all database object into a decorator.
+# TODO: unify all database objects into a decorator.
