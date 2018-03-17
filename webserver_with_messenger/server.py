@@ -1,6 +1,8 @@
 
 from http.server import HTTPServer, CGIHTTPRequestHandler
 
-CGIHTTPRequestHandler.cgi_directories = ["/scripts"]
+class Handler(CGIHTTPRequestHandler): 
+	cgi_directories = ["/scripts"]
+	
 
-HTTPServer(("", 8002), CGIHTTPRequestHandler).serve_forever()
+HTTPServer(("", 8002), Handler).serve_forever()
