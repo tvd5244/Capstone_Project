@@ -4,5 +4,34 @@
 <title>LionPals - Messenger</title>
 </head>
 <body>
+	<div class="buttongroup"
+		style="text-align: center;">
+		<button onclick="location.href='/messenger.html'"
+			class="button"
+			style="margin-right: 20px">
+			View Messages
+		</button>
+
+		<button onclick="location.href='/scripts/account_details.py'"
+			class="button">
+			Account Details
+		</button>
+		
+		<button onclick="location.href='/scripts/logout.py'"
+		class="button">
+		Logout
+	</button>
+	</div>
+<form action="/scripts/messenger_send.py" method="post" autocomplete="off" name="sendMessage" id="sendMessage">
+<label for="recipient"><strong>Recipient</strong></label>
+<br />
+<input name="recipient" id="recipient" type="email" />
+<br />
+<label for="message"><strong>Message</strong></label>
+<br />
+<textarea rows="10" cols="100" "required="required" name="message" id="message"></textarea>
+<br />
+<button type="submit">Send Message</button>
+</form>
 </body>
 </html>
