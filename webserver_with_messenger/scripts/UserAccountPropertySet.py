@@ -1,6 +1,7 @@
 
 import sqlite3
 import UserAccountVerifySet
+import sys
 
 
 class UserAccount(UserAccountVerifySet.UserAccount): 
@@ -22,16 +23,17 @@ create table if not exists Friendships (
 
 	def __init__(self, conn, ID):
 		super().__init__(conn, ID)
-		self.conn.execute("""
-insert into UserAccountPropertySet 
-select ?, ?, ? 
-from UserAccountPropertySet 
-where not exists (
-select 1 
-from UserAccountPropertySet 
-where ID = ?
-)
-"""		, (self.ID, "", "", self.ID, ))
+#		self.conn.execute("""
+#insert into UserAccountPropertySet 
+#select ?, ?, ? 
+#from UserAccountPropertySet 
+#where not exists (
+#select 1 
+#from UserAccountPropertySet 
+#where ID = ?
+#)
+#"""		, (self.ID, "", "", self.ID, ))
+		
 
 
 
@@ -62,7 +64,7 @@ where ID = ?
 
 
 	@property
-	def program(self): 
+	def academic_program(self): 
 		cursor = self.conn.cursor()
 		res = cursor.execute("""
 select program 
@@ -78,8 +80,8 @@ where ID = ?
 		return res[0]
 
 	
-	@program.setter
-	def program(self, text): 
+	@academic_program.setter
+	def academic_program(self, text): 
 		self.conn.execute("""
 update UserAccountPropertySet 
 set program = ? 
@@ -95,10 +97,14 @@ where ID = ?
 
 
 	def add_friend(self, user): 
-		self.conn.execute("""
+		try:
+			self.conn.execute("""
 insert into Friendships 
 values (?, ?)
-"""		, (self.ID, user.ID, ))
+"""			, (self.ID, user.ID, ))
+		except sqlite3.IntegrityError: 
+			pass
+
 
 
 	def remove_friend(self, user): 
@@ -112,10 +118,29 @@ where ID = ?
 		cursor = self.conn.cursor()
 		res = cursor.execute("""
 select friend 
+from Friendships me
+where ID = ? 
+and exists (
+select 1 
+from Friendships 
+where ID = me.friend 
+and friend = me.ID
+)
+"""		, (self.ID, )).fetchall()
+		cursor.close()
+
+		return [self.__class__.get_account_by_id(user[0]) for user in res]
+
+	
+	def get_friend_requests(self): 
+		cursor = self.conn.cursor()
+		res = cursor.execute("""
+select friend 
 from Friendships 
 where ID = ?
 """		, (self.ID, )).fetchall()
 		cursor.close()
 
 		return [self.__class__.get_account_by_id(user[0]) for user in res]
+
 

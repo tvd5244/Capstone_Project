@@ -1,6 +1,8 @@
 
 import sqlite3
 
+class ACCOUNT_ALREADY_EXISTS(BaseException): pass
+
 class UserAccount: 
 	
 	@classmethod
@@ -113,8 +115,8 @@ insert into UserAccountSet
 (mail, pwd) 
 values (?, ?)
 """			, (mail, pwd, ))
-		except: 
-			raise "AlreadyExists"
+		except sqlite3.IntegrityError: 
+			raise ACCOUNT_ALREADY_EXISTS()
 		
 		
 		ID = cursor.lastrowid
@@ -130,17 +132,17 @@ where ID = ?
 """		, (self.ID, ))
 
 
-	def find(self, _str, limit): 
+	def recommend(self, _str, limit): 
 		cursor = self.conn.cursor()
 		res = self.conn.execute("""
 select ID 
 from UserAccountSet 
+where ID <> ?
 limit ?
-"""		, (limit, ))
-		ret = [self.__class__.get_account_by_id(user[0]) for user in res]
+"""		, (self.ID, limit, )).fetchall()
 		cursor.close()
 
-		return ret
+		return [self.__class__.get_account_by_id(user[0]) for user in res]
 
 
 

@@ -1,6 +1,7 @@
 
 import cgitb; cgitb.enable()
 import cgi; fields = cgi.FieldStorage()
+import UserAccountSet
 from UserAccountPropertySet import UserAccount
 
 print("""\
@@ -18,7 +19,7 @@ else:
 		user = UserAccount.create(mail, pwd)
 		user.send_verify_email()
 		user.commit()
-	except: 
+	except UserAccountSet.ACCOUNT_ALREADY_EXISTS: 
 		message = "<?mail> has already been registered"
 		print(open("signup_verify_result.html", "r").read()
 			.replace("<?message>", message)

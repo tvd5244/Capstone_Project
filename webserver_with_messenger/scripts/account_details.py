@@ -23,7 +23,7 @@ Content-Type: text/html
 
 	print(open("account_details.html").read()
 		.replace("<?mail>", user.mail or "unknown")
-		.replace("<?program>", user.program or "unknown")
+		.replace("<?academic_program>", user.academic_program or "unknown")
 		.replace("<?interests>", user.interests or "none.")
 		.replace("<?message>", message))
 
