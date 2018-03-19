@@ -107,8 +107,8 @@ values (?, ?)
 	def remove_friend(self, user): 
 		self.conn.execute("""
 delete from Friendships 
-where ID = ? or (friend = ? and ID = ?)
-"""		, (self.ID, self.ID, user.ID, ))
+where (ID = ? and friend = ?) or (friend = ? and ID = ?)
+"""		, (self.ID, user.ID, self.ID, user.ID, ))
 
 
 	def get_friends(self): 

@@ -9,10 +9,10 @@ session = Session.get_session()
 if session is not None: 
 
 	user = UserAccount.get_account_by_id(session.get_account_id())
-	target = fields.getvalue("target")
+	addition = fields.getvalue("addition")
 
-	if target is not None: 
-		user.add_friend(UserAccount.get_account_by_id(int(target)))
+	if addition is not None: 
+		user.add_friend(UserAccount.get_account_by_id(int(addition)))
 
 	rejection = fields.getvalue("rejection")
 
@@ -51,7 +51,7 @@ table td {
 <form action = "/scripts/catalog.py" 
 	method = "POST">
 <input type = "hidden" 
-	name = "target"
+	name = "addition"
 	value = \"""" + str(entry.ID) + """"/>
 <input type = "submit" 
 	value = "add"/>
@@ -96,6 +96,13 @@ There are no recommendations available at this time. Please check back later.
 <input type = "submit" 
 	value = "reject"/>
 </form>
+<form action = "/scripts/catalog.py" 
+	method = "POST">
+<input type = "hidden" 
+	name = "addition" 
+	value = \"""" + str(entry.ID) + """"/>
+<input type = "submit" 
+	value = "accept"/>
 </td>
 </tr>
 """		)
