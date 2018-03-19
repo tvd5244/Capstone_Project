@@ -34,16 +34,15 @@ df.head()
 ITEMS = 15
 clusters=["","Sports","Computer Nerds","Anime","Computer Science","Math","Theater","Sing and Dance","Music","Movies","Food"]
 v = CountVectorizer(ngram_range=(1,3),max_features=ITEMS)
-for i in range(1,11):
+
+
+for i in range(1,len(clusters)):
     df_x = v.fit_transform(df[df.ClusterClassifier == i].Interests.values.astype('U'))
     print("\nTop",ITEMS,"Interests for",clusters[i],"People")
     n = 1
     for ingr in sorted(v.vocabulary_.items(), key=operator.itemgetter(1)):
         print(n,ingr[0])
         n += 1
-
-
-
 
 
 
@@ -61,7 +60,7 @@ topInterests.sort_values(by="TfIdf",ascending=False)
 
 
 
-
+# Match the user with other users who were put in the same category
 
 
 
@@ -74,7 +73,9 @@ def tokenize(text):
     stems = []
     for item in tokens:
         stems.append(PorterStemmer().stem(item))
+    #print(stems)
     return stems
+    
 
 ITEMS = 50
 v = TfidfVectorizer(sublinear_tf=True, tokenizer=tokenize, stop_words='english', ngram_range=(1,3),max_features=ITEMS)
@@ -236,9 +237,6 @@ predictions = cross_val_predict(knn, df_x, df.ClusterClassifier, cv=10)
 
 
 
-
-
-
 pd.crosstab(predictions,df.ClusterClassifier,rownames=['Predictions'],colnames=['Actual Values'])
 
 
@@ -260,4 +258,3 @@ for prediction in range(1,8):
             for ingr in sorted(v.vocabulary_.items(), key=operator.itemgetter(1)):
                 print(n,ingr[0])
                 n += 1
-
