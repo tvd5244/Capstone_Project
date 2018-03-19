@@ -9,7 +9,7 @@
 	<img class="logo" src="/css/lionpals logo.png"/>
 
 	<!-- This message is passed from signup.py -->
-	<p id="message" ><?message></p>
+	<p id="message"><?message></p>
 
 	<div class="buttongroup"
 		style="text-align: center;">
@@ -31,17 +31,28 @@
 		</button>
 	</div>
 
-	<!--
-	<script type="text/javascript">
-		alert("hi");
-		let script = <?script>;
-		let status = <?status>;
-		let message = document.getElementById("message");
+	
+	<script>
+		let script = "<?script>";
+		let status = "<?status>";
+		let message = "<?message>";
+		let display = document.getElementById("message");
 
-		alert("hi");
-		alert(message.text);
+		alert("script: " + script);
+		alert("status: " + status);
+		alert("message: " + message);
 
-		parse_status =
+		if(status == "-1") { // Error occurred, make text red
+			//alert("error here");
+			display.style.color = "Red";
+		}
+
+		if(status == "0" && script == "verify") {
+			alert("redirect");
+			setTimeout("location.href = '/login.html';", 5000);
+		}
+
+		/*parse_status =
 		function() {
 			alert("hi");
 			if(status != "0") { // an error occurred, so display text in red
@@ -55,10 +66,10 @@
 			}
 
 			window.onload = parse_status();
-		}
+		}*/
 
 	</script>
- 	-->
+ 	
 
 </body>
 </html>

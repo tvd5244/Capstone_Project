@@ -32,7 +32,7 @@
 					Academic Program:
 				</td>
 				<td class="data">
-					Computer Science
+					<?academic_program>
 				</td>
 			</tr>
 
@@ -41,7 +41,7 @@
 					Campus:
 				</td>
 				<td class="data">
-					Harrisburg
+					<?campus>
 				</td>
 			</tr>
 
@@ -50,7 +50,9 @@
 					Interests:
 				</td>
 				<td class="data">
-					<form id="interests">
+					<form id="interests"
+						action="update_account.py"
+						method="POST">
 						<textarea type="text" 
 							class="interests"
 							id="interests_textbox"
@@ -59,13 +61,13 @@
 							cols="40"></textarea>
 
 					<br/>
-					</form>
 
 					<input type="submit"
 						form="interests" 
 						id="savechanges"
 						class="savechanges"
 						value="Save Changes"/>
+					</form>
 				</td>
 			</tr>
 

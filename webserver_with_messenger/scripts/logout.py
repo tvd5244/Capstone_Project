@@ -5,8 +5,10 @@ session = Session.get_session()
 
 if session is not None: 
 	session.logout()
-	print(open("logout_success.html", "r").read())
+	message = "Logout successful"
+	print(open("logout_result.html", "r").read().replace("<?message>", message))
 else: 
-	print(open("logout_failure.html", "r").read())
+	message = "An error occurred while logging out"
+	print(open("logout_result.html", "r").read().replace("<?message>", message))
 
 

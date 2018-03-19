@@ -15,8 +15,10 @@ Set-Cookie: SESSION=""" + session.secret + """
 \r\n
 """	)
 
-	print(open("login_success.html", "r").read())
+	message = "Login successful"
+	print(open("login_result.html", "r").read().replace("<?message>", message))
 
 else: 
-	print(open("login_failure.html", "r").read())
+	message = "An error occurred while logging in"
+	print(open("login_result.html", "r").read().replace("<?message>", message))
 

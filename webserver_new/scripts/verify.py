@@ -3,7 +3,7 @@ import cgitb; cgitb.enable()
 import cgi; fields = cgi.FieldStorage()
 from UserAccountVerifySet import UserAccount
 
-#script = "verify"
+script = "verify"
 
 user_id = fields.getvalue("user_id")
 secret = fields.getvalue("secret")
@@ -17,8 +17,10 @@ try:
 	user.commit()
 
 	status = "0"
-	message = "<?mail> has been verified successfully"
+	message = "<?mail> has been verified successfully.\nYou will be redirected to login in 5 seconds"
 	print(open("signup_verify_result.html", "r").read()
+		.replace("<?script>", script)
+		.replace("<?status>", status)
 		.replace("<?message>", message)
 		.replace("<?mail>", user.mail))
 
@@ -26,6 +28,8 @@ except Exception:
 	status = "-1"
 	message = "An error occurred while verifying <?mail>. Your verification link may have expired. Please try registering again." 
 	print(open("signup_verify_result.html", "r").read()
+		.replace("<?script>", script)
+		.replace("<?status>", status)
 		.replace("<?message>", message)
 		.replace("<?mail>", user.mail))
 
