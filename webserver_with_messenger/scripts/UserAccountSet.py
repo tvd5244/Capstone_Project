@@ -130,6 +130,18 @@ where ID = ?
 """		, (self.ID, ))
 
 
+	def find(self, _str, limit): 
+		cursor = self.conn.cursor()
+		res = self.conn.execute("""
+select ID 
+from UserAccountSet 
+limit ?
+"""		, (limit, ))
+		ret = [self.__class__.get_account_by_id(user[0]) for user in res]
+		cursor.close()
+
+		return ret
+
 
 
 def print_table(): 

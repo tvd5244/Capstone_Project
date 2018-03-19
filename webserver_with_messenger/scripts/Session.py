@@ -29,8 +29,13 @@ create table if not exists Sessions (
 
 	@classmethod
 	def get_session(cls): 
-		regex = re.compile("SESSION=(\\S+)")
-		secret = regex.match(os.environ["HTTP_COOKIE"]).group(1)
+		match = re.compile("SESSION=(\\S+)").match(os.environ["HTTP_COOKIE"])
+		
+		if match is None: 
+			return None
+
+		secret = match.group(1)
+
 		cursor = cls.conn.cursor()
 		res = cursor.execute("""
 select ID 
