@@ -32,7 +32,7 @@ topInterests.sort_values(by="TfIdf",ascending=False)
 //
 import nltk
 from nltk.stem.porter import PorterStemmer
- 
+  
 def tokenize(text):
     tokens = nltk.word_tokenize(text)
     stems = []
@@ -48,4 +48,7 @@ idf = v.idf_
 topInterests = pd.DataFrame({"Interest": v.get_feature_names(),"TfIdf":idf})
 print("Top",ITEMS,"Interests")
 topInterests.sort_values(by="TfIdf",ascending=False)
+
+
+
 
