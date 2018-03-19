@@ -1,6 +1,7 @@
 import cgitb; cgitb.enable()
+import cgi; fields = cgi.FieldStorage()
 from Session import Session
-from UserAccountVerifySet import UserAccount
+from UserAccountPropertySet import UserAccount
 
 session = Session.get_session()
 
@@ -10,8 +11,22 @@ Content-Type: text/html
 \r\n
 """	)
 
+	
 	user = UserAccount.get_account_by_id(session.get_account_id())
-	print(open("account_details.html").read().replace("<?mail>", user.mail or "unknown"))
+	interests = fields.getvalue("interests")
+	message = ""
+
+	if interests is not None: 
+		user.interests = interests
+		user.commit()
+		message = "changes have been committed."
+
+	print(open("account_details.html").read()
+		.replace("<?mail>", user.mail or "unknown")
+		.replace("<?program>", user.program or "unknown")
+		.replace("<?interests>", user.interests or "none.")
+		.replace("<?message>", message))
+
 
 else: 
 	print(open("error_must_login.html", "r").read())

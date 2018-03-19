@@ -6,21 +6,21 @@ import os
 import re
 
 class Session: 
-
 	conn = sqlite3.connect("database.db")
 	conn.executescript("""
 create table if not exists Sessions (
-	ROWID Integer primary key autoincrement, 
+	ID Integer primary key autoincrement, 
 	secret Text unique, 
 	acc_id Integer,
-	foreign key (acc_id) references UserAccountSet (ROWID)
+	foreign key (acc_id) references UserAccountSet (ID)
 )
 """	)
 	conn.commit()
-	conn.close()
 
-	def __init__(self): 
+
+	def __init__(self, ID): 
 		self.conn = sqlite3.connect("database.db")
+		self.ID = ID
 
 
 	def __del__(self): 
@@ -29,30 +29,33 @@ create table if not exists Sessions (
 
 	@classmethod
 	def get_session(cls): 
-		regex = re.compile("SESSION=(\\S+)")
-		secret = regex.match(os.environ["HTTP_COOKIE"]).group(1)
-		self = cls()
-		cursor = self.conn.cursor()
+		match = re.compile("SESSION=(\\S+)").match(os.environ["HTTP_COOKIE"])
+		
+		if match is None: 
+			return None
+
+		secret = match.group(1)
+
+		cursor = cls.conn.cursor()
 		res = cursor.execute("""
-select ROWID 
+select ID 
 from Sessions 
 where secret = ?
 """		, (secret, )).fetchone()
+		cursor.close()
 
 		if res is None: 
 			return None
-
-		self.ROWID = res[0]
-		cursor.close()
-		return self
+		
+		return cls(res[0])
 
 
 	def update(self):
 		self.conn.execute("""
 update Sessions 
 set secret = ? 
-where ROWID = ?
-"""		, (secrets.token_urlsafe(), self.ROWID, ))
+where ID = ?
+"""		, (secrets.token_urlsafe(), self.ID, ))
 		self.conn.commit()
 
 
@@ -63,19 +66,16 @@ where ROWID = ?
 		if user is None or user.pwd != pwd: 
 			return None
 
-		self = cls()
-
-		cursor = self.conn.cursor()
+		cursor = cls.conn.cursor()
 		res = cursor.execute("""
 insert into Sessions 
 (secret, acc_id) 
 values (?, ?)
-"""		, (secrets.token_urlsafe(), user.ROWID, )).lastrowid
-		self.conn.commit()
-
+"""		, (secrets.token_urlsafe(), user.ID, ))
+		cls.conn.commit()
 		cursor.close()
-		self.ROWID = res
-		return self
+
+		return cls(res.lastrowid)
 	
 
 	@property
@@ -84,8 +84,8 @@ values (?, ?)
 		res = cursor.execute("""
 select secret 
 from Sessions 
-where ROWID = ?
-"""		, (self.ROWID, )).fetchone()
+where ID = ?
+"""		, (self.ID, )).fetchone()
 
 		if res is None: 
 			return None
@@ -98,8 +98,8 @@ where ROWID = ?
 	def logout(self): 
 		self.conn.execute("""
 delete from Sessions 
-where ROWID = ?
-"""		, (self.ROWID, ))
+where ID = ?
+"""		, (self.ID, ))
 		self.conn.commit()
 
 
@@ -108,12 +108,13 @@ where ROWID = ?
 		res = cursor.execute("""
 select acc_id 
 from Sessions 
-where ROWID = ?
-"""		, (self.ROWID, )).fetchone()
+where ID = ?
+"""		, (self.ID, )).fetchone()
+
+		cursor.close()
 
 		if res is None: 
 			return None
 
-		cursor.close()
 		return res[0]
 		

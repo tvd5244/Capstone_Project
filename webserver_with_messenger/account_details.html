@@ -3,6 +3,20 @@
 <head>
 	<title>LionPals - Account Details</title>
 	<link href="/css/signup.css" type="text/css" rel="stylesheet"/>
+
+	<style>
+	@keyframes flash {
+		0% {
+			background-color: white; 
+		}
+		50% {
+			background-color: yellow; 
+		}
+		100% {
+			background-color: white;
+		}
+	}
+	</style>
 </head>
 
 <body>
@@ -32,7 +46,11 @@
 					Academic Program:
 				</td>
 				<td class="data">
+<<<<<<< HEAD
 					<?academic_program>
+=======
+					<?program>
+>>>>>>> 9b6c3387a78fbc257fbff82f4e8672c86d8ac5ec
 				</td>
 			</tr>
 
@@ -50,15 +68,22 @@
 					Interests:
 				</td>
 				<td class="data">
+<<<<<<< HEAD
 					<form id="interests"
 						action="update_account.py"
 						method="POST">
+=======
+					<form id="interests" 
+						action = "/scripts/account_details.py" 
+						method = "POST">
+>>>>>>> 9b6c3387a78fbc257fbff82f4e8672c86d8ac5ec
 						<textarea type="text" 
 							class="interests"
-							id="interests_textbox"
+							id="interests_textbox" 
+							name = "interests"
 							placeholder="Enter your interests"
 							rows="5"
-							cols="40"></textarea>
+							cols="40"><?interests></textarea>
 
 					<br/>
 
@@ -70,8 +95,11 @@
 					</form>
 				</td>
 			</tr>
-
 		</table>
+		<strong style = "
+		animation-name: flash; 
+		animation-duration: 3s; 
+		"><?message></strong>
 	</div>
 </body>
 </html>

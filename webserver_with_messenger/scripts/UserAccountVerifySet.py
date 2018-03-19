@@ -9,16 +9,16 @@ import socket
 ip_addr = socket.gethostbyname("localhost")
 
 class UserAccount(UserAccountSet.UserAccount): 
-	conn = sqlite3.connect("database.db")
+	conn = UserAccountSet.UserAccount.conn
 	conn.executescript("""
 create table if not exists UserAccountVerifySet (
 	ID integer primary key, 
 	secret String unique, 
-	foreign key (ID) references UserAccountSet (ROWID)
+	foreign key (ID) references UserAccountSet (ID)
 )
 """)
 	conn.commit()
-	conn.close()
+
 
 	@property
 	def done_verify(self): 
@@ -27,7 +27,7 @@ create table if not exists UserAccountVerifySet (
 select 1 
 from UserAccountVerifySet 
 where ID = ?
-"""		, (self.ROWID, )).fetchone()
+"""		, (self.ID, )).fetchone()
 		cursor.close()
 
 		return res is None
@@ -41,20 +41,20 @@ where ID = ?
 		secret = secrets.token_urlsafe()
 		self.conn.execute("""
 delete from UserAccountVerifySet 
-where ROWID = ?
-"""		, (self.ROWID, ))
+where ID = ?
+"""		, (self.ID, ))
 		self.conn.execute("""
 insert into UserAccountVerifySet  
 (ID, secret)
 values (?, ?)
-"""		, (self.ROWID, secret, ))
+"""		, (self.ID, secret, ))
 
 		server = smtplib.SMTP("smtp.gmail.com:587")
 		server.ehlo()
 		server.starttls()
 		server.login("psulionpals@gmail.com", "ab12cd34")
 		message = MIMEText("""
-verify link: http://""" + ip_addr + "/scripts/verify.py?user_id=" + str(self.ROWID) + "&secret=" + secret + """
+verify link: http://""" + ip_addr + "/scripts/verify.py?user_id=" + str(self.ID) + "&secret=" + secret + """
 """		, "html")
 		server.send_message(message, "psulionpals@gmail.com", self.mail)
 		server.quit()
@@ -66,7 +66,7 @@ verify link: http://""" + ip_addr + "/scripts/verify.py?user_id=" + str(self.ROW
 select 1 
 from UserAccountVerifySet 
 where ID = ? and secret = ?
-"""		, (self.ROWID, secret, )).fetchone()
+"""		, (self.ID, secret, )).fetchone()
 		cursor.close()
 
 		if res is None: 
@@ -75,15 +75,17 @@ where ID = ? and secret = ?
 		self.conn.execute("""\
 delete from UserAccountVerifySet 
 where ID = ? and secret = ?
-"""		, (self.ROWID, secret, ))
+"""		, (self.ID, secret, ))
 		return True
+
 
 	def remove(self): 
 		self.conn.execute("""\
 delete from UserAccountVerifySet 
 where ID = ? 
-"""		, (self.ROWID, ))
+"""		, (self.ID, ))
 		super().remove()
+
 
 
 
