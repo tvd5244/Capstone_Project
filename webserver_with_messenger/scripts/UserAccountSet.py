@@ -132,19 +132,6 @@ where ID = ?
 """		, (self.ID, ))
 
 
-	def recommend(self, _str, limit): 
-		cursor = self.conn.cursor()
-		res = self.conn.execute("""
-select ID 
-from UserAccountSet 
-where ID <> ?
-limit ?
-"""		, (self.ID, limit, )).fetchall()
-		cursor.close()
-
-		return [self.__class__.get_account_by_id(user[0]) for user in res]
-
-
 
 def print_table(): 
 	conn = sqlite3.connect("accounts.db")

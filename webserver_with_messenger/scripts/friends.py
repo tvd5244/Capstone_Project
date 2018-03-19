@@ -2,9 +2,8 @@ import cgitb; cgitb.enable()
 import cgi; fields = cgi.FieldStorage()
 from Session import Session
 from UserAccountPropertySet import UserAccount
-import sys
-
 session = Session.get_session()
+
 
 if session is not None: 
 
@@ -13,9 +12,13 @@ if session is not None:
 
 	if target is not None: 
 		user.remove_friend(UserAccount.get_account_by_id(int(target)))
-		user.commit()
+	
+	cancelation = fields.getvalue("cancelation")
 
-	friends = user.get_friends()
+	if cancelation is not None: 
+		user.remove_friend(UserAccount.get_account_by_id(int(cancelation)))
+
+	user.commit()
 	
 	print("""
 <html>
@@ -32,17 +35,17 @@ table td {
 <body>
 <table>
 <tr>
-<th>Friends</th>
+<th>My Friends.</th>
 </tr>
 """	)
 
-	
+	friends = user.get_friends()
 
 	for friend in user.get_friends(): 
 		print("""
 <tr>
 <td>
-""" + friend.mail + """
+<strong>""" + friend.mail + """</strong>
 <form action = "/scripts/friends.py" 
 	method = "POST">
 <input type = "hidden" 
@@ -63,35 +66,50 @@ table td {
 	if len(friends) == 0: 
 		print("""
 <p>
-Nothing to display.
-<br/>
-Visit the <a href = "/scripts/catalog.py">catalog</a> to add friends.
+No friends at this time.
 </p>
 """		)
+
+	print("<br/>")
 
 	print("""
 <table>
 <tr>
-<th>Requests</th>
+<th>My Requests.</th>
 </tr>
 """	)
 
-	for friend in user.get_friend_requests(): 
+	requests = user.get_friend_requests()
+
+	for friend in requests: 
 		print("""
 <tr>
 <td>
-""" + friend.mail + """
+<strong>""" + friend.mail + """</strong>
 <form action = "/scripts/friends.py" 
 	method = "POST">
 <input type = "hidden" 
-	name = "target" 
+	name = "cancelation" 
 	value = \"""" + str(friend.ID) + """"/>
 <br/>
 <input type = "submit" 
-	value = "remove"/>
+	value = "cancel"/>
 </form>
 </td>
 </tr>
+"""		)
+
+	print("""
+</table>
+"""	)
+
+	if len(requests) == 0: 
+		print("""
+<p>
+Nothing to display.
+<br/>
+Visit the <a href = "/scripts/catalog.py">catalog</a> to add friends.
+</p>
 """		)
 
 	print("""

@@ -14,7 +14,7 @@ create table if not exists UserAccountPropertySet (
 	foreign key (ID) references UserAccountSet (ID)
 ); 
 create table if not exists Friendships (
-	ID integer primary key, 
+	ID integer, 
 	friend integer
 )
 """)
@@ -97,21 +97,18 @@ where ID = ?
 
 
 	def add_friend(self, user): 
-		try:
-			self.conn.execute("""
+		self.conn.execute("""
 insert into Friendships 
 values (?, ?)
-"""			, (self.ID, user.ID, ))
-		except sqlite3.IntegrityError: 
-			pass
+"""		, (self.ID, user.ID, ))
 
 
 
 	def remove_friend(self, user): 
 		self.conn.execute("""
 delete from Friendships 
-where ID = ?
-"""		, (self.ID, ))
+where ID = ? or (friend = ? and ID = ?)
+"""		, (self.ID, self.ID, user.ID, ))
 
 
 	def get_friends(self): 
@@ -136,9 +133,51 @@ and friend = me.ID
 		cursor = self.conn.cursor()
 		res = cursor.execute("""
 select friend 
+from Friendships me
+where ID = ? 
+and not exists (
+select 1 
 from Friendships 
-where ID = ?
+where ID = me.friend 
+and friend = me.ID
+)
 """		, (self.ID, )).fetchall()
+		cursor.close()
+
+		return [self.__class__.get_account_by_id(user[0]) for user in res]
+
+	
+	def get_friend_requests_pending(self): 
+		cursor = self.conn.cursor()
+		res = cursor.execute("""
+select ID 
+from Friendships fr
+where friend = ? 
+and not exists (
+select 1 
+from Friendships 
+where ID = ? and friend = fr.ID
+)
+"""		, (self.ID, self.ID, )).fetchall()
+		cursor.close()
+
+		return [self.__class__.get_account_by_id(user[0]) for user in res]
+
+
+	def recommend(self, _str, limit): 
+		cursor = self.conn.cursor()
+		res = self.conn.execute("""
+select ID 
+from UserAccountSet other
+where ID <> ? 
+and not exists (
+select 1 
+from Friendships 
+where (ID = ? and friend = other.ID)
+or (ID = other.ID and friend = ?)
+)
+limit ?
+"""		, (self.ID, self.ID, self.ID, limit, )).fetchall()
 		cursor.close()
 
 		return [self.__class__.get_account_by_id(user[0]) for user in res]

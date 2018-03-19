@@ -2,7 +2,6 @@ import cgitb; cgitb.enable()
 import cgi; fields = cgi.FieldStorage()
 from Session import Session
 from UserAccountPropertySet import UserAccount
-import sqlite3
 
 
 session = Session.get_session()
@@ -14,7 +13,13 @@ if session is not None:
 
 	if target is not None: 
 		user.add_friend(UserAccount.get_account_by_id(int(target)))
-		user.commit()
+
+	rejection = fields.getvalue("rejection")
+
+	if rejection is not None: 
+		user.remove_friend(UserAccount.get_account_by_id(int(rejection)))
+
+	user.commit()
 
 	print("""
 <html>
@@ -31,9 +36,11 @@ table td {
 <body>
 <table>
 <tr>
-<th>Users</th>
+<th>Recommendations.</th>
 </tr>
 """	)
+
+	recommendations = user.recommend("", 10)
 
 	for entry in user.recommend("", 10): 
 		print("""
@@ -55,6 +62,57 @@ table td {
 
 	print("""
 </table>
+"""	)
+
+	if len(recommendations) == 0: 
+		print("""
+<p>
+There are no recommendations available at this time. Please check back later.
+</p>
+"""		)
+
+	print("<hr/>")
+
+	print("""
+<table>
+<tr>
+<th>Incomming Requests.</th>
+</tr>
+"""	)
+
+	requests = user.get_friend_requests_pending()
+
+	for entry in requests: 
+		print("""
+<tr>
+<td>
+<strong>""" + entry.mail + """</strong>
+<br/>
+<form action = "/scripts/catalog.py" 
+	method = "POST">
+<input type = "hidden" 
+	name = "rejection"
+	value = \"""" + str(entry.ID) + """"/>
+<input type = "submit" 
+	value = "reject"/>
+</form>
+</td>
+</tr>
+"""		)
+
+	print("""
+</table>
+"""	)
+
+	if len(requests) == 0: 
+		print("""
+<p>
+There are no pending requests at this time. Please check back later.
+</p>
+"""		)
+
+
+	print("""
 <hr/>
 <p>
 Visit the <a href = "/scripts/friends.py">friends page</a> to view added contacts.
