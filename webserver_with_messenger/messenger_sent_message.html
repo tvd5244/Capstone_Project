@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>LionPals - Messenger - Message Sent</title>
+</head>
+<body>
+<img class="logo" src="/css/lionpals logo.png"/>
+	<div class="buttongroup"
+		style="text-align: center;">
+		<button onclick="location.href='/messenger.html'"
+			class="button"
+			style="margin-right: 20px">
+			View Messages
+		</button>
+
+		<button onclick="location.href='/scripts/account_details.py'"
+			class="button">
+			Account Details
+		</button>
+		
+		<button onclick="location.href='/scripts/logout.py'"
+		class="button">
+		Logout
+	</button>
+	</div>
+<p><strong>To: </strong><?recipient></p>
+<p><strong>From: </strong><?sender></p>
+<p><strong>Message: </strong><?message></p>
+</body>
+</html>
