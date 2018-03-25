@@ -1,0 +1,11 @@
+PersonID,Predicted_class,Similar_Friends
+1,Sports,"[5106, 5107, 5108]"
+2,Computer Nerds,"[5112, 5113]"
+3,Anime,"[5111, 5116, 5117]"
+4,Computer Science,"[5118, 5119, 5120]"
+5,Math,"[5115, 5121]"
+6,Theater,[5122]
+7,Sing and Dance,[5123]
+8,Music,"[5114, 5127, 5128]"
+9,Movies,"[5124, 5125, 5126, 5129]"
+10,Food,"[5109, 5110]"
