@@ -14,7 +14,7 @@ h1 {
 	text-align: center;
 }
 
-p {
+p.result {
 	font-family: "Avenir";
 	font-weight: normal;
 	font-size: 14pt;
@@ -81,6 +81,7 @@ input.button, button {
 	outline: none;
 	margin-top: 4px;
 	margin-bottom: 0px;
+	margin-right: 20px;
 	width: 114px;
 	padding: 2px;
 	border-radius: 10px;
@@ -112,4 +113,9 @@ div.buttongroup {
 
 tr {
 	vertical-align: top;
+}
+
+th.messenger {
+	font-family: "Avenir";
+	padding-right: 50px;
 }

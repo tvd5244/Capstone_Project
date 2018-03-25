@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>LionPals - Messenger</title>
+	<title>LionPals - Messenger</title>
+	<link href="/css/signup.css" type="text/css" rel="stylesheet"/>
 </head>
+
 <body>
+	<img class="logo" src="/css/lionpals logo.png"/>
+
 	<div class="buttongroup"
 		style="text-align: center;">
 		<button onclick="location.href='/messenger_send.html'"
-			class="button"
-			style="margin-right: 20px">
+			class="button">
 			Send Message
 		</button>
 
@@ -18,16 +21,23 @@
 		</button>
 		
 		<button onclick="location.href='/scripts/logout.py'"
-		class="button">
-		Logout
-	</button>
+			class="button">
+			Logout
+		</button>
 	</div>
-<table>
-<tr>
-<th>From</th><th>Subject</th><th>Time</th>
-</tr>
-<!-- This list of messages is passed from messenger.py -->
-<?messages>
-</table>
+
+	<br>
+
+	<table>
+		<tr>
+			<th class="messenger">From</th>
+			<th class="messenger">Subject</th>
+			<th class="messenger">Time</th>
+			<th class="messenger">Message</th>
+		</tr>
+	
+		<!-- This list of messages is passed from messenger.py -->
+		<?messages>
+	</table>
 </body>
 </html>
