@@ -19,7 +19,6 @@ else:
     conn = sqlite3.connect("database.db")
     c = conn.cursor()
     c.execute('create table if not exists messages (ID Integer primary key autoincrement, sender String, recipient String, message String)')
-#Can't figure out how to get the sender's account id from the session.
     session = Session.get_session()
     sender_id = session.get_account_id()
     sender = c.execute('select mail from UserAccountSet where id = ' + str(sender_id))
