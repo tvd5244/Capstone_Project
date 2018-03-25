@@ -2,8 +2,8 @@ import cgitb; cgitb.enable()
 import cgi; fields = cgi.FieldStorage()
 from Session import Session
 from UserAccountPropertySet import UserAccount
-session = Session.get_session()
 
+session = Session.get_session()
 
 if session is not None: 
 
@@ -54,6 +54,14 @@ table td {
 <br/>
 <input type = "submit" 
 	value = "remove"/>
+</form>
+<form action = "/scripts/messenger_interface.py" 
+	method = "GET">
+<input type = "hidden" 
+	name = "target" 
+	value = \"""" + str(friend.ID) + """"/>
+<input type = "submit" 
+	value = "message"/>
 </form>
 </td>
 </tr>

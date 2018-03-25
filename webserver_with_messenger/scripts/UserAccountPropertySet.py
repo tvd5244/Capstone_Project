@@ -162,7 +162,7 @@ where ID = ? and friend = fr.ID
 		cursor.close()
 
 		return [self.__class__.get_account_by_id(user[0]) for user in res]
-
+		
 
 	def recommend(self, _str, limit): 
 		cursor = self.conn.cursor()
