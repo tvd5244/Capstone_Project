@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>LionPals - Messenger - Message Sent</title>
+	<title>LionPals - Messenger - Message Sent</title>
+	<link href="/css/signup.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
-<img class="logo" src="/css/lionpals logo.png"/>
-	<div class="buttongroup"
-		style="text-align: center;">
+	<img class="logo" src="/css/lionpals logo.png"/>
+	<br>
+
+	<div class="buttongroup">
 		<button onclick="location.href='/messenger.html'"
-			class="button"
-			style="margin-right: 20px">
+			class="button">
 			View Messages
 		</button>
 
@@ -23,8 +24,10 @@
 		Logout
 	</button>
 	</div>
-<p><strong>To: </strong><?recipient></p>
-<p><strong>From: </strong><?sender></p>
-<p><strong>Message: </strong><?message></p>
+
+<p id="message_to"><strong>To: </strong><?recipient></p>
+<p id="message_from"><strong>From: </strong><?sender></p>
+<p id="message_body"><strong>Message: </strong><?message></p>
+
 </body>
 </html>
