@@ -9,7 +9,7 @@
 	<img class="logo" src="/css/lionpals logo.png"/>
 
 	<!-- This message is passed from login.py or logout.py -->
-	<p id="message" ><?message></p>
+	<p id="message"><?message></p>
 
 	<div class="buttongroup"
 		style="text-align: center;">
@@ -30,5 +30,37 @@
 			Account Details
 		</button>
 	</div>
+
+	<script type="text/javascript">
+		//alert("start of javascript");
+		
+		let script = "<?script>";
+		let status = "<?status>";
+		let message = document.getElementById("message");
+
+		//alert(script);
+		//alert(status);
+		//alert("<?message>");
+
+		parse_status =
+		function() {
+			//alert("start of parse_status");
+
+			// An error occurred, so display text in red
+			if(status == "-1") {
+				message.style.color = "Red";
+			}
+			else {
+				// Login successful, redirect to account details page
+				if(script == "login") {
+					setTimeout("location.href = '/account_details.html';", 1500);
+				}
+			}
+		}
+
+		window.onload = parse_status();
+
+	</script>
+
 </body>
 </html>
