@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LionPals - Login Status</title>
+	<link href="/css/signup.css" type="text/css" rel="stylesheet"/>
+</head>
+
+<body>
+	<img class="logo" src="/css/lionpals logo.png"/>
+
+	<!-- This message is passed from login.py or logout.py -->
+	<p id="message" ><?message></p>
+
+	<div class="buttongroup"
+		style="text-align: center;">
+		<button onclick="location.href='/signup.html'"
+			class="button"
+			style="margin-right: 20px">
+			Sign-Up	
+		</button>
+
+		<button onclick="location.href='/login.html'"
+			class="button"
+			style="margin-right: 20px">
+			Login
+		</button>
+
+		<button onclick="location.href='/scripts/account_details.py'"
+			class="button"
+			style="margin-right: 20px">
+			Account Details
+		</button>
+		
+		<button onclick="location.href='/scripts/friends.py'"
+			class="button"
+			style="margin-right: 20px">
+			Friends
+		</button>
+		
+		<button onclick="location.href='/scripts/catalog.py'"
+			class="button"
+			style="margin-right: 20px">
+			Friend Catalog
+		</button>
+	</div>
+</body>
+</html>

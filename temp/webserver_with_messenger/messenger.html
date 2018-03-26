@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>LionPals - Messenger</title>
+</head>
+<body>
+	<div class="buttongroup"
+		style="text-align: center;">
+		<button onclick="location.href='/messenger_send.html'"
+			class="button"
+			style="margin-right: 20px">
+			Send Message
+		</button>
+
+		<button onclick="location.href='/scripts/account_details.py'"
+			class="button">
+			Account Details
+		</button>
+		
+		<button onclick="location.href='/scripts/logout.py'"
+		class="button">
+		Logout
+	</button>
+	</div>
+<table>
+<tr>
+<th>From</th><th>Subject</th><th>Time</th>
+</tr>
+<!-- This list of messages is passed from messenger.py -->
+<?messages>
+</table>
+</body>
+</html>

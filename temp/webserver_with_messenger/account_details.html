@@ -1,0 +1,104 @@
+<html>
+
+<head>
+	<title>LionPals - Account Details</title>
+	<link href="/css/signup.css" type="text/css" rel="stylesheet"/>
+
+	<style>
+	@keyframes flash {
+		0% {
+			background-color: white; 
+		}
+		50% {
+			background-color: yellow; 
+		}
+		100% {
+			background-color: white;
+		}
+	}
+	</style>
+</head>
+
+<body>
+	<h1><a href = "/scripts/env.py">TEST</a></h1>
+	<img class="logo" src="/css/lionpals logo.png"/>
+	
+	<button onclick="location.href='/scripts/logout.py'"
+		class="button">
+		Logout
+	</button>
+
+	<h1>Account Details</h1>
+
+	<div class="account">
+		<table class="account">
+			<tr>
+				<td class="title">
+					Name:
+				</td>
+				<td class="data">
+					<?name>
+				</td>
+			</tr>
+		
+			<tr>
+				<td class="title">
+					E-mail:
+				</td>
+				<td class="data">
+					<?mail>
+				</td>
+			</tr>
+
+			<tr>
+				<td class="title">
+					Academic Program:
+				</td>
+				<td class="data">
+					<?academic_program>
+				</td>
+			</tr>
+
+			<tr>
+				<td class="title">
+					Campus:
+				</td>
+				<td class="data">
+					<?campus>
+				</td>
+			</tr>
+
+			<tr>
+				<td class="title">
+					Interests:
+				</td>
+				<td class="data">
+					<form id="interests"
+						action="/scripts/account_details.py"
+						method="POST">
+						<textarea type="text" 
+							class="interests"
+							id="interests_textbox" 
+							name = "interests"
+							placeholder="Enter your interests"
+							rows="5"
+							cols="40"><?interests></textarea>
+
+					<br/>
+
+					<input type="submit"
+						form="interests" 
+						id="savechanges"
+						class="savechanges"
+						value="Save Changes"/>
+					</form>
+				</td>
+			</tr>
+		</table>
+		<strong style = "
+		animation-name: flash; 
+		animation-duration: 3s; 
+		"><?message></strong>
+	</div>
+</body>
+</html>

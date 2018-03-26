@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>LionPals - Login</title>
+		<link href="/css/signup.css" type="text/css" rel="stylesheet"/>
+	</head>
+
+	<body>
+
+	<img src="/css/lionpals logo.png" class="logo"/>
+
+	<h1>Login</h1>
+
+	<form action = "/scripts/login.py" 
+		method = "POST" 
+		name = "form" 
+		onsubmit = "
+	return form_pwd_validate();
+	">
+		<label for "mail"><strong>E-mail Address: </strong></label>
+		
+		<br/>
+		
+		<input type = "email" 
+			class="email" 
+			name = "mail" 
+			placeholder = "student@psu.edu" 
+			required/>
+		
+		<br/>
+		
+		<label for = "pwd"><strong>Password: </strong></label>
+		
+		<br/>
+		
+		<input type = "password"
+			class="pwd" 
+			name = "pwd" 
+			id = "pwd" 
+			required/>
+		
+		<br/>
+		
+		<input type = "submit"
+			class="button" 
+			value = "Login"/>
+		
+	</form>
+		
+	<div class="buttongroup">
+		<strong>or</strong>
+
+		<br/>
+		
+		<button type="button"
+			class="button"
+			onclick="location.href='/signup.html'">
+			Sign-Up
+		</button>
+	</div>
+
+	</body>
+</html>
