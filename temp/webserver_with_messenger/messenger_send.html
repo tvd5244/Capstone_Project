@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>LionPals - Messenger</title>
+	<title>LionPals - Messenger</title>
+	<link href="/css/signup.css" type="text/css" rel="stylesheet"/>
 </head>
+
 <body>
-	<div class="buttongroup"
-		style="text-align: center;">
+	<img class="logo" src="/css/lionpals logo.png"/>
+
+	<div class="buttongroup">
 		<button onclick="location.href='/messenger.html'"
-			class="button"
-			style="margin-right: 20px">
+			class="button">
 			View Messages
 		</button>
 
@@ -18,20 +20,45 @@
 		</button>
 		
 		<button onclick="location.href='/scripts/logout.py'"
-		class="button">
-		Logout
-	</button>
+			class="button">
+			Logout
+		</button>
 	</div>
-<form action="/scripts/messenger_send.py" method="post" autocomplete="off" name="sendMessage" id="sendMessage">
-<label for="recipient"><strong>Recipient</strong></label>
-<br />
-<input name="recipient" id="recipient" type="email" />
-<br />
-<label for="message"><strong>Message</strong></label>
-<br />
-<textarea rows="10" cols="100" "required="required" name="message" id="message"></textarea>
-<br />
-<button type="submit">Send Message</button>
-</form>
+
+	<br>
+
+	<form action="/scripts/messenger_send.py"
+		method="post"
+		autocomplete="off"
+		name="sendMessage"
+		id="sendMessage">
+		
+		<!-- TODO: Align Recipient label and text box to left edge of Message text area -->
+		<label for="recipient"><strong>Recipient</strong></label>
+		
+		<br />
+		
+		<input name="recipient"
+		id="recipient"
+		type="email" />
+		
+		<br />
+		
+		<label for="message"><strong>Message</strong></label>
+		
+		<br />
+		
+		<textarea rows="10"
+			cols="100" 
+			required="required"
+			name="message"
+			id="message">
+		</textarea>
+		
+		<br />
+		
+		<button type="submit">Send Message</button>
+	</form>
+
 </body>
 </html>

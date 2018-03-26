@@ -2,7 +2,7 @@ import cgitb; cgitb.enable()
 import cgi; fields = cgi.FieldStorage()
 from Session import Session
 from UserAccountPropertySet import UserAccount
-from getAccountInfo import getAccountInfo
+from getAccountInfo import getRecommendations
 
 
 session = Session.get_session()
@@ -37,19 +37,20 @@ table td {
 <body>
 <table>
 <tr>
-<th>Recommendations:</th>
+<th>Recommendations.</th>
 </tr>
 """	)
 
 	recommendations = user.recommend("", 10)
+	
+	#recommendations = getAccountInfo(user.interests)
+	
 
-	for entry in user.recommend("", 10):
-		accountInfo = getAccountInfo(entry.mail)
+	for entry in user.recommend("", 10): 
 		print("""
 <tr>
 <td>
 <strong>""" + entry.mail + """</strong>
-<p>Name : """+accountInfo[0]+"""</p>
 <br/>
 <form action = "/scripts/catalog.py" 
 	method = "POST">
@@ -130,6 +131,17 @@ Visit the <a href = "/scripts/friends.py">friends page</a> to view added contact
 </body>
 </html>
 """	)
+	
+	print("""
+<tr>
+<td>
+<p>""" + getRecommendations() + """</p>
+
+</td>
+</tr>
+"""		)
+
+
 
 else: 
 	print(open("error_must_login.html", "r").read())

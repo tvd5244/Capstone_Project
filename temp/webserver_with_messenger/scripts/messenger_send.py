@@ -3,7 +3,7 @@ import cgi; fields = cgi.FieldStorage()
 import sqlite3
 import UserAccountSet
 from UserAccountPropertySet import UserAccount
-import Session
+from Session import Session
 
 print("""\
 Content-Type: text/html
@@ -19,11 +19,12 @@ else:
     conn = sqlite3.connect("database.db")
     c = conn.cursor()
     c.execute('create table if not exists messages (ID Integer primary key autoincrement, sender String, recipient String, message String)')
-#Can't figure out how to get the sender's account id from the session.
-    sender = Session.get_account_id()
-    c.execute('insert into messages (sender, recipient, message) values (' + 
-    sender + ',' + recipient + ',' + message + ')')
-    print(open("messager_sent_message.html", "r").read()
+    session = Session.get_session()
+    sender_id = session.get_account_id()
+    sender = c.execute('select mail from UserAccountSet where id = ' + str(sender_id))
+    sender = str(sender.fetchone())
+    c.execute('insert into messages (sender, recipient, message) values (?, ?, ?)',  (sender, recipient, message))
+    print(open("messenger_sent_message.html", "r").read()
     .replace("<?message>", message)
     .replace("<?recipient>", recipient)
     .replace("<?sender>", sender))

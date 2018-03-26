@@ -9,39 +9,56 @@
 	<img class="logo" src="/css/lionpals logo.png"/>
 
 	<!-- This message is passed from login.py or logout.py -->
-	<p id="message" ><?message></p>
+	<p id="result"><?message></p>
 
 	<div class="buttongroup"
 		style="text-align: center;">
 		<button onclick="location.href='/signup.html'"
-			class="button"
-			style="margin-right: 20px">
+			class="button">
 			Sign-Up	
 		</button>
 
 		<button onclick="location.href='/login.html'"
-			class="button"
-			style="margin-right: 20px">
+			class="button">
 			Login
 		</button>
 
 		<button onclick="location.href='/scripts/account_details.py'"
-			class="button"
-			style="margin-right: 20px">
+			class="button">
 			Account Details
 		</button>
-		
-		<button onclick="location.href='/scripts/friends.py'"
-			class="button"
-			style="margin-right: 20px">
-			Friends
-		</button>
-		
-		<button onclick="location.href='/scripts/catalog.py'"
-			class="button"
-			style="margin-right: 20px">
-			Friend Catalog
-		</button>
 	</div>
+
+	<script type="text/javascript">
+		//alert("start of javascript");
+		
+		let script = "<?script>";
+		let status = "<?status>";
+		let message = document.getElementById("message");
+
+		//alert(script);
+		//alert(status);
+		//alert("<?message>");
+
+		parse_status =
+		function() {
+			//alert("start of parse_status");
+
+			// An error occurred, so display text in red
+			if(status == "-1") {
+				message.style.color = "Red";
+			}
+			else {
+				// Login successful, redirect to account details page
+				if(script == "login") {
+					setTimeout("location.href = '/scripts/account_details.py';", 1500);
+				}
+			}
+		}
+
+		window.onload = parse_status();
+
+	</script>
+
 </body>
 </html>

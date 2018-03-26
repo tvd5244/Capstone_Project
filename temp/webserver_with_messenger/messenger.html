@@ -1,33 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>LionPals - Messenger</title>
-</head>
-<body>
-	<div class="buttongroup"
-		style="text-align: center;">
-		<button onclick="location.href='/messenger_send.html'"
-			class="button"
-			style="margin-right: 20px">
-			Send Message
-		</button>
+<<<<<<< HEAD
 
-		<button onclick="location.href='/scripts/account_details.py'"
-			class="button">
-			Account Details
-		</button>
-		
-		<button onclick="location.href='/scripts/logout.py'"
-		class="button">
-		Logout
-	</button>
-	</div>
-<table>
-<tr>
-<th>From</th><th>Subject</th><th>Time</th>
-</tr>
-<!-- This list of messages is passed from messenger.py -->
-<?messages>
-</table>
+<html>
+<body>
+<div id = "container">
+</div>
+
+<script defer>
+
+let container = document.getElementById("container");
+let conn = new EventSource("/scripts/messenger_messages?target=<?target>");
+
+conn.onmessage = 
+function(e) {
+	container.innerText += "\n" + e.data;
+};
+
+conn.onerror = console.log;
+conn.onopen = console.log;
+
+</script>
+<iframe src = "/scripts/messenger_submit.py?target=<?target>"></iframe>
 </body>
 </html>

@@ -9,6 +9,8 @@ Content-Type: text/html
 \r\n
 """)
 
+script = "signup"
+
 mail = fields.getvalue("mail")
 pwd = fields.getvalue("pwd")
 
@@ -20,13 +22,19 @@ else:
 		user.send_verify_email()
 		user.commit()
 	except UserAccountSet.ACCOUNT_ALREADY_EXISTS: 
+		status = "-1"
 		message = "<?mail> has already been registered"
 		print(open("signup_verify_result.html", "r").read()
+			.replace("<?script>", script)
+			.replace("<?status>", status)
 			.replace("<?message>", message)
 			.replace("<?mail>", mail))
 	else: 
+		status = "0"
 		message = "To finish the sign-up process, please click the verification link sent to <?mail>"
 		print(open("signup_verify_result.html", "r").read()
+			.replace("<?script>", script)
+			.replace("<?status>", status)
 			.replace("<?message>", message)
 			.replace("<?mail>", mail))
 

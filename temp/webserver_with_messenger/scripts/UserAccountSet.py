@@ -131,6 +131,11 @@ delete from UserAccountSet
 where ID = ?
 """		, (self.ID, ))
 
+	
+	def __eq__(self, other): 
+		return isinstance(other, self.__class__) and other.ID == self.ID
+
+
 
 
 def print_table(): 
