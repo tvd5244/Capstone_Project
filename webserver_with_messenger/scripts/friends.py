@@ -5,6 +5,11 @@ from UserAccountPropertySet import UserAccount
 
 session = Session.get_session()
 
+print("""\
+Content-Type: text/html
+\r\n
+""")
+
 if session is not None: 
 
 	user = UserAccount.get_account_by_id(session.get_account_id())

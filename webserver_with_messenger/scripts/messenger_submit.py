@@ -4,17 +4,26 @@ from Session import Session
 from UserAccountPropertySet import UserAccount
 
 session = Session.get_session()
-target = fields.getvalue("target")
+source = fields.getvalue("source")
+data = fields.getvalue("data")
 
-if session is not None and target is not None:
-	user = UserAccount.get_account_by_id(session)
-	target = UserAccount.get_account_by_id(target)
+print("""\
+Content-Type: text/html
+\r\n
+""")
 
-	if target in user.get_friends(): 
-		print(open("messenger_submit.html", "r").read().replace("<?target>", target))
+if source is not None: 
+	message = ""
 
-	else: 
-		print(open("error_messenger_not_friend.html", "r").read())
+	if data is not None: 
+		file = open(source, "a")
+		file.write(data + "\n")
+		file.close()
+		message = "sent."
+
+	print(open("messenger_submit.html", "r").read()
+		.replace("<?source>", source)
+		.replace("<?message>", message))
 
 else: 
-	print(open("error_must_login.html", "r").read())
+	print(open("error.html", "r").read())

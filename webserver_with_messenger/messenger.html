@@ -1,24 +1,28 @@
-<<<<<<< HEAD
 
 <html>
 <body>
 <div id = "container">
 </div>
+<iframe src = "/scripts/messenger_submit.py?source=<?source>" 
+	style = "
+border: solid black 0.1em;
+"></iframe>
 
 <script defer>
 
 let container = document.getElementById("container");
-let conn = new EventSource("/scripts/messenger_messages?target=<?target>");
-
+let conn = new EventSource("/scripts/messenger_messages.py?source=<?source>");
+	
 conn.onmessage = 
 function(e) {
+	console.log(e.data);
 	container.innerText += "\n" + e.data;
 };
-
+	
 conn.onerror = console.log;
 conn.onopen = console.log;
-
+	
 </script>
-<iframe src = "/scripts/messenger_submit.py?target=<?target>"></iframe>
+
 </body>
 </html>
