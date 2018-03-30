@@ -30,6 +30,7 @@ if session is not None:
 <html>
 <head>
 <title>Users</title>
+<link href="/css/signup.css" type="text/css" rel="stylesheet"/>
 <style>
 
 table td {
@@ -39,6 +40,7 @@ table td {
 </style>
 </head>
 <body>
+<img class="logo" src="/css/lionpals logo.png"/>
 <table>
 <tr>
 <th>Recommendations.</th>

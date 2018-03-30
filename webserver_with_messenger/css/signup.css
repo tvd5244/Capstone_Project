@@ -8,6 +8,40 @@
 	src: url("/fonts/Serifa-Black.otf");
 }
 
+html, body {
+	height: 100%;
+	margin: 0px;
+}
+
+.topnav {
+		height: 9%;
+		border-bottom: 1px solid black;
+}
+
+.container {
+	height: 91%;
+}
+
+.signup_left {
+	float: left;
+	width: 50%;
+	height: 100%;
+	background: white;
+}
+
+.signup_right {
+	float: right;
+	width: 50%;
+	height: 100%;
+	display: block;
+	text-align: center;
+	background-image: url(background.png);
+}
+
+.clearfloats {
+	clear: both;
+}
+
 h1 {
 	font-family: "Avenir";
 	margin-top: 60px;
@@ -71,6 +105,22 @@ form {
 	margin-bottom: 0px;
 }
 
+.signupformbg {
+	background: rgba(255, 255, 255, .7);
+	width: 40%;
+	margin-left: 30%;
+	margin-right: 30%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 25px;
+	display: block;
+	align-content: center;
+}
+
+.signupform {
+	opacity: 1;
+}
+
 input.email, input.pwd, input.pwd_conf, button {
 	margin-bottom: 6px;
 	border-radius: 4px;
@@ -104,7 +154,7 @@ input.savechanges {
 	border-radius: 10px;
 	border-style: outset;
 	text-align: center;
-	
+
 }
 
 div.buttongroup {

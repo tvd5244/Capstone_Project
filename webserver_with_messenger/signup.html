@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -9,43 +10,43 @@
 	<img src="/css/lionpals logo.png" class="logo"/>
 
 	<h1>Account Sign-Up</h1>
-	
-	<form action = "/scripts/signup.py" 
-		method = "POST" 
-		name = "form" 
+
+	<form action = "/scripts/signup.py"
+		method = "POST"
+		name = "form"
 		onsubmit = "
 	return form_pwd_validate();
 	">
 
 		<label for = "mail"><strong>PSU E-mail Address: </strong></label>
-		
+
 		<br/>
-		
-		<input type = "email" 
-			name = "mail" 
+
+		<input type = "email"
+			name = "mail"
 			id = "email"
 			class = "email"
-			placeholder = "student@psu.edu" 
+			placeholder = "student@psu.edu"
 			required/>
-		
+
 		<br/>
 
 		<label for = "pwd"><strong>Password: </strong></label>
-		
+
 		<br/>
-		
-		<input type = "password" 
-			name = "pwd" 
-			id = "pwd" 
+
+		<input type = "password"
+			name = "pwd"
+			id = "pwd"
 			class = "pwd"
 			required/>
-		
+
 		<br/>
 
 		<label for = "pwd_conf"><strong>Confirm Password: </strong></label>
-		
+
 		<br/>
-		
+
 		<input type = "password"
 			id = "pwd_conf"
 			class = "pwd_conf"
@@ -53,7 +54,7 @@
 
 		<br/>
 
-		<input type = "submit" 
+		<input type = "submit"
 			id = "submit"
 			value = "Create Account"
 			class = "button"/>
@@ -80,7 +81,7 @@
 		/*email_exists =
 		function() {
 			//exists = checkForEmail(email);
-			
+
 			var result;
 			//$.get("/scripts/checkForEmail.py", function(data) { result = data; };
 			alert(result);
@@ -101,12 +102,12 @@
 			$.get("/scripts/checkForEmail.py", function(callback);
 		};*/
 
-		form_pwd_validate = 
+		form_pwd_validate =
 		function() {
 			if (pwd.value != pwd_conf.value) {
 				pwd_conf.setCustomValidity("The passwords do not match")
 				return false;
-			} 
+			}
 			else {
 				pwd_conf.setCustomValidity("")
 				return true;
@@ -130,6 +131,40 @@
 		mail.onchange = email_exists;*/
 		pwd.onchange = form_pwd_validate;
 		pwd_conf.onchange = form_pwd_validate;
+	</script>
+
+	<script>
+		function includeHTML() {
+		 var z, i, elmnt, file, xhttp;
+		 /*loop through a collection of all HTML elements:*/
+		 z = document.getElementsByTagName("*");
+		 for (i = 0; i < z.length; i++) {
+			 elmnt = z[i];
+			 /*search for elements with a certain atrribute:*/
+			 file = elmnt.getAttribute("w3-include-html");
+			 if (file) {
+				 /*make an HTTP request using the attribute value as the file name:*/
+				 xhttp = new XMLHttpRequest();
+				 xhttp.onreadystatechange = function() {
+					 if (this.readyState == 4) {
+						 if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+						 if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+						 /*remove the attribute, and call this function once more:*/
+						 elmnt.removeAttribute("w3-include-html");
+						 includeHTML();
+					 }
+				 }
+				 xhttp.open("GET", file, true);
+				 xhttp.send();
+				 /*exit the function:*/
+				 return;
+			 }
+		 }
+		}
+	</script>
+
+	<script>
+		includeHTML();
 	</script>
 
 </body>
