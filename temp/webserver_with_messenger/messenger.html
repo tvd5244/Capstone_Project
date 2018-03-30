@@ -1,0 +1,24 @@
+<<<<<<< HEAD
+
+<html>
+<body>
+<div id = "container">
+</div>
+
+<script defer>
+
+let container = document.getElementById("container");
+let conn = new EventSource("/scripts/messenger_messages?target=<?target>");
+
+conn.onmessage = 
+function(e) {
+	container.innerText += "\n" + e.data;
+};
+
+conn.onerror = console.log;
+conn.onopen = console.log;
+
+</script>
+<iframe src = "/scripts/messenger_submit.py?target=<?target>"></iframe>
+</body>
+</html>

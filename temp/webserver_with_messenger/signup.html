@@ -1,0 +1,136 @@
+<html>
+
+<head>
+	<title>LionPals - Sign-Up</title>
+	<link href="/css/signup.css" type="text/css" rel="stylesheet"/>
+</head>
+
+<body>
+	<img src="/css/lionpals logo.png" class="logo"/>
+
+	<h1>Account Sign-Up</h1>
+	
+	<form action = "/scripts/signup.py" 
+		method = "POST" 
+		name = "form" 
+		onsubmit = "
+	return form_pwd_validate();
+	">
+
+		<label for = "mail"><strong>PSU E-mail Address: </strong></label>
+		
+		<br/>
+		
+		<input type = "email" 
+			name = "mail" 
+			id = "email"
+			class = "email"
+			placeholder = "student@psu.edu" 
+			required/>
+		
+		<br/>
+
+		<label for = "pwd"><strong>Password: </strong></label>
+		
+		<br/>
+		
+		<input type = "password" 
+			name = "pwd" 
+			id = "pwd" 
+			class = "pwd"
+			required/>
+		
+		<br/>
+
+		<label for = "pwd_conf"><strong>Confirm Password: </strong></label>
+		
+		<br/>
+		
+		<input type = "password"
+			id = "pwd_conf"
+			class = "pwd_conf"
+			required/>
+
+		<br/>
+
+		<input type = "submit" 
+			id = "submit"
+			value = "Create Account"
+			class = "button"/>
+
+	</form>
+
+	<div class="buttongroup">
+		<strong>or</strong>
+
+		<br/>
+
+		<button type="button"
+			class="button"
+			onclick="location.href='/login.html'">
+			Login
+		</button>
+	</div>
+
+	<script defer>
+		//let email = document.getElementById("email");
+		let pwd = document.getElementById("pwd");
+		let pwd_conf = document.getElementById("pwd_conf");
+
+		/*email_exists =
+		function() {
+			//exists = checkForEmail(email);
+			
+			var result;
+			//$.get("/scripts/checkForEmail.py", function(data) { result = data; };
+			alert(result);
+			//$.alert(exists);
+
+			if(exists) {
+				email.setCustomValidity("This email is already registered")
+				return false;
+			}
+			else {
+				email.setCustomValidity("")
+				return true;
+			}
+		};
+
+		checkEmailScript =
+		function(callback) {
+			$.get("/scripts/checkForEmail.py", function(callback);
+		};*/
+
+		form_pwd_validate = 
+		function() {
+			if (pwd.value != pwd_conf.value) {
+				pwd_conf.setCustomValidity("The passwords do not match")
+				return false;
+			} 
+			else {
+				pwd_conf.setCustomValidity("")
+				return true;
+			}
+		};
+
+		/*
+		validate =
+		function() {
+			validateMail = email_exists();
+			validatePwd = form_pwd_validate();
+
+			if(validateMail === true) {
+				return true;
+			}
+			else {
+				return false;
+			}
+		};
+
+		mail.onchange = email_exists;*/
+		pwd.onchange = form_pwd_validate;
+		pwd_conf.onchange = form_pwd_validate;
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+
+<html>
+<body>
+<form id = "form" 
+	action = "/scripts/messenger_submit.py"
+	method = "POST">
+<input type = "hidden" 
+	name = "source"
+	value = "<?source>"/>
+<input type = "submit" 
+	value = "send"/>
+</form>
+<textarea placeholder = "enter a message here." 
+	name = "data"
+	form = "form"></textarea>
+</body>
+<p><?message></p>
+</html>

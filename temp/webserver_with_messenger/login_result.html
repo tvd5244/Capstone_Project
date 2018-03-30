@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LionPals - Login Status</title>
+	<link href="/css/signup.css" type="text/css" rel="stylesheet"/>
+</head>
+
+<body>
+	<img class="logo" src="/css/lionpals logo.png"/>
+
+	<!-- This message is passed from login.py or logout.py -->
+	<p id="result"><?message></p>
+
+	<div class="buttongroup"
+		style="text-align: center;">
+		<button onclick="location.href='/signup.html'"
+			class="button">
+			Sign-Up	
+		</button>
+
+		<button onclick="location.href='/login.html'"
+			class="button">
+			Login
+		</button>
+
+		<button onclick="location.href='/scripts/account_details.py'"
+			class="button">
+			Account Details
+		</button>
+	</div>
+
+	<script type="text/javascript">
+		//alert("start of javascript");
+		
+		let script = "<?script>";
+		let status = "<?status>";
+		let message = document.getElementById("message");
+
+		//alert(script);
+		//alert(status);
+		//alert("<?message>");
+
+		parse_status =
+		function() {
+			//alert("start of parse_status");
+
+			// An error occurred, so display text in red
+			if(status == "-1") {
+				message.style.color = "Red";
+			}
+			else {
+				// Login successful, redirect to account details page
+				if(script == "login") {
+					setTimeout("location.href = '/scripts/account_details.py';", 1500);
+				}
+			}
+		}
+
+		window.onload = parse_status();
+
+	</script>
+
+</body>
+</html>
