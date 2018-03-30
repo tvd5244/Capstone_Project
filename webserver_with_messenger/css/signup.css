@@ -14,6 +14,25 @@ html, body {
 }
 
 .topnav {
+    background-color: #0d4f8b;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #3b5998;
+    color: #ffffff;
+}
+
+.topnav {
 		height: 9%;
 		border-bottom: 1px solid black;
 }
