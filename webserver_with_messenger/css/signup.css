@@ -11,6 +11,7 @@
 html, body {
 	height: 100%;
 	margin: 0px;
+	overflow: hidden;
 }
 
 .topnav {
@@ -38,14 +39,14 @@ html, body {
 	height: 91%;
 }
 
-.signup_left {
+.signup_left, .login_left {
 	float: left;
 	width: 40%;
 	height: 100%;
 	background: white;
 }
 
-.signup_right {
+.signup_right, .login_right {
 	float: right;
 	width: 60%;
 	height: 100%;
@@ -58,7 +59,7 @@ html, body {
 	clear: both;
 }
 
-.signupformbg {
+.signup_form_bg, .login_form_bg {
 	background: rgba(255, 255, 255, .8);
 	width: 40%;
 	margin-top: 14%;
@@ -72,18 +73,50 @@ html, body {
 	align-content: center;
 }
 
-.signupform {
+.signup_form, .login_form {
 	opacity: 1;
 }
 
-.signup_text {
+.signup_text, .login_text {
 	font-family: "Avenir";
 	height: 50%;
 	margin-top: 35%;
 	margin-left: 15%;
 }
 
+div.signup_text_boxes, div.login_text_boxes {
+	margin-bottom: 0px;
+}
+
+div.text_box_text {
+	height: 0%;
+	margin-bottom: -20px;
+	text-align: center;
+}
+
+input.signup_button, button.signup_button, input.login_button, button.login_button {
+	background-color: #ffec8b; /* light goldenrod 1 */
+	margin-top: 4px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 114px;
+	padding: 2px;
+	border-radius: 10px;
+	border-style: none;
+	text-align: center;
+}
+
+input.signup_button:hover, button.signup_button:hover, input.login_button:hover, button.login_button:hover {
+	background-color: #eedc82;
+}
+
 h1 {
+	font-family: "Avenir";
+	margin-top: 60px;
+	text-align: center;
+}
+
+h1.signup_box_header, h1.login_box_header {
 	font-family: "Avenir";
 	color: white;
 	background: rgba(13, 79, 139, .8);
@@ -151,12 +184,13 @@ form {
 }
 
 input.email, input.pwd, input.pwd_conf, button {
+	border: 1px solid black;
 	margin-bottom: 6px;
 	border-radius: 4px;
 	width: 180px;
 }
 
-input.button, button {
+input.button {
 	outline: none;
 	margin-top: 4px;
 	margin-bottom: 0px;

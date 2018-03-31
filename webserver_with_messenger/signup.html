@@ -7,71 +7,118 @@
 </head>
 
 <body>
-	<img src="/css/lionpals logo.png" class="logo"/>
+	<!-- NAVBAR -->
+  <div class="topnav">
+		<a class = "active" href="home.html">Home</a>
+    <a class = "active" href="friends.html">Friends</a>
+    <a class = "active" href="messenger.html">Messenger</a>
+    <a class = "active" href="recommendations.html">Recommendations</a>
+  </div>
 
-	<h1>Account Sign-Up</h1>
+  <!-- MAIN CONTAINER -->
+  <div class="container">
 
-	<form action = "/scripts/signup.py"
-		method = "POST"
-		name = "form"
-		onsubmit = "
-	return form_pwd_validate();
-	">
+		<!-- LEFT PORTION OF PAGE -->
+    <div class="signup_left">
+			<div id="floater"></div>
 
-		<label for = "mail"><strong>PSU E-mail Address: </strong></label>
+			<div class="signup_text">
+				<h2 class="tip_text">
+					<img src="/css/book.png" width="20px" height="20px"></img>
+					Find fellow students
+				</h2>
 
-		<br/>
+				<h2 class="tip_text">
+					<img src="/css/chatbubble.png" width="20px" height="20px"></img>
+					Add and chat with friends
+				</h2>
 
-		<input type = "email"
-			name = "mail"
-			id = "email"
-			class = "email"
-			placeholder = "student@psu.edu"
-			required/>
+				<h2 class="tip_text">
+					<img src="/css/students.png" width="20px" height="20px"></img>
+					Expand your social network
+				</h2>
+			</div>
+    </div>
 
-		<br/>
+		<!-- RIGHT PORTION OF PAGE -->
+    <div class="signup_right">
+			<div class="signup_form_bg">
+	      <h1 class="signup_box_header">Account Sign-Up</h1>
 
-		<label for = "pwd"><strong>Password: </strong></label>
+      	<form class="signup_form"
+          action = "/scripts/signup.py"
+      		method = "POST"
+      		name = "form"
+      		onsubmit = "return form_pwd_validate();">
 
-		<br/>
+					<div class="signup_text_boxes">
+      		<label for = "mail">
+						<div class="text_box_text"><strong>PSU E-mail Address:</strong></div>
+					</label>
 
-		<input type = "password"
-			name = "pwd"
-			id = "pwd"
-			class = "pwd"
-			required/>
+      		<br/>
 
-		<br/>
+      		<input type = "email"
+      			name = "mail"
+      			id = "email"
+      			class = "email"
+      			placeholder = "student@psu.edu"
+      			required/>
 
-		<label for = "pwd_conf"><strong>Confirm Password: </strong></label>
+      		<br/>
 
-		<br/>
+      		<label for = "pwd">
+						<div class="text_box_text"><strong>Password:</strong></div>
+					</label>
 
-		<input type = "password"
-			id = "pwd_conf"
-			class = "pwd_conf"
-			required/>
+      		<br/>
 
-		<br/>
+      		<input type = "password"
+      			name = "pwd"
+      			id = "pwd"
+      			class = "pwd"
+      			required/>
 
-		<input type = "submit"
-			id = "submit"
-			value = "Create Account"
-			class = "button"/>
+      		<br/>
 
-	</form>
+      		<label for = "pwd_conf">
+						<div class="text_box_text"><strong>Confirm Password:</strong></div>
+					</label>
 
-	<div class="buttongroup">
-		<strong>or</strong>
+      		<br/>
 
-		<br/>
+      		<input type = "password"
+      			id = "pwd_conf"
+      			class = "pwd_conf"
+      			required/>
+					</div>
+      		<br/>
 
-		<button type="button"
-			class="button"
-			onclick="location.href='/login.html'">
-			Login
-		</button>
-	</div>
+      		<input type = "submit"
+      			id = "submit"
+      			value = "Create Account"
+      			class = "signup_button"/>
+
+      	</form>
+
+	    	<strong>or</strong>
+
+	    	<br/>
+
+	    	<button type="button"
+	    		class="signup_button"
+	    		onclick="location.href='/login.html'">
+	    		Login
+				</button>
+
+				<br/><br/>
+	    </div>
+    </div>
+
+		<!-- Clear float values from first two divs -->
+		<!-- maybe we don't need this if we don't have anything at the bottom of the page -->
+    <div class="clearfloats"></div>
+  </div>
 
 	<script defer>
 		//let email = document.getElementById("email");
@@ -133,39 +180,6 @@
 		pwd_conf.onchange = form_pwd_validate;
 	</script>
 
-	<script>
-		function includeHTML() {
-		 var z, i, elmnt, file, xhttp;
-		 /*loop through a collection of all HTML elements:*/
-		 z = document.getElementsByTagName("*");
-		 for (i = 0; i < z.length; i++) {
-			 elmnt = z[i];
-			 /*search for elements with a certain atrribute:*/
-			 file = elmnt.getAttribute("w3-include-html");
-			 if (file) {
-				 /*make an HTTP request using the attribute value as the file name:*/
-				 xhttp = new XMLHttpRequest();
-				 xhttp.onreadystatechange = function() {
-					 if (this.readyState == 4) {
-						 if (this.status == 200) {elmnt.innerHTML = this.responseText;}
-						 if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
-						 /*remove the attribute, and call this function once more:*/
-						 elmnt.removeAttribute("w3-include-html");
-						 includeHTML();
-					 }
-				 }
-				 xhttp.open("GET", file, true);
-				 xhttp.send();
-				 /*exit the function:*/
-				 return;
-			 }
-		 }
-		}
-	</script>
-
-	<script>
-		includeHTML();
-	</script>
-
 </body>
+
 </html>
