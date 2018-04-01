@@ -1,0 +1,15 @@
+
+<html>
+<body>
+<div id = "output"></div>
+<script>
+
+let source = new EventSource("/scripts/SSE.py");
+
+source.onmessage = console.log;
+source.onerror = console.log;
+source.onopen = console.log;
+
+</script>
+</body>
+</html>
