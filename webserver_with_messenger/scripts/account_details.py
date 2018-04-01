@@ -5,21 +5,21 @@ from UserAccountPropertySet import UserAccount
 
 session = Session.get_session()
 
-if session is not None: 
+if session is not None:
 	print("""\
 Content-Type: text/html
 \r\n
 """	)
 
-	
+
 	user = UserAccount.get_account_by_id(session.get_account_id())
 	interests = fields.getvalue("interests")
 	message = ""
 
-	if interests is not None: 
+	if interests is not None:
 		user.interests = interests
 		user.commit()
-		message = "changes have been committed."
+		message = "Changes have been saved"
 
 	print(open("account_details.html").read()
 		.replace("<?mail>", user.mail or "unknown")
@@ -28,6 +28,5 @@ Content-Type: text/html
 		.replace("<?message>", message))
 
 
-else: 
+else:
 	print(open("error_must_login.html", "r").read())
-		

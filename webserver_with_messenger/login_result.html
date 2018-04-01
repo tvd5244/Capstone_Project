@@ -6,6 +6,12 @@
 </head>
 
 <body>
+	<!-- NAVBAR -->
+  <div class="topnav">
+    <a class = "navbar_right" href="/login.html">Login</a>
+		<a class = "navbar_right" href="/signup.html">Sign-Up</a>
+  </div>
+	
 	<img class="logo" src="/css/lionpals logo.png"/>
 
 	<!-- This message is passed from login.py or logout.py -->
@@ -15,7 +21,7 @@
 		style="text-align: center;">
 		<button onclick="location.href='/signup.html'"
 			class="button">
-			Sign-Up	
+			Sign-Up
 		</button>
 
 		<button onclick="location.href='/login.html'"
@@ -31,7 +37,7 @@
 
 	<script type="text/javascript">
 		//alert("start of javascript");
-		
+
 		let script = "<?script>";
 		let status = "<?status>";
 		let message = document.getElementById("message");
