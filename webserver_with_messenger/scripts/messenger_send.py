@@ -28,4 +28,6 @@ else:
     .replace("<?message>", message)
     .replace("<?recipient>", recipient)
     .replace("<?sender>", sender))
+    conn.commit()
+    conn.close()
     
