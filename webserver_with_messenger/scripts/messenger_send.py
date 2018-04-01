@@ -22,7 +22,7 @@ else:
     session = Session.get_session()
     sender_id = session.get_account_id()
     sender = c.execute('select mail from UserAccountSet where id = ' + str(sender_id))
-    sender = str(sender.fetchone())
+    sender = str(sender.fetchone())[2:-3]
     c.execute('insert into messages (sender, recipient, message) values (?, ?, ?)',  (sender, recipient, message))
     print(open("messenger_sent_message.html", "r").read()
     .replace("<?message>", message)
@@ -30,4 +30,3 @@ else:
     .replace("<?sender>", sender))
     conn.commit()
     conn.close()
-    
