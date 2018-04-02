@@ -2,19 +2,39 @@ import cgitb; cgitb.enable()
 import cgi; fields = cgi.FieldStorage()
 from Session import Session
 from UserAccountPropertySet import UserAccount
+import signal
+import sys
+import time
 
-session = Session.get_session()
-target = fields.getvalue("target")
+source = fields.getvalue("source")
+done = False
 
-if session is not None and target is not None:
-	user = UserAccount.get_account_by_id(session)
-	target = UserAccount.get_account_by_id(target)
+def finish(): 
+	global done
 
-	if target in user.get_friends(): 
-		print(open("messenger.html", "r").read().replace("<?target>", target))
+	done = True
 
-	else: 
-		print(open("error_messenger_not_friend.html", "r").read())
+signal.signal(signal.SIGTERM, finish)
+
+print("""\
+Content-Type: text/event-stream\r\n
+Cache-Control: no-cache\r\n
+Connection: keep-alive\r\n
+\r\n
+""")
+
+if source is not None: 
+	file = open(source, "r")
+
+	while not done: 
+		line = file.readline()
+
+		if line != "":
+			time.sleep(1)
+			print("data:" + "hello world" + "\r\n")
+			sys.stdout.flush()
+			
 
 else: 
-	print(open("error_must_login.html", "r").read())
+	print(open("error.html", "r").read())
+

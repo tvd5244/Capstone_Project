@@ -27,6 +27,7 @@ Content-Type: text/html
 
 	if accountInfo:
 		print(open("account_details.html").read()
+			.replace("<?name>", accountInfo[0])
 			.replace("<?mail>", user.mail or "unknown")
 			.replace("<?academic_program>", accountInfo[4] or "unknown")
 			.replace("<?campus>", accountInfo[3] or "unknown")
@@ -34,8 +35,10 @@ Content-Type: text/html
 			.replace("<?message>", message))
 	else:
 		print(open("account_details.html").read()
+			.replace("<?name>", "unknown")
 			.replace("<?mail>", user.mail or "unknown")
 			.replace("<?academic_program>", user.academic_program or "unknown")
+			.replace("<?campus>", user.campus or "unknown")
 			.replace("<?interests>", user.interests or "none.")
 			.replace("<?message>", message))
 

@@ -5,96 +5,150 @@
 	<link href="/css/signup.css" type="text/css" rel="stylesheet"/>
 
 	<style>
-	@keyframes flash {
-		0% {
-			background-color: white; 
+		@keyframes flash {
+			0% {
+				background-color: white;
+			}
+			50% {
+				background-color: yellow;
+			}
+			100% {
+				background-color: white;
+			}
 		}
-		50% {
-			background-color: yellow; 
-		}
-		100% {
-			background-color: white;
-		}
-	}
 	</style>
 </head>
 
 <body>
-	<h1><a href = "/scripts/env.py">TEST</a></h1>
-	<img class="logo" src="/css/lionpals logo.png"/>
-	
-	<center>
-	<button onclick="location.href='/scripts/logout.py'"
-		class="button">
-		Logout
-	</button>
-	<button onclick="location.href='/scripts/friends.py'"
-		class="button">
-		Friends
-	</button>
-	</center>
-	<h1>Account Details</h1>
 
-	<div class="account">
-		<table class="account">
-			<tr>
-				<td class="title">
-					E-mail:
-				</td>
-				<td class="data">
-					<?mail>
-				</td>
-			</tr>
+	<!-- NAVBAR -->
+  <div class="topnav">
+		<a class = "active" href="home.html">Home</a>
+    <a class = "active" href="/scripts/friends.py">Friends</a>
+    <a class = "active" href="messenger.html">Messenger</a>
+    <a class = "active" href="/scripts/catalog.py">Recommendations</a>
+		<a class = "navbar_right" href="/scripts/logout.py">Logout</a>
+		<a class = "navbar_right" href="/scripts/account_details.py">Account</a>
+  </div>
 
-			<tr>
-				<td class="title">
-					Academic Program:
-				</td>
-				<td class="data">
-					<?academic_program>
-				</td>
-			</tr>
+	<div class="details_bg">
+		<div class="details_bg_header">
+			<h1 class="account_details">Account Details</h1>
+		</div>
 
-			<tr>
-				<td class="title">
-					Campus:
-				</td>
-				<td class="data">
-					<?campus>
-				</td>
-			</tr>
+		<div class="details">
+			<table class="account">
+				<tr class="even_row">
+					<td class="title">
+						Name:
+					</td>
+					<td class="data">
+						<?name>
+					</td>
+				</tr>
+				
+				<tr class="even_row">
+					<td class="title">
+						E-mail:
+					</td>
+					<td class="data">
+						<?mail>
+					</td>
+				</tr>
 
-			<tr>
-				<td class="title">
-					Interests:
-				</td>
-				<td class="data">
-					<form id="interests"
-						action="/scripts/account_details.py"
-						method="POST">
-						<textarea type="text" 
-							class="interests"
-							id="interests_textbox" 
-							name = "interests"
-							placeholder="Enter your interests"
-							rows="5"
-							cols="40"><?interests></textarea>
+				<tr class="even_row">
+					<td class="title">
+						Academic Program:
+					</td>
+					<td class="data">
+						<?academic_program>
+					</td>
+				</tr>
 
-					<br/>
+				<tr class="even_row">
+					<td class="title">
+						Campus:
+					</td>
+					<td class="data">
+						<?campus>
+					</td>
+				</tr>
 
-					<input type="submit"
-						form="interests" 
-						id="savechanges"
-						class="savechanges"
-						value="Save Changes"/>
-					</form>
-				</td>
-			</tr>
-		</table>
-		<strong style = "
-		animation-name: flash; 
-		animation-duration: 3s; 
-		"><?message></strong>
-	</div>
+				<tr class="even_row">
+					<td class="interests_title">
+						Interests:
+					</td>
+					<td class="interests_form">
+						<form id="interests"
+							action="/scripts/account_details.py"
+							method="POST">
+							<textarea type="text"
+								class="interests"
+								id="interests_textbox"
+								name = "interests"
+								placeholder="Enter your interests"
+								rows="10"
+								cols="40"></textarea>
+						</form>
+					</td>
+				</tr>
+				
+				<tr class="even_row">
+					<td class="About_title">
+						About Me:
+					</td>
+					<td class="about_form">
+						<form id="about"
+							action="/scripts/account_details.py"
+							method="POST">
+							<textarea type="text"
+								class="about"
+								id="about_textbox"
+								name = "about"
+								placeholder="Tell us about yourself! "
+								rows="10"
+								cols="40"></textarea>
+						</form>
+					</td>
+				</tr>
+				
+				<tr class="even_row">
+					<td class="Class_title">
+						Classes:
+					</td>
+					<td class="classes_form">
+						<form id="Classes"
+							action="/scripts/account_details.py"
+							method="POST">
+							<textarea type="text"
+								class="classes"
+								id="classes_textbox"
+								name = "classes"
+								placeholder="What kind of classes are you taking?"
+								rows="5"
+								cols="40"></textarea>
+						</form>
+					</td>
+				</tr>
+				
+				
+			</table>
+
+			<div class="save_button">
+				<input type="submit"
+					form="interests"
+					id="savechanges"
+					class="savechanges"
+					value="Save Changes"/>
+			</div>
+
+			<br/>
+
+			<strong class="save_message"><?message></strong>
+		</div> <!-- end table div -->
+	</div> <!-- end table bg div -->
+
+	<a href = "/scripts/env.py">TEST</a>
+
 </body>
 </html>

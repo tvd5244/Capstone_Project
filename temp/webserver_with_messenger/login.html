@@ -1,63 +1,106 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>LionPals - Login</title>
-		<link href="/css/signup.css" type="text/css" rel="stylesheet"/>
-	</head>
+<html class="login">
+<head>
+  <title>LionPals - Login</title>
+  <link href="/css/signup.css" type="text/css" rel="stylesheet"/>
+</head>
 
-	<body>
+<body class="login">
+  <!-- NAVBAR -->
+  <div class="topnav">
+    <a class = "navbar_right" href="/login.html">Login</a>
+		<a class = "navbar_right" href="/signup.html">Sign-Up</a>
+  </div>
 
-	<img src="/css/lionpals logo.png" class="logo"/>
+  <!-- NAIN CONTAINER -->
+  <div class="container">
+    <div class="login_left">
 
-	<h1>Login</h1>
+      <!-- LEFT PORTION OF PAGE -->
+      <div id="floater"></div>
 
-	<form action = "/scripts/login.py" 
-		method = "POST" 
-		name = "form" 
-		onsubmit = "
-	return form_pwd_validate();
-	">
-		<label for "mail"><strong>E-mail Address: </strong></label>
-		
-		<br/>
-		
-		<input type = "email" 
-			class="email" 
-			name = "mail" 
-			placeholder = "student@psu.edu" 
-			required/>
-		
-		<br/>
-		
-		<label for = "pwd"><strong>Password: </strong></label>
-		
-		<br/>
-		
-		<input type = "password"
-			class="pwd" 
-			name = "pwd" 
-			id = "pwd" 
-			required/>
-		
-		<br/>
-		
-		<input type = "submit"
-			class="button" 
-			value = "Login"/>
-		
-	</form>
-		
-	<div class="buttongroup">
-		<strong>or</strong>
+			<div class="login_text">
+				<h2 class="tip_text">
+					<img src="/css/book.png" width="20px" height="20px"></img>
+					Find fellow students
+				</h2>
 
-		<br/>
-		
-		<button type="button"
-			class="button"
-			onclick="location.href='/signup.html'">
-			Sign-Up
-		</button>
-	</div>
+				<h2 class="tip_text">
+					<img src="/css/chatbubble.png" width="20px" height="20px"></img>
+					Add and chat with friends
+				</h2>
 
-	</body>
+				<h2 class="tip_text">
+					<img src="/css/students.png" width="20px" height="20px"></img>
+					Expand your social network
+				</h2>
+		</div>
+    </div>
+
+    <!-- RIGHT PORTION OF PAGE -->
+    <div class="login_right">
+      <div class="login_form_bg">
+        <h1 class="login_box_header">Login</h1>
+
+      	<form class="login_form"
+          action = "/scripts/login.py"
+      		method = "POST"
+      		name = "form"
+      		onsubmit = "return form_pwd_validate();">
+
+          <div class="login_text_boxes">
+        		<label for "mail">
+              <div class="text_box_text"><strong>PSU E-mail Address:</strong></div>
+            </label>
+
+        		<br/>
+
+        		<input type = "email"
+        			class="email"
+        			name = "mail"
+        			placeholder = "student@psu.edu"
+        			required/>
+
+        		<br/>
+
+        		<label for = "pwd">
+              <div class="text_box_text"><strong>Password:</strong></div>
+            </label>
+
+        		<br/>
+
+        		<input type = "password"
+        			class="pwd"
+        			name = "pwd"
+        			id = "pwd"
+        			required/>
+          </div>
+      		<br/>
+
+      		<input type = "submit"
+      			class="login_button"
+      			value = "Login"/>
+
+      	</form>
+
+    		<strong>or</strong>
+
+    		<br/>
+
+    		<button type="button"
+    			class="login_button"
+    			onclick="location.href='/signup.html'">
+    			Sign-Up
+    		</button>
+
+        <br/><br/>
+      </div>
+    </div>
+
+    <!-- Clear float values from first two divs -->
+		<!-- maybe we don't need this if we don't have anything at the bottom of the page -->
+    <div class="clearfloats"></div>
+  </div>
+</body>
+
 </html>

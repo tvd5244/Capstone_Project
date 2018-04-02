@@ -2,6 +2,7 @@
 import sqlite3
 import UserAccountVerifySet
 import sys
+import secrets
 
 
 class UserAccount(UserAccountVerifySet.UserAccount): 
@@ -16,6 +17,13 @@ create table if not exists UserAccountPropertySet (
 create table if not exists Friendships (
 	ID integer, 
 	friend integer
+);
+create table if not exists Conversations (
+	ID1 integer, 
+	ID2 integer, 
+	source Text, 
+	foreign key (ID1) references UserAccountSet (ID), 
+	foreign key (ID2) references UserAccountSet (ID)
 )
 """)
 	conn.commit()
@@ -91,9 +99,18 @@ where ID = ?
 
 	def remove(self): 
 		self.conn.execute("""
+delete from Conversations 
+where ID = ?
+"""		, (self.ID, ))
+		self.conn.execute("""
+delete from Friendships 
+where ID = ? or friend = ?
+"""		, (self.ID, self.ID, ))
+		self.conn.execute("""
 delete from UserAccountPropertySet 
 where ID = ?
 """		, (self.ID, ))
+		super().remove()
 
 
 	def add_friend(self, user): 
@@ -182,4 +199,26 @@ limit ?
 
 		return [self.__class__.get_account_by_id(user[0]) for user in res]
 
+
+	def create_conversation_source(self, user): 
+		cursor = self.conn.cursor()
+		res = cursor.execute("""
+select source 
+from Conversations 
+where (ID1 = ? and ID2 = ?) or (ID2 = ? and ID1 = ?)
+"""		, (self.ID, user.ID, self.ID, user.ID, )).fetchone()
+		cursor.close()
+
+		if res is not None: 
+			return res[0]
+
+		source = secrets.token_urlsafe()
+		open(source, "w+").close()
+
+		self.conn.execute("""
+insert into Conversations 
+values (?, ?, ?)
+"""		, (self.ID, user.ID, source, ))
+
+		return source
 

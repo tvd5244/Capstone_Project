@@ -9,7 +9,7 @@
 	<img class="logo" src="/css/lionpals logo.png"/>
 
 	<div class="buttongroup">
-		<button onclick="location.href='/messenger.html'"
+		<button onclick="location.href='/messenger_private.html'"
 			class="button">
 			View Messages
 		</button>
@@ -38,22 +38,19 @@
 		
 		<br />
 		
-		<input name="recipient"
-		id="recipient"
-		type="email" />
+		<input name="recipient" id="recipient" type="email" required="required" />
 		
 		<br />
 		
+		<label for="subject"><strong>Subject</strong></label>
+		<br />
+		<input name="subject" id="subject" type="text" required="required" />
+		<br />
 		<label for="message"><strong>Message</strong></label>
 		
 		<br />
 		
-		<textarea rows="10"
-			cols="100" 
-			required="required"
-			name="message"
-			id="message">
-		</textarea>
+		<textarea rows="10" cols="100" required="required" name="message" id="message"></textarea>
 		
 		<br />
 		
