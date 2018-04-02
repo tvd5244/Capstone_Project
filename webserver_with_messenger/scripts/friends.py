@@ -1,14 +1,11 @@
+import html
 import cgitb; cgitb.enable()
 import cgi; fields = cgi.FieldStorage()
 from Session import Session
 from UserAccountPropertySet import UserAccount
 
+html.begin_output()
 session = Session.get_session()
-
-print("""\
-Content-Type: text/html
-\r\n
-""")
 
 if session is not None: 
 

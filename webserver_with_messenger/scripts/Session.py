@@ -1,4 +1,5 @@
 
+import html
 from UserAccountVerifySet import UserAccount
 import sqlite3
 import secrets
@@ -17,6 +18,25 @@ create table if not exists Sessions (
 """	)
 	conn.commit()
 
+	ID = None
+	match = re.compile("SESSION=(\\S+)").match(os.environ["HTTP_COOKIE"])
+		
+	if match is None: 
+		ID = None
+	else: 
+		cursor = conn.cursor()
+		res = cursor.execute("""
+select ID 
+from Sessions 
+where secret = ?
+"""		, (match.group(1), )).fetchone()
+		cursor.close()
+
+		if res is None: 
+			ID = None
+		else: 
+			ID = res[0]
+			
 
 	def __init__(self, ID): 
 		self.conn = sqlite3.connect("database.db")
@@ -29,25 +49,10 @@ create table if not exists Sessions (
 
 	@classmethod
 	def get_session(cls): 
-		match = re.compile("SESSION=(\\S+)").match(os.environ["HTTP_COOKIE"])
-		
-		if match is None: 
+		if cls.ID is not None: 
+			return cls(cls.ID)
+		else: 
 			return None
-
-		secret = match.group(1)
-
-		cursor = cls.conn.cursor()
-		res = cursor.execute("""
-select ID 
-from Sessions 
-where secret = ?
-"""		, (secret, )).fetchone()
-		cursor.close()
-
-		if res is None: 
-			return None
-		
-		return cls(res[0])
 
 
 	def update(self):
@@ -74,8 +79,11 @@ values (?, ?)
 """		, (secrets.token_urlsafe(), user.ID, ))
 		cls.conn.commit()
 		cursor.close()
+		self = cls(res.lastrowid)
 
-		return cls(res.lastrowid)
+		self.output_headers()
+
+		return self
 	
 
 	@property
@@ -103,6 +111,10 @@ where ID = ?
 		self.conn.commit()
 
 
+	def output_headers(self): 
+		html.add_header("Set-Cookie: SESSION=" + self.secret)
+
+
 	def get_account_id(self): 
 		cursor = self.conn.cursor()
 		res = cursor.execute("""
@@ -118,3 +130,10 @@ where ID = ?
 
 		return res[0]
 		
+
+
+session = Session.get_session()
+
+if session is not None: 
+	session.update()
+	session.output_headers()

@@ -1,13 +1,10 @@
-
+import html
 import cgitb; cgitb.enable()
 import cgi; fields = cgi.FieldStorage()
 import UserAccountSet
 from UserAccountPropertySet import UserAccount
 
-print("""\
-Content-Type: text/html
-\r\n
-""")
+html.begin_output()
 
 script = "signup"
 

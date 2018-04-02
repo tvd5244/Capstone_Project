@@ -1,15 +1,12 @@
-
+import html
 import cgitb; cgitb.enable()
 import cgi; fields = cgi.FieldStorage()
 from Session import Session
 
 script = "logout"
-session = Session.get_session()
 
-print("""\
-Content-Type: text/html
-\r\n
-"""	)
+html.begin_output()
+session = Session.get_session()
 
 if session is not None:
 	session.logout()

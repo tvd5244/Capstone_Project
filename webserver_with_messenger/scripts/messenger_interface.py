@@ -1,15 +1,13 @@
+import html
 import cgitb; cgitb.enable()
 import cgi; fields = cgi.FieldStorage()
 from Session import Session
 from UserAccountPropertySet import UserAccount
 
+html.begin_output()
 session = Session.get_session()
 target = fields.getvalue("target")
 
-print("""\
-Content-Type: text/html
-\r\n
-""")
 
 if session is not None and target is not None:
 	user = UserAccount.get_account_by_id(session.get_account_id())

@@ -1,13 +1,10 @@
-
+import html
 import cgitb; cgitb.enable()
 import cgi; fields = cgi.FieldStorage()
 from UserAccountVerifySet import UserAccount
 import sqlite3
 
-print("""\
-Content-Type: text/html
-\r\n
-""")
+html.begin_output()
 
 print("""
 <html>
