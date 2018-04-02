@@ -2,8 +2,8 @@ import cgitb; cgitb.enable()
 import cgi; fields = cgi.FieldStorage()
 from Session import Session
 from UserAccountPropertySet import UserAccount
-from getAccountInfo import getAccountInfo
-from updateInterests import updateInterests
+#from getAccountInfo import getAccountInfo
+#from updateInterests import updateInterests
 
 session = Session.get_session()
 
@@ -25,19 +25,19 @@ Content-Type: text/html
 		updateInterests(session.get_account_id(), interests)
 		message = "changes have been committed."
 
-	if accountInfo:
-		print(open("account_details.html").read()
-			.replace("<?mail>", user.mail or "unknown")
-			.replace("<?academic_program>", accountInfo[4] or "unknown")
-			.replace("<?campus>", accountInfo[3] or "unknown")
-			.replace("<?interests>", user.interests or "none.")
-			.replace("<?message>", message))
-	else:
-		print(open("account_details.html").read()
-			.replace("<?mail>", user.mail or "unknown")
-			.replace("<?academic_program>", user.academic_program or "unknown")
-			.replace("<?interests>", user.interests or "none.")
-			.replace("<?message>", message))
+	#if accountInfo:
+	#	print(open("account_details.html").read()
+	#		.replace("<?mail>", user.mail or "unknown")
+	#		.replace("<?academic_program>", accountInfo[4] or "unknown")
+	#		.replace("<?campus>", accountInfo[3] or "unknown")
+	#		.replace("<?interests>", user.interests or "none.")
+	#		.replace("<?message>", message))
+	#else:
+	print(open("account_details.html").read()
+		.replace("<?mail>", user.mail or "unknown")
+		.replace("<?academic_program>", user.academic_program or "unknown")
+		.replace("<?interests>", user.interests or "none.")
+		.replace("<?message>", message))
 
 
 else: 
