@@ -5,6 +5,9 @@ import sqlite3
 import secrets
 import os
 import re
+import time
+
+TIMEOUT = 100
 
 class Session: 
 	conn = sqlite3.connect("database.db")
@@ -13,6 +16,7 @@ create table if not exists Sessions (
 	ID Integer primary key autoincrement, 
 	secret Text unique, 
 	acc_id Integer,
+	time Integer, 
 	foreign key (acc_id) references UserAccountSet (ID)
 )
 """	)
@@ -26,16 +30,16 @@ create table if not exists Sessions (
 	else: 
 		cursor = conn.cursor()
 		res = cursor.execute("""
-select ID 
+select ID, time 
 from Sessions 
 where secret = ?
 """		, (match.group(1), )).fetchone()
 		cursor.close()
 
-		if res is None: 
-			ID = None
-		else: 
+		if res is not None and time.time() - int(res[1]) < TIMEOUT: 
 			ID = res[0]
+		else: 
+			ID = None
 			
 
 	def __init__(self, ID): 
@@ -58,9 +62,10 @@ where secret = ?
 	def update(self):
 		self.conn.execute("""
 update Sessions 
-set secret = ? 
+set secret = ?, 
+time = ?
 where ID = ?
-"""		, (secrets.token_urlsafe(), self.ID, ))
+"""		, (secrets.token_urlsafe(), time.time(), self.ID, ))
 		self.conn.commit()
 
 
@@ -74,9 +79,9 @@ where ID = ?
 		cursor = cls.conn.cursor()
 		res = cursor.execute("""
 insert into Sessions 
-(secret, acc_id) 
-values (?, ?)
-"""		, (secrets.token_urlsafe(), user.ID, ))
+(secret, acc_id, time) 
+values (?, ?, ?)
+"""		, (secrets.token_urlsafe(), user.ID, time.time(), ))
 		cls.conn.commit()
 		cursor.close()
 		self = cls(res.lastrowid)
