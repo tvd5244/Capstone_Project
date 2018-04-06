@@ -14,15 +14,23 @@ conn = sqlite3.connect("database.db")
 c = conn.cursor()
 session = Session.get_session()
 user_id = session.get_account_id()
-sender = c.execute('select mail from UserAccountSet where id = ' + str(user_id))
-sender = str(sender.fetchone())[2:-3]
-query = c.execute('select sender, message, timestamp from messages where recipient = "' + str(sender) + '"')
+user = c.execute('select mail from UserAccountSet where id = ' + str(user_id))
+user = str(user.fetchone())[2:-3]
+query = c.execute('select sender, subject, timestamp, message, ID from messages where recipient = "' + str(user) + '"')
 messages = ""
+hidescript = ""
+declarations = ""
 for msg in c:
 	messages = messages + "<tr><td>" + msg[0] + "</td>"
-	messages = messages + "<td>" + msg[1] + "</td>"
+	messages = messages + '<td><a href="javascript:toggledisplay(msg' + str(msg[4]) + ');">' + msg[1] + '</a></td>'
 	messages = messages + "<td>" + msg[2] + "</td></tr>"
+	messages = messages + '<span id="msg' + str(msg[4]) +'" style="display: none;"><tr><td colspan="3">' + msg[3] + '</td></tr></span>'
+	hidescript = hidescript + 'msg' + str(msg[4]) + ' = document.getElementById("msg' + str(msg[4]) +'");\r\n'
+	hidescript = hidescript + 'msg' + str(msg[4]) + '.style.display = "none";'
+	declarations = declarations + 'msg' + str(msg[4]) + '= 0'
 	
 print(open("messenger_private.html", "r").read()
-.replace("<?messages>", messages))
+.replace("<?messages>", messages)
+.replace("<?declarations>", declarations)
+.replace("<?hidescript>", hidescript))
 conn.close()
