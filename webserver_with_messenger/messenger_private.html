@@ -8,6 +8,18 @@ th,td,table {
 border: 1px double;
 }
 </style>
+<script>
+<?declarations>
+function toggledisplay(messageid) {
+//document.write(messageid)
+  if(messageid.style.display == "none") {
+    messageid.style.display = "";
+    }
+  else {
+    messageid.style.display = "none";
+  }
+}
+</script>
 </head>
 <body>
 <div class="topnav">
@@ -41,5 +53,8 @@ border: 1px double;
 <!-- This list of messages is passed from messenger.py -->
 <?messages>
 </table>
+<script>
+<?hidescript>
+</script>
 </body>
 </html>
