@@ -7,17 +7,18 @@ class Handler(CGIHTTPRequestHandler):
 	cgi_directories = ["/scripts"]
 
 	def do_SSE(self): 
-		self.wfile.write("""\
+		self.wfile.write(("""\
 HTTP/1.1 200 OK\r\n
 Date: """ + str(datetime.datetime.now()) + """
 Content-Type: text/event-stream\r\n\
 Cache-Control: no-cache\r\n\
 Connection: keep-alive\r\n\
 \r\n
-""".encode("UTF-8"))
+""").encode("UTF-8"))
 
 		while not(self.wfile.closed): 
-			self.wfile.write(("data:" + str(datetime.datetime.now())).encode("UTF-8"))
+			self.wfile.write(("data:" + str(datetime.datetime.now()) + "\r\n").encode("UTF-8"))
+			self.wfile.flush()
 			time.sleep(1)
 
 
