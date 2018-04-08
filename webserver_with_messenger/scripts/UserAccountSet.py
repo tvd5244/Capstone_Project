@@ -1,5 +1,8 @@
 
 import sqlite3
+import hashlib
+import random
+import sys
 
 class ACCOUNT_ALREADY_EXISTS(BaseException): pass
 
@@ -15,7 +18,8 @@ class UserAccount:
 create table if not exists UserAccountSet (
 	ID Integer primary key autoincrement, 
 	mail String unique, 
-	pwd String
+	pwd_hash String, 
+	pwd_salt Integer
 )
 """	)
 	conn.commit()
@@ -52,27 +56,33 @@ where ID = ?
 """		, (value, self.ID, ))
 
 
-	@property
-	def pwd(self): 
-		cursor = self.conn.cursor()
-		res = cursor.execute("""\
-select pwd 
-from UserAccountSet 
-where ID == ? 
-"""		, (self.ID, )).fetchone()
-		cursor.close()
-
-		return str(res[0])
-
-
-	@pwd.setter
-	def pwd(self, value): 
-		self.conn.execute("""\
+	def set_password(self, pwd): 
+		salt = random.randint(0, sys.maxsize)
+		md = hashlib.sha256()
+		md.update(str(salt).encode())
+		md.update(pwd.encode())
+		self.conn.execute("""
 update UserAccountSet 
-set pwd = ? 
+set pwd_hash = ?, pwd_salt = ? 
 where ID = ?
-"""		, (value, self.ID, ))
+"""		, (md.digest(), salt, self.ID, ))
 
+
+	def check_password(self, pwd): 
+		cursor = self.conn.cursor()
+
+		pwd_hash, pwd_salt = cursor.execute("""
+select pwd_hash, pwd_salt 
+from UserAccountSet 
+where ID = ?
+"""		, (self.ID, )).fetchone()
+		md = hashlib.sha256()
+
+		md.update(str(pwd_salt).encode())
+		md.update(pwd.encode())
+
+		return md.digest() == pwd_hash
+	
 
 	@classmethod
 	def get_account(cls, mail): 
@@ -98,7 +108,7 @@ where mail = ?
 
 
 	def __str__(self): 
-		return "UserAccountSet.UserAccount(mail = \"" + str(self.mail) + "\", pwd = \"" + self.pwd + "\")"
+		return "UserAccountSet.UserAccount(mail = \"" + str(self.mail) + "\")"
 
 
 	def commit(self): 
@@ -112,17 +122,20 @@ where mail = ?
 		try: 
 			cursor.execute("""\
 insert into UserAccountSet 
-(mail, pwd) 
-values (?, ?)
-"""			, (mail, pwd, ))
+(mail) 
+values (?)
+"""			, (mail, ))
 		except sqlite3.IntegrityError: 
 			raise ACCOUNT_ALREADY_EXISTS()
 		
-		
 		ID = cursor.lastrowid
 		cursor.close()
+
+		self = cls(conn, ID)
+
+		self.set_password(pwd)
 		
-		return cls(conn, ID)
+		return self
 
 
 	def remove(self): 
