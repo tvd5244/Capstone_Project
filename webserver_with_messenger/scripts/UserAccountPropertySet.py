@@ -3,6 +3,7 @@ import sqlite3
 import UserAccountVerifySet
 import sys
 import secrets
+import logs
 
 
 class UserAccount(UserAccountVerifySet.UserAccount): 
@@ -12,6 +13,7 @@ create table if not exists UserAccountPropertySet (
 	ID integer primary key, 
 	interests Text, 
 	program Text, 
+	campus Text, 
 	foreign key (ID) references UserAccountSet (ID)
 ); 
 create table if not exists Friendships (
@@ -31,17 +33,33 @@ create table if not exists Conversations (
 
 	def __init__(self, conn, ID):
 		super().__init__(conn, ID)
+		logs.print_line("running")
 #		self.conn.execute("""
 #insert into UserAccountPropertySet 
-#select ?, ?, ? 
+#select ?, ?, ?, ? 
 #from UserAccountPropertySet 
 #where not exists (
 #select 1 
 #from UserAccountPropertySet 
 #where ID = ?
 #)
-#"""		, (self.ID, "", "", self.ID, ))
+#"""		, (self.ID, "", "", "", self.ID, ))
 		
+		cursor = self.conn.cursor()
+		res = cursor.execute("""
+select 1 
+from UserAccountPropertySet 
+where ID = ?
+"""		, (self.ID, )).fetchone()
+
+		logs.print_line(str(res))
+
+		if res is None: 
+			logs.print_line("writing.")
+			self.conn.execute("""
+insert into UserAccountPropertySet 
+values (?, ?, ?, ?)
+"""			, (self.ID, "", "", "", ))
 
 
 
@@ -111,6 +129,18 @@ delete from UserAccountPropertySet
 where ID = ?
 """		, (self.ID, ))
 		super().remove()
+
+
+	@property
+	def campus(self): 
+		cursor = self.conn.cursor()
+		res = cursor.execute("""
+select campus 
+from UserAccountPropertySet 
+where ID = ?
+"""		, (self.ID, )).fetchone()
+
+		return res[0]
 
 
 	def add_friend(self, user): 

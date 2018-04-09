@@ -5,6 +5,7 @@ import smtplib
 from email.mime.text import MIMEText
 import secrets
 import socket
+import database
 
 ip_addr = socket.gethostbyname("localhost")
 
@@ -92,7 +93,7 @@ where ID = ?
 
 
 def print_table(): 
-	conn = sqlite3.connect("database.db")
+	conn = database.create_conn()
 	cursor = conn.cursor()
 	res = cursor.execute("""\
 select ROWID 

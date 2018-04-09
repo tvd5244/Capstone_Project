@@ -3,6 +3,7 @@ import sqlite3
 import hashlib
 import random
 import sys
+import database
 
 class ACCOUNT_ALREADY_EXISTS(BaseException): pass
 
@@ -10,10 +11,10 @@ class UserAccount:
 	
 	@classmethod
 	def create_conn(cls): 
-		return sqlite3.connect("database.db")
+		return database.create_conn()
 
 
-	conn = sqlite3.connect("database.db")
+	conn = database.create_conn()
 	conn.executescript("""
 create table if not exists UserAccountSet (
 	ID Integer primary key autoincrement, 
@@ -152,7 +153,7 @@ where ID = ?
 
 
 def print_table(): 
-	conn = sqlite3.connect("accounts.db")
+	conn = database.create_conn()
 
 	for row in conn.execute("""\
 select * 

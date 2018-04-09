@@ -1,10 +1,11 @@
-import html
+import html_builder
 import cgitb; cgitb.enable()
 import cgi; fields = cgi.FieldStorage()
 from UserAccountVerifySet import UserAccount
+import database
 import sqlite3
 
-html.begin_output()
+html_builder.begin_output()
 
 print("""
 <html>
@@ -15,11 +16,7 @@ table, table td, table th, table tr {
 }
 </style>
 </head>
-<body style = \"
-border: 0.1em solid black; 
-max-width: 50em; 
-margin: auto;
-\">
+<body>
 """)
 
 print("""
@@ -28,7 +25,7 @@ print("""
 """)
 
 
-conn = sqlite3.connect("database.db")
+conn = database.create_conn()
 cursor = conn.cursor()
 res = cursor.execute("""\
 pragma table_info(UserAccountSet)

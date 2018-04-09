@@ -1,16 +1,17 @@
 
-import html
+import html_builder
 from UserAccountVerifySet import UserAccount
 import sqlite3
 import secrets
 import os
 import re
 import time
+import database
 
-TIMEOUT = 100
+TIMEOUT = 60 * 5
 
 class Session: 
-	conn = sqlite3.connect("database.db")
+	conn = database.create_conn()
 	conn.executescript("""
 create table if not exists Sessions (
 	ID Integer primary key autoincrement, 
@@ -43,7 +44,7 @@ where secret = ?
 			
 
 	def __init__(self, ID): 
-		self.conn = sqlite3.connect("database.db")
+		self.conn = database.create_conn()
 		self.ID = ID
 
 
@@ -117,7 +118,7 @@ where ID = ?
 
 
 	def output_headers(self): 
-		html.add_header("Set-Cookie: SESSION=" + self.secret)
+		html_builder.add_header("Set-Cookie: SESSION=" + self.secret)
 
 
 	def get_account_id(self): 

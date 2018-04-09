@@ -1,4 +1,4 @@
-import html
+import html_builder
 import cgitb; cgitb.enable()
 import cgi; fields = cgi.FieldStorage()
 from Session import Session
@@ -8,7 +8,7 @@ mail = fields.getvalue("mail")
 pwd = fields.getvalue("pwd")
 
 session = Session.login(mail, pwd)
-html.begin_output()
+html_builder.begin_output()
 
 if session is not None: 
 
