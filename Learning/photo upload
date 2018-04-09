@@ -1,6 +1,5 @@
 file_uploads = On 
 
-
 <!DOCTYPE html>
 <html>
 <body>
@@ -13,7 +12,6 @@ file_uploads = On
 
 </body>
 </html>
-
 
 <?php
 $target_dir = "uploads/";
@@ -48,7 +46,6 @@ if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg
     echo "Sorry, only JPG, JPEG, PNG & GIF files are allowed.";
     $uploadOk = 0;
 } 
-
 
 <?php
 $target_dir = "uploads/";
