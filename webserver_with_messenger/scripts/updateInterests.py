@@ -8,13 +8,16 @@ Created on Mon Feb 12 11:40:55 2018
 from pathlib import Path
 import os
 
-def updateInterests(index, interests):
-	f = open('interests.txt', 'w+');
-	linefound = False;
+def updateInterests(user): 
+	index = user.ID
+	interests = user.interests
+	
+	f = open('interests.txt', 'w+')
+	linefound = False
 	data = f.readlines()
 	for line in data:
 		if(line[:1] == str(index)):
-			linefound = True;
+			linefound = True
 			line = f.write(index + ' ' + interests + "\n")
 	if(linefound == False):
 		f.write(str(index) + ' ' + interests + "\n")
@@ -23,7 +26,10 @@ def updateInterests(index, interests):
 
 	
 
-def updateInterests1(index, interests):
+def updateInterests1(user): 
+	index = user.ID
+	interests = user.interests
+
 	try:
 		f = open('interests.txt', 'r')
 		newf = open('newInterests.txt', 'w+')

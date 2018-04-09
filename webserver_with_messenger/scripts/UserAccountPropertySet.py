@@ -142,6 +142,15 @@ where ID = ?
 
 		return res[0]
 
+	
+	@campus.setter
+	def campus(self, text): 
+		self.conn.execute("""
+update UserAccountPropertySet 
+set campus = ? 
+where ID = ?
+"""		, (text, self.ID, ))
+
 
 	def add_friend(self, user): 
 		self.conn.execute("""

@@ -7,6 +7,8 @@ import secrets
 import socket
 import database
 
+DO_VERIFY_ENABLED = False
+
 ip_addr = socket.gethostbyname("localhost")
 
 class UserAccount(UserAccountSet.UserAccount): 
@@ -39,6 +41,9 @@ where ID = ?
 
 
 	def send_verify_email(self): 
+		if not DO_VERIFY_ENABLED: 
+			return
+		
 		secret = secrets.token_urlsafe()
 		self.conn.execute("""
 delete from UserAccountVerifySet 
