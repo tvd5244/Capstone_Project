@@ -81,7 +81,7 @@ There are no recommendations available at this time. Please check back later.
 	print("""
 <table>
 <tr>
-<th>Incomming Requests.</th>
+<th>Incoming Requests.</th>
 </tr>
 """	)
 

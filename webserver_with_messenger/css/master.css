@@ -63,7 +63,7 @@ a.navbar_right {
 	width: 60%;
 	height: 100%;
 	text-align: center;
-	background-image: url(background.png);
+	background-image: url(images/background.png);
 }
 
 .clearfloats {
@@ -311,4 +311,12 @@ input.savechanges:hover {
 th.messenger {
 	font-family: "Avenir";
 	padding-right: 50px;
+}
+
+td.spacing {
+	padding-left: 40em;
+}
+
+.grey_bg {
+	background-color: #e3e3e3;
 }
