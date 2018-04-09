@@ -188,7 +188,7 @@ div.details_bg {
 
 div.account_page {
 	width: 100%;
-	height: 100%;
+	height: 250vh;
 	background-color: #e3e3e3;
 	padding-top: 1em;
 }
@@ -227,8 +227,8 @@ div.col_right {
 }
 
 div.save_button {
-	text-align: center;
-	margin-top: 5px;
+	text-align: left;
+	margin-top: -5px;
 }
 
 tr {
@@ -274,9 +274,15 @@ td.data {
 textarea {
 	font-family: "Avenir";
 	width: 100%;
-	height: 110%;
+	height: 100%;
 	margin: 0px;
 	resize: none;
+}
+
+textarea.interests, textarea.about_me, textarea.classes {
+	width: 25em;
+	height: 10em;
+
 }
 
 p.error {
@@ -305,6 +311,10 @@ form {
 	margin-bottom: 0px;
 }
 
+form.interests, form.about_me, form.classes, form.change_password {
+	text-align: left;
+}
+
 input.email, input.pwd, input.pwd_conf, button {
 	border: 1px solid black;
 	margin-bottom: 6px;
@@ -330,19 +340,24 @@ input.interests {
 	word-wrap: break-word;
 }
 
+input.change_password {
+		width: 175px;
+		border: 1px solid black;
+}
+
 input.savechanges {
 	outline: none;
-	margin-top: 7px;
 	margin-bottom: 0px;
 	width: 114px;
 	padding: 2px;
 	border-radius: 10px;
 	border-style: none;
 	text-align: center;
+	background-color: white;
 }
 
 input.savechanges:hover {
-	background-color: #D5EDFF;
+	background-color: #eedc82;
 }
 
 th.messenger {

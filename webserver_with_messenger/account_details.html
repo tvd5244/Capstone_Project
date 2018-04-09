@@ -1,27 +1,12 @@
+<!DOCTYPE html>
 <html>
-
 <head>
-	<title>LionPals - Account Details</title>
+  <title>LionPals - Account Details</title>
 	<link href="/css/master.css" type="text/css" rel="stylesheet"/>
-
-	<style>
-		@keyframes flash {
-			0% {
-				background-color: white;
-			}
-			50% {
-				background-color: yellow;
-			}
-			100% {
-				background-color: white;
-			}
-		}
-	</style>
 </head>
 
 <body>
-
-	<!-- NAVBAR -->
+  <!-- NAVBAR -->
   <div class="topnav">
 		<a class = "active" href="home.html">Home</a>
     <a class = "active" href="/scripts/friends.py">Friends</a>
@@ -31,75 +16,239 @@
 		<a class = "navbar_right" href="/scripts/account_details.py">Account</a>
   </div>
 
-	<div class="details_bg">
-		<div class="details_bg_header">
-			<h1 class="account_details">Account Details</h1>
-		</div>
+  <div class="account_page">
+    <div class="details">
 
-		<div class="details">
-			<table class="account">
-				<tr class="even_row">
-					<td class="title">
-						E-mail:
-					</td>
-					<td class="data">
-						<?mail>
-					</td>
-				</tr>
+      <div class="table">
+        <div class="details_header">
+          Account
+        </div>
 
-				<tr class="even_row">
-					<td class="title">
-						Academic Program:
-					</td>
-					<td class="data">
-						<?academic_program>
-					</td>
-				</tr>
+        <div class="row">
+          <div class="col_left">
+            Name:
+          </div>
+          <div class="col_right">
+            <?name>
+          </div>
+        </div>
 
-				<tr class="even_row">
-					<td class="title">
-						Campus:
-					</td>
-					<td class="data">
-						<?campus>
-					</td>
-				</tr>
+        <br/>
 
-				<tr class="even_row">
-					<td class="interests_title">
-						Interests:
-					</td>
-					<td class="interests_form">
-						<form id="interests"
-							action="/scripts/account_details.py"
-							method="POST">
-							<textarea type="text"
-								class="interests"
-								id="interests_textbox"
-								name = "interests"
-								placeholder="Enter your interests"
-								rows="10"
-								cols="40"></textarea>
-						</form>
-					</td>
-				</tr>
-			</table>
+        <div class="row">
+          <div class="col_left">
+            Email:
+          </div>
+          <div class="col_right">
+            <?email>
+          </div>
+        </div>
 
-			<div class="save_button">
-				<input type="submit"
-					form="interests"
-					id="savechanges"
-					class="savechanges"
-					value="Save Changes"/>
-			</div>
+        <br/>
 
-			<br/>
+        <div class="row">
+          <div class="col_left">
+            Campus:
+          </div>
+          <div class="col_right">
+            <?campus>
+          </div>
+        </div>
 
-			<strong class="save_message"><?message></strong>
-		</div> <!-- end table div -->
-	</div> <!-- end table bg div -->
+        <br/>
 
-	<a href = "/scripts/env.py">TEST</a>
+        <div class="row">
+          <div class="col_left">
+            Academic Program:
+          </div>
+          <div class="col_right">
+            <?academic_program>
+          </div>
+        </div>
+
+        <div class="clearfloats"></div>
+        <br/><br/>
+
+        <div class="details_header">
+          About Me
+        </div>
+        <div class="row">
+          <form class="about_me"
+            id="interests"
+						action="/scripts/account_details.py"
+						method="POST">
+						<textarea type="text"
+							class="about_me"
+							id="about_me_textbox"
+							name = "about_me"
+							placeholder="Tell other students a little bit about yourself"
+							rows="7"
+              cols="30"></textarea>
+					</form>
+        </div>
+
+        <div class="row">
+          <div class="save_button">
+    				<input type="submit"
+    					form="about_me"
+    					id="savechanges"
+    					class="savechanges"
+    					value="Save"/>
+    			</div>
+        </div>
+
+        <div class="clearfloats"></div>
+        <br/><br/>
+
+        <div class="details_header">
+          Interests
+        </div>
+        <div class="row">
+          <form class="interests"
+            id="interests"
+						action="/scripts/account_details.py"
+						method="POST">
+						<textarea type="text"
+							class="interests"
+							id="interests_textbox"
+							name = "interests"
+							placeholder="Enter your interests"
+							rows="7"
+              cols="30"></textarea>
+					</form>
+        </div>
+
+        <div class="row">
+          <div class="save_button">
+    				<input type="submit"
+    					form="interests"
+    					id="savechanges"
+    					class="savechanges"
+    					value="Save"/>
+    			</div>
+        </div>
+
+        <div class="clearfloats"></div>
+        <br/><br/>
+
+        <div class="details_header">
+          Classes
+        </div>
+        <div class="row">
+          <form class="classes"
+            id="classes"
+						action="/scripts/account_details.py"
+						method="POST">
+						<textarea type="text"
+							class="classes"
+							id="classes_textbox"
+							name = "classes"
+							placeholder="Enter classes you have taken"
+              value=""
+							rows="7"
+              cols="30"></textarea>
+					</form>
+        </div>
+
+        <div class="row">
+          <div class="save_button">
+    				<input type="submit"
+    					form="interests"
+    					id="savechanges"
+    					class="savechanges"
+    					value="Save"/>
+    			</div>
+        </div>
+
+        <div class="clearfloats"></div>
+        <br/><br/>
+
+        <div class="details_header">
+          Change Password
+        </div>
+
+        <form class="change_password"
+          method="post"
+          action="/scripts/change_password.py"
+          onsubmit="return new_pwd_match();">
+
+          <div class="row">
+            <div class="col_left">
+              Current Password:
+            </div>
+            <div class="col_right">
+              <input class="change_password"
+                id="password_current"
+                type="password"/>
+            </div>
+          </div>
+
+          <br/>
+
+          <div class="row">
+            <div class="col_left">
+              New Password:
+            </div>
+            <div class="col_right">
+              <input class="change_password"
+                id="password_new"
+                type="password"/>
+            </div>
+          </div>
+
+          <br/>
+
+          <div class="row">
+            <div class="col_left">
+              Re-enter New Password:
+            </div>
+            <div class="col_right">
+              <input class="change_password"
+                id="password_new_confirm"
+                type="password"/>
+            </div>
+          </div>
+
+          <br/>
+
+          <div class="row">
+            <div class="save_button">
+      				<input type="submit"
+      					id="change_password"
+      					class="savechanges"
+      					value="Save"/>
+      			</div>
+          </div>
+
+        </form>
+
+      </div> <!-- end of table div -->
+    </div> <!-- end of details div -->
+  </div> <!-- end of account_page div -->
+
+  <!-- When changing password, check if new passwords match -->
+  <script defer>
+    let pwd_curr = document.getElementById("password_current");
+    let pwd_new = document.getElementById("password_new");
+    let pwd_new_conf = document.getElementById("password_new_confirm");
+
+    new_pwd_match =
+    function() {
+      if (pwd_new.value != pwd_new_conf.value) {
+        pwd_new_conf.setCustomValidity("The passwords do not match");
+        return false;
+      }
+      else {
+        pwd_new_conf.setCustomValidity("");
+        return true;
+      }
+    };
+
+    pwd_new.onchange = new_pwd_match;
+    pwd_new_conf.onchange = new_pwd_match;
+
+  </script>
 
 </body>
+
 </html>
