@@ -1,0 +1,386 @@
+@font-face {
+	font-family: "Avenir";
+	src: url("./fonts/Avenir-Medium.ttf");
+}
+
+@font-face {
+	font-family: "Serifa";
+	src: url("./fonts/Serifa-Black.otf");
+}
+
+html {
+	height: 100vh;
+}
+
+body {
+	min-height: 100vh;
+	margin: 0px;
+}
+
+html.signup, html.login, body.signup, body.login {
+	overflow: hidden;
+}
+
+.topnav {
+    background-color: #0d4f8b;
+		height: 9%;
+		border-bottom: 1px solid black;
+		overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+		font-family: "Avenir";
+}
+
+.topnav a:hover {
+    background-color: #3b5998;
+    color: #ffffff;
+}
+
+a.navbar_right {
+	float: right;
+	color: #f2f2f2;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	font-family: "Avenir";
+}
+
+.container {
+	height: 91%;
+}
+
+.signup_left, .login_left {
+	float: left;
+	width: 40%;
+	height: 100%;
+	background: white;
+}
+
+.signup_right, .login_right {
+	float: right;
+	width: 60%;
+	height: 100%;
+	text-align: center;
+	/*background-image: url(images/background.png);*/
+}
+
+.clearfloats {
+	clear: both;
+}
+
+.signup_form_bg, .login_form_bg {
+	background: rgba(255, 255, 255, .8);
+	width: 40%;
+	margin-top: 14%;
+	margin-bottom: 25%;
+	margin-left: 30%;
+	margin-right: 30%;
+	padding-top: 0px;
+	padding-bottom: 10px;
+	border-radius: 25px;
+	display: block;
+	align-content: center;
+}
+
+.signup_form, .login_form {
+	opacity: 1;
+}
+
+.signup_text, .login_text {
+	font-family: "Avenir";
+	height: 50%;
+	margin-top: 35%;
+	margin-left: 15%;
+}
+
+div.signup_text_boxes, div.login_text_boxes {
+	margin-bottom: 0px;
+}
+
+div.text_box_text {
+	height: 0%;
+	margin-bottom: -20px;
+	text-align: center;
+}
+
+div.details_buttons {
+	display: block;
+	text-align: center;
+}
+
+input.signup_button, button.signup_button, input.login_button, button.login_button {
+	background-color: #ffec8b; /* light goldenrod 1 */
+	margin-top: 4px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 114px;
+	padding: 2px;
+	border-radius: 10px;
+	border-style: none;
+	text-align: center;
+}
+
+input.signup_button:hover, button.signup_button:hover, input.login_button:hover, button.login_button:hover {
+	background-color: #eedc82;
+}
+
+h1 {
+	font-family: "Avenir";
+	margin-top: 60px;
+	text-align: center;
+}
+
+h1.account_details {
+	margin-top: 8px;
+	margin-bottom: 0px;
+	color: #FFFFFF;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h1.signup_box_header, h1.login_box_header {
+	font-family: "Avenir";
+	color: white;
+	background: rgba(13, 79, 139, .8);
+	border-radius: 25px 25px 0px 0px;
+	padding-bottom: 3px;
+	margin-top: 60px;
+	text-align: center;
+}
+
+p.result {
+	font-family: "Avenir";
+	font-weight: normal;
+	font-size: 14pt;
+	text-align: center;
+	margin-top: 100px;
+}
+
+table.account {
+	width: 100%;
+	height: 100%;
+	font-family: 'Serifa';
+	margin: 0 auto;
+}
+
+div.details_bg_header {
+	width: 100%;
+	height: 8%;
+	padding-bottom: 5px;
+	margin-bottom: 15px;
+}
+
+div.details_bg {
+	width: 50%;
+	height: 74%;
+	margin-top: 3%;
+	margin-left: 3%;
+	background-color: #0d4f8b;
+	border-radius: 25px;
+	border: 1px solid black;
+	align-content: center;
+}
+
+div.account_page {
+	width: 100%;
+	height: 250vh;
+	background-color: #e3e3e3;
+	padding-top: 1em;
+}
+
+div.details {
+	width: 50%;
+	height: 100vh;
+	margin-left: 10%;
+}
+
+div.details_header {
+	width: 100%;
+	font-size: 24pt;
+	border-bottom: 1px solid black;
+}
+
+div.table {
+	margin-top: .5em;
+	font-size: 16pt;
+}
+
+div.row {
+	padding: .25em;
+	padding-left: .5em;
+}
+
+div.col_left {
+	float: left;
+	width: 40%;
+}
+
+div.col_right {
+	float: right;
+	width: 60%;
+	text-align: left;
+}
+
+div.save_button {
+	text-align: left;
+	margin-top: -5px;
+}
+
+tr {
+	vertical-align: middle;
+	text-align: left;
+}
+
+tr.even_row {
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+tr.odd_row {
+	color: #FFFFFF;
+	background-color: #0d4f8b;
+}
+
+td {
+	border: 1px solid black;
+	padding-bottom: 0px;
+	padding-right: 0px;
+}
+
+td.title {
+	padding-left: 3px;
+	font-family: "Serifa";
+}
+
+td.interests_title {
+	padding-left: 3px;
+	vertical-align: top;
+}
+
+td.interests_form {
+	padding: 0px;
+}
+
+td.data {
+	font-family: "Avenir";
+	padding-left: 3px;
+}
+
+textarea {
+	font-family: "Avenir";
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	resize: none;
+}
+
+textarea.interests, textarea.about_me, textarea.classes {
+	width: 25em;
+	height: 10em;
+
+}
+
+p.error {
+	color: red;
+}
+
+strong {
+	font-family: "Serifa";
+	font-weight: normal;
+}
+
+strong.save_message {
+	text-align: center;
+	animation-name: "flash";
+	animation-duration: 3s;
+}
+
+img.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+form {
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+form.interests, form.about_me, form.classes, form.change_password {
+	text-align: left;
+}
+
+input.email, input.pwd, input.pwd_conf, button {
+	border: 1px solid black;
+	margin-bottom: 6px;
+	border-radius: 4px;
+	width: 180px;
+}
+
+input.button {
+	outline: none;
+	margin-top: 4px;
+	margin-bottom: 0px;
+	margin-right: 20px;
+	width: 114px;
+	padding: 2px;
+	border-radius: 10px;
+	border-style: outset;
+	text-align: center;
+}
+
+input.interests {
+	width: 200px;
+	height: 80px;
+	word-wrap: break-word;
+}
+
+input.change_password {
+		width: 175px;
+		border: 1px solid black;
+}
+
+input.savechanges {
+	outline: none;
+	margin-bottom: 0px;
+	width: 114px;
+	padding: 2px;
+	border-radius: 10px;
+	border-style: none;
+	text-align: center;
+	background-color: white;
+}
+
+input.savechanges:hover {
+	background-color: #eedc82;
+}
+
+th.messenger {
+	font-family: "Avenir";
+	padding-right: 50px;
+}
+
+td.spacing {
+	padding-left: 40em;
+}
+
+.grey_bg {
+	background-color: #e3e3e3;
+}
+
+#img-resize-signup{
+	background: url(images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover; /* could do 100% 94% */
+}
+
+#img-resize-login{
+	background: url(images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover; /* could do 100% 105% %*/
+}

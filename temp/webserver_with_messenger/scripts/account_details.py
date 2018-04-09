@@ -32,6 +32,8 @@ Content-Type: text/html
 			.replace("<?academic_program>", accountInfo[4] or "unknown")
 			.replace("<?campus>", accountInfo[3] or "unknown")
 			.replace("<?interests>", user.interests or "none.")
+			.replace("<?about_me>", "")
+			.replace("<?classes>", "")
 			.replace("<?message>", message))
 	else:
 		print(open("account_details.html").read()
@@ -40,7 +42,10 @@ Content-Type: text/html
 			.replace("<?academic_program>", user.academic_program or "unknown")
 			.replace("<?campus>", user.campus or "unknown")
 			.replace("<?interests>", user.interests or "none.")
+			.replace("<?about_me>", "")
+			.replace("<?classes>", "")
 			.replace("<?message>", message))
+			
 
 
 else: 

@@ -2,6 +2,7 @@ import cgitb; cgitb.enable()
 import cgi; fields = cgi.FieldStorage()
 from Session import Session
 from UserAccountPropertySet import UserAccount
+from getAccountInfo import getAccountInfo
 from getAccountInfo import getRecommendations
 
 
@@ -23,22 +24,31 @@ if session is not None:
 	user.commit()
 
 	print("""
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
+
 <head>
-<title>Users</title>
-<style>
+<title>Recommendations</title>
+<link href="/css/master.css" type="text/css" rel="stylesheet"/>
 
-table td {
-	border: solid black 0.1em;
-}
-
-</style>
 </head>
-<body>
-<table>
-<tr>
-<th>Recommendations.</th>
-</tr>
+
+<div class="topnav">
+    <a class = "active" href="home.html">Home</a>
+    <a class = "active" href="friends.html">Friends</a>
+    <a class = "active" href="messenger.html">Messenger</a>
+    <a class = "active" href="recommendations.html">Recommendations</a>
+    <a class = "navbar_right" href="/scripts/logout.py">Logout</a>
+    <a class = "navbar_right" href="/scripts/account_details.py">Account</a>
+</div>
+
+<body class="grey_bg">
+	<!-- <img class="logo" src="/css/lionpals logo.png"/> -->
+	<table>
+	<tr>
+		<th>Recommendations</th>
+	</tr>
 """	)
 
 	recommendations = user.recommend("", 10)
@@ -47,11 +57,26 @@ table td {
 	
 
 	for entry in user.recommend("", 10): 
+		accountInfo = getAccountInfo(entry.mail)
 		print("""
 <tr>
 <td>
 <strong>""" + entry.mail + """</strong>
 <br/>
+		""")
+		
+		if accountInfo:
+			print("""
+			<strong>""" + accountInfo[0] + """</strong>
+			<br/>
+			<strong>""" + accountInfo[3] + """</strong>
+			<br/>
+			<strong>""" + accountInfo[4] + """</strong>
+			<br/>
+			""")
+		
+		print("""
+		
 <form action = "/scripts/catalog.py" 
 	method = "POST">
 <input type = "hidden" 
