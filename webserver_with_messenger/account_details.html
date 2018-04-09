@@ -16,7 +16,6 @@
 		<a class = "navbar_right" href="/scripts/account_details.py">Account</a>
   </div>
 
-<<<<<<< HEAD
   <div class="account_page">
     <div class="details">
 
@@ -249,77 +248,6 @@
     pwd_new_conf.onchange = new_pwd_match;
 
   </script>
-=======
-	<div class="details_bg">
-		<div class="details_bg_header">
-			<h1 class="account_details">Account Details</h1>
-		</div>
-
-		<div class="details">
-			<table class="account">
-				<tr class="even_row">
-					<td class="title">
-						E-mail:
-					</td>
-					<td class="data">
-						<?mail>
-					</td>
-				</tr>
-
-				<tr class="even_row">
-					<td class="title">
-						Academic Program:
-					</td>
-					<td class="data">
-						<?academic_program>
-					</td>
-				</tr>
-
-				<tr class="even_row">
-					<td class="title">
-						Campus:
-					</td>
-					<td class="data">
-						<?campus>
-					</td>
-				</tr>
-
-				<tr class="even_row">
-					<td class="interests_title">
-						Interests:
-					</td>
-					<td class="interests_form">
-						<form id="interests"
-							action="/scripts/account_details.py"
-							method="POST">
-							<textarea type="text"
-								class="interests"
-								id="interests_textbox"
-								name = "interests"
-								placeholder="Enter your interests"
-								rows="10"
-								cols="40"><?interests></textarea>
-						</form>
-					</td>
-				</tr>
-			</table>
-
-			<div class="save_button">
-				<input type="submit"
-					form="interests"
-					id="savechanges"
-					class="savechanges"
-					value="Save Changes"/>
-			</div>
-
-			<br/>
-
-			<strong class="save_message"><?message></strong>
-		</div> <!-- end table div -->
-	</div> <!-- end table bg div -->
-
-	<a href = "/scripts/env.py">TEST</a>
->>>>>>> 2713bf43181827b3715f3be80505c9886b758dcb
 
 </body>
 
