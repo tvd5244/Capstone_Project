@@ -63,7 +63,7 @@ a.navbar_right {
 	width: 60%;
 	height: 100%;
 	text-align: center;
-	background-image: url(images/background.png);
+	/*background-image: url(images/background.png);*/
 }
 
 .clearfloats {
@@ -319,4 +319,16 @@ td.spacing {
 
 .grey_bg {
 	background-color: #e3e3e3;
+}
+
+#img-resize-signup{
+	background: url(images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover; /* could do 100% 94% */
+}
+
+#img-resize-login{
+	background: url(images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover; /* could do 100% 105% %*/
 }
