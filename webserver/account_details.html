@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LionPals - Account Details</title>
+	<link href="/css/master.css" type="text/css" rel="stylesheet"/>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <div class="topnav">
+		<a class = "active" href="home.html">Home</a>
+    <a class = "active" href="/scripts/friends.py">Friends</a>
+    <a class = "active" href="messenger.html">Messenger</a>
+    <a class = "active" href="/scripts/catalog.py">Recommendations</a>
+		<a class = "navbar_right" href="/scripts/logout.py">Logout</a>
+		<a class = "navbar_right" href="/scripts/account_details.py">Account</a>
+  </div>
+  <div class="account_page">
+    <div class="details">
+
+      <div class="table">
+        <div class="details_header">
+          Account
+        </div>
+
+        <div class="row">
+          <div class="col_left">
+            Name:
+          </div>
+          <div class="col_right">
+            <?name>
+          </div>
+        </div>
+
+        <br/>
+
+        <div class="row">
+          <div class="col_left">
+            Email:
+          </div>
+          <div class="col_right">
+            <?email>
+          </div>
+        </div>
+
+        <br/>
+
+        <div class="row">
+          <div class="col_left">
+            Campus:
+          </div>
+          <div class="col_right">
+            <?campus>
+          </div>
+        </div>
+
+        <br/>
+
+        <div class="row">
+          <div class="col_left">
+            Academic Program:
+          </div>
+          <div class="col_right">
+            <?academic_program>
+          </div>
+        </div>
+
+        <div class="clearfloats"></div>
+        <br/><br/>
+
+        <div class="details_header">
+          About Me
+        </div>
+        <div class="row">
+          <form class="about_me"
+            id="interests"
+						action="/scripts/account_details.py"
+						method="POST">
+						<textarea type="text"
+							class="about_me"
+							id="about_me_textbox"
+							name = "about_me"
+							placeholder="Tell other students a little bit about yourself"
+							rows="7"
+              cols="30"><?about_me></textarea>
+					</form>
+        </div>
+
+        <div class="row">
+          <div class="save_button">
+    				<input type="submit"
+    					form="about_me"
+    					id="savechanges"
+    					class="savechanges"
+    					value="Save"/>
+    			</div>
+        </div>
+
+        <div class="clearfloats"></div>
+        <br/><br/>
+
+        <div class="details_header">
+          Interests
+        </div>
+        <div class="row">
+          <form class="interests"
+            id="interests"
+						action="/scripts/account_details.py"
+						method="POST">
+						
+					</form>
+					<textarea type="text" 
+							form = "interests" 
+							class="interests"
+							id="interests_textbox"
+							name = "interests"
+							placeholder="Enter your interests"
+							rows="7"
+              cols="30"><?interests></textarea>
+        </div>
+
+        <div class="row">
+          <div class="save_button">
+    				<input type="submit"
+    					form="interests"
+    					id="savechanges"
+    					class="savechanges"
+    					value="Save"/>
+    			</div>
+        </div>
+
+        <div class="clearfloats"></div>
+        <br/><br/>
+
+        <div class="details_header">
+          Classes
+        </div>
+        <div class="row">
+          <form class="classes"
+            id="classes"
+						action="/scripts/account_details.py"
+						method="POST">
+						<textarea type="text"
+							class="classes"
+							id="classes_textbox"
+							name = "classes"
+							placeholder="Enter classes you have taken"
+              value=""
+							rows="7"
+              cols="30"><?classes></textarea>
+					</form>
+        </div>
+
+        <div class="row">
+          <div class="save_button">
+    				<input type="submit"
+    					form="interests"
+    					id="savechanges"
+    					class="savechanges"
+    					value="Save"/>
+    			</div>
+        </div>
+
+        <div class="clearfloats"></div>
+        <br/><br/>
+
+        <div class="details_header">
+          Change Password
+        </div>
+
+        <form class="change_password"
+          method="post"
+          action="/scripts/change_password.py"
+          onsubmit="return new_pwd_match();">
+
+          <div class="row">
+            <div class="col_left">
+              Current Password:
+            </div>
+            <div class="col_right">
+              <input class="change_password"
+                id="password_current"
+                type="password"/>
+            </div>
+          </div>
+
+          <br/>
+
+          <div class="row">
+            <div class="col_left">
+              New Password:
+            </div>
+            <div class="col_right">
+              <input class="change_password"
+                id="password_new"
+                type="password"/>
+            </div>
+          </div>
+
+          <br/>
+
+          <div class="row">
+            <div class="col_left">
+              Re-enter New Password:
+            </div>
+            <div class="col_right">
+              <input class="change_password"
+                id="password_new_confirm"
+                type="password"/>
+            </div>
+          </div>
+
+          <br/>
+
+          <div class="row">
+            <div class="save_button">
+      				<input type="submit"
+      					id="change_password"
+      					class="savechanges"
+      					value="Save"/>
+      			</div>
+          </div>
+
+        </form>
+
+      </div> <!-- end of table div -->
+    </div> <!-- end of details div -->
+  </div> <!-- end of account_page div -->
+
+  <!-- When changing password, check if new passwords match -->
+  <script defer>
+    let pwd_curr = document.getElementById("password_current");
+    let pwd_new = document.getElementById("password_new");
+    let pwd_new_conf = document.getElementById("password_new_confirm");
+
+    new_pwd_match =
+    function() {
+      if (pwd_new.value != pwd_new_conf.value) {
+        pwd_new_conf.setCustomValidity("The passwords do not match");
+        return false;
+      }
+      else {
+        pwd_new_conf.setCustomValidity("");
+        return true;
+      }
+    };
+
+    pwd_new.onchange = new_pwd_match;
+    pwd_new_conf.onchange = new_pwd_match;
+
+  </script>
+</body>
+
+</html>

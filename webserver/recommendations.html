@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+<title>Recommendations</title>
+<link href="/css/master.css" type="text/css" rel="stylesheet"/>
+
+</head>
+
+<div class="topnav">
+    <a class = "active" href="home.html">Home</a>
+    <a class = "active" href="friends.html">Friends</a>
+    <a class = "active" href="messenger.html">Messenger</a>
+    <a class = "active" href="recommendations.html">Recommendations</a>
+    <a class = "navbar_right" href="/scripts/logout.py">Logout</a>
+    <a class = "navbar_right" href="/scripts/account_details.py">Account</a>
+</div>
+
+<body class="grey_bg">
+	<!-- <img class="logo" src="/css/lionpals logo.png"/> -->
+	<table>
+	<tr>
+		<th>Recommendations</th>
+	</tr>
+	"""
+
+	<tr>
+		<td>
+			<strong >""" + <?entry_mail> + """</strong>
+			<br/>
+
+			<form action = "/scripts/catalog.py"
+				method = "POST">
+
+				<input type = "hidden"
+					name = "addition"
+					value = \"""" + str(<?entry_ID>) + """"/>
+
+				<input type = "submit"
+					value = "add"/>
+			</form>
+		</td>
+	</tr>
+	"""
+
+	"""
+	</table>
+	"""
+
+	<p>
+	There are no recommendations available at this time; please check back later.
+	</p>
+	"""
+
+	"<hr/>"
+
+	"""
+	<table>
+	<tr>
+	<th>Incoming Requests</th>
+	</tr>
+	"""
+
+	<tr>
+	<td>
+	<strong>""" + <?entry_mail> + """</strong>
+	<br/>
+	<form action = "/scripts/catalog.py"
+		method = "POST">
+	<input type = "hidden"
+		name = "rejection"
+		value = \"""" + str(<?entry_ID>) + """"/>
+	<input type = "submit"
+		value = "reject"/>
+	</form>
+	<form action = "/scripts/catalog.py"
+		method = "POST">
+	<input type = "hidden"
+		name = "addition"
+		value = \"""" + str(<?entry_ID>) + """"/>
+	<input type = "submit"
+		value = "accept"/>
+	</td>
+	</tr>
+	"""
+
+	"""
+	</table>
+	"""
+
+	"""
+	<p>
+	There are no pending requests at this time; please check back later.
+	</p>
+	"""
+
+
+	"""
+	<hr/>
+	<p>
+	Visit the <a href = "/scripts/friends.py">friends page</a> to view added contacts.
+	</p>
+</body>
+
+</html>
