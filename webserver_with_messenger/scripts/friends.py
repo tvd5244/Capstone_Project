@@ -7,21 +7,21 @@ from UserAccountPropertySet import UserAccount
 html.begin_output()
 session = Session.get_session()
 
-if session is not None: 
+if session is not None:
 
 	user = UserAccount.get_account_by_id(session.get_account_id())
 	target = fields.getvalue("target")
 
-	if target is not None: 
+	if target is not None:
 		user.remove_friend(UserAccount.get_account_by_id(int(target)))
-	
+
 	cancelation = fields.getvalue("cancelation")
 
-	if cancelation is not None: 
+	if cancelation is not None:
 		user.remove_friend(UserAccount.get_account_by_id(int(cancelation)))
 
 	user.commit()
-	
+
 	print("""
 <html>
 <head>
@@ -45,26 +45,26 @@ table td {
 
 	friends = user.get_friends()
 
-	for friend in user.get_friends(): 
+	for friend in user.get_friends():
 		print("""
 <tr>
 <td>
 <strong>""" + friend.mail + """</strong>
-<form action = "/scripts/friends.py" 
+<form action = "/scripts/friends.py"
 	method = "POST">
-<input type = "hidden" 
-	name = "target" 
+<input type = "hidden"
+	name = "target"
 	value = \"""" + str(friend.ID) + """"/>
 <br/>
-<input type = "submit" 
+<input type = "submit"
 	value = "remove"/>
 </form>
-<form action = "/scripts/messenger_interface.py" 
+<form action = "/scripts/messenger_interface.py"
 	method = "GET">
-<input type = "hidden" 
-	name = "target" 
+<input type = "hidden"
+	name = "target"
 	value = \"""" + str(friend.ID) + """"/>
-<input type = "submit" 
+<input type = "submit"
 	value = "message"/>
 </form>
 </td>
@@ -75,7 +75,7 @@ table td {
 </table>
 """	)
 
-	if len(friends) == 0: 
+	if len(friends) == 0:
 		print("""
 <p>
 No friends at this time.
@@ -93,18 +93,18 @@ No friends at this time.
 
 	requests = user.get_friend_requests()
 
-	for friend in requests: 
+	for friend in requests:
 		print("""
 <tr>
 <td>
 <strong>""" + friend.mail + """</strong>
-<form action = "/scripts/friends.py" 
+<form action = "/scripts/friends.py"
 	method = "POST">
-<input type = "hidden" 
-	name = "cancelation" 
+<input type = "hidden"
+	name = "cancelation"
 	value = \"""" + str(friend.ID) + """"/>
 <br/>
-<input type = "submit" 
+<input type = "submit"
 	value = "cancel"/>
 </form>
 </td>
@@ -115,7 +115,7 @@ No friends at this time.
 </table>
 """	)
 
-	if len(requests) == 0: 
+	if len(requests) == 0:
 		print("""
 <p>
 Nothing to display.
@@ -129,5 +129,5 @@ Visit the <a href = "/scripts/catalog.py">catalog</a> to add friends.
 </html>
 """	)
 
-else: 
+else:
 	print(open("error_must_login.html", "r").read())
