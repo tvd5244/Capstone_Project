@@ -2,6 +2,23 @@
 <html lang="en">
 <head>
 <title>LionPals - Messenger</title>
+<!-- Set borders for table -->
+<style>
+th,td,table {
+border: 1px double;
+}
+</style>
+<script>
+function toggledisplay(messageid) {
+//document.write(messageid)
+  if(messageid.style.display == "none") {
+    messageid.style.display = "";
+    }
+  else {
+    messageid.style.display = "none";
+  }
+}
+</script>
 </head>
 <body>
 <div class="topnav">
@@ -35,5 +52,8 @@
 <!-- This list of messages is passed from messenger.py -->
 <?messages>
 </table>
+<script>
+<?hidescript>
+</script>
 </body>
 </html>

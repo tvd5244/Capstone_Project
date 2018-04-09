@@ -73,7 +73,7 @@ where ID = ?
 	def login(cls, mail, pwd): 
 		user = UserAccount.get_account(mail)
 		
-		if user is None or user.pwd != pwd: 
+		if user is None or not user.check_password(pwd): 
 			return None
 
 		cursor = cls.conn.cursor()
