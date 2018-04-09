@@ -135,6 +135,10 @@ where ID = ?
 			return None
 
 		return res[0]
+
+	
+	def __str__(self): 
+		return "session(ID = " + str(self.ID) + ")"
 		
 
 

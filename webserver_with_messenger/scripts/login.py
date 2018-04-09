@@ -2,12 +2,14 @@ import html_builder
 import cgitb; cgitb.enable()
 import cgi; fields = cgi.FieldStorage()
 from Session import Session
+import logs
 
 script = "login"
 mail = fields.getvalue("mail")
 pwd = fields.getvalue("pwd")
 
 session = Session.login(mail, pwd)
+logs.print_line("login complete: " + str(session) + ".")
 html_builder.begin_output()
 
 if session is not None: 

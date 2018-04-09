@@ -33,7 +33,6 @@ create table if not exists Conversations (
 
 	def __init__(self, conn, ID):
 		super().__init__(conn, ID)
-		logs.print_line("running")
 #		self.conn.execute("""
 #insert into UserAccountPropertySet 
 #select ?, ?, ?, ? 
@@ -52,10 +51,7 @@ from UserAccountPropertySet
 where ID = ?
 """		, (self.ID, )).fetchone()
 
-		logs.print_line(str(res))
-
 		if res is None: 
-			logs.print_line("writing.")
 			self.conn.execute("""
 insert into UserAccountPropertySet 
 values (?, ?, ?, ?)

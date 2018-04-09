@@ -37,7 +37,7 @@ where ID = ?
 
 
 	def __str__(self): 
-		return "UserAccountVerifySet.UserAccount(mail = " + self.mail + ", pwd = " + self.pwd + ", awaiting_verify = " + str(self.done_verify) + ")"
+		return "UserAccountVerifySet.UserAccount(mail = " + self.mail + ", awaiting_verify = " + str(self.done_verify) + ")"
 
 
 	def send_verify_email(self): 

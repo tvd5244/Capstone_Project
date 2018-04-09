@@ -4,6 +4,7 @@ import cgi; fields = cgi.FieldStorage()
 import UserAccountSet
 from UserAccountPropertySet import UserAccount
 from getAccountInfo import getAccountInfo
+import logs
 
 html_builder.begin_output()
 
@@ -25,6 +26,7 @@ else:
 			user.campus = accountInfo[3]
 
 		user.commit()
+		logs.print_line("user signup complete: " + str(user) + ".")
 	except UserAccountSet.ACCOUNT_ALREADY_EXISTS: 
 		status = "-1"
 		message = "<?mail> has already been registered"
