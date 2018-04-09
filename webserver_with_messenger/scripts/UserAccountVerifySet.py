@@ -5,6 +5,9 @@ import smtplib
 from email.mime.text import MIMEText
 import secrets
 import socket
+import database
+
+DO_VERIFY_ENABLED = False
 
 ip_addr = socket.gethostbyname("localhost")
 
@@ -34,10 +37,13 @@ where ID = ?
 
 
 	def __str__(self): 
-		return "UserAccountVerifySet.UserAccount(mail = " + self.mail + ", pwd = " + self.pwd + ", awaiting_verify = " + str(self.done_verify) + ")"
+		return "UserAccountVerifySet.UserAccount(mail = " + self.mail + ", awaiting_verify = " + str(self.done_verify) + ")"
 
 
 	def send_verify_email(self): 
+		if not DO_VERIFY_ENABLED: 
+			return
+		
 		secret = secrets.token_urlsafe()
 		self.conn.execute("""
 delete from UserAccountVerifySet 
@@ -92,7 +98,7 @@ where ID = ?
 
 
 def print_table(): 
-	conn = sqlite3.connect("database.db")
+	conn = database.create_conn()
 	cursor = conn.cursor()
 	res = cursor.execute("""\
 select ROWID 

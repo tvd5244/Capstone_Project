@@ -1,10 +1,12 @@
-import html
+import html_builder
 import cgitb; cgitb.enable()
 import cgi; fields = cgi.FieldStorage()
 import UserAccountSet
 from UserAccountPropertySet import UserAccount
+from getAccountInfo import getAccountInfo
+import logs
 
-html.begin_output()
+html_builder.begin_output()
 
 script = "signup"
 
@@ -17,7 +19,14 @@ else:
 	try: 
 		user = UserAccount.create(mail, pwd)
 		user.send_verify_email()
+		accountInfo = getAccountInfo(user)
+
+		if accountInfo: 
+			user.academic_program = accountInfo[4]
+			user.campus = accountInfo[3]
+
 		user.commit()
+		logs.print_line("user signup complete: " + str(user) + ".")
 	except UserAccountSet.ACCOUNT_ALREADY_EXISTS: 
 		status = "-1"
 		message = "<?mail> has already been registered"
