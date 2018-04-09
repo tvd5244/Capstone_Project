@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html class="signup">
+
+<head>
+	<title>LionPals - Sign-Up</title>
+	<link href="/css/master.css" type="text/css" rel="stylesheet"/>
+</head>
+
+<body class="signup">
+	<!-- NAVBAR -->
+  <div class="topnav">
+		<a class = "navbar_right" href="/login.html">Login</a>
+		<a class = "navbar_right" href="/signup.html">Sign-Up</a>
+  </div>
+
+  <!-- MAIN CONTAINER -->
+  <div class="container">
+
+		<!-- LEFT PORTION OF PAGE -->
+    <div class="signup_left">
+			<div id="floater"></div>
+
+			<div class="signup_text">
+				<h2 class="tip_text">
+					<img src="/css/images/book.png" width="20px" height="20px"></img>
+					Find fellow students
+				</h2>
+
+				<h2 class="tip_text">
+					<img src="/css/images/chatbubble.png" width="20px" height="20px"></img>
+					Add and chat with friends
+				</h2>
+
+				<h2 class="tip_text">
+					<img src="/css/images/students.png" width="20px" height="20px"></img>
+					Expand your social network
+				</h2>
+			</div>
+    </div>
+
+		<!-- RIGHT PORTION OF PAGE -->
+    <div class="signup_right" id = "img-resize-signup">
+			<div class="signup_form_bg">
+	      <h1 class="signup_box_header">Account Sign-Up</h1>
+
+      	<form class="signup_form"
+          action = "/scripts/signup.py"
+      		method = "POST"
+      		name = "form"
+      		onsubmit = "return form_pwd_validate();">
+
+					<div class="signup_text_boxes">
+      		<label for = "mail">
+						<div class="text_box_text"><strong>PSU E-mail Address:</strong></div>
+					</label>
+
+      		<br/>
+
+      		<input type = "email"
+      			name = "mail"
+      			id = "email"
+      			class = "email"
+      			placeholder = "student@psu.edu"
+      			required/>
+
+      		<br/>
+
+      		<label for = "pwd">
+						<div class="text_box_text"><strong>Password:</strong></div>
+					</label>
+
+      		<br/>
+
+      		<input type = "password"
+      			name = "pwd"
+      			id = "pwd"
+      			class = "pwd"
+      			required/>
+
+      		<br/>
+
+      		<label for = "pwd_conf">
+						<div class="text_box_text"><strong>Confirm Password:</strong></div>
+					</label>
+
+      		<br/>
+
+      		<input type = "password"
+      			id = "pwd_conf"
+      			class = "pwd_conf"
+      			required/>
+					</div>
+      		<br/>
+
+      		<input type = "submit"
+      			id = "submit"
+      			value = "Create Account"
+      			class = "signup_button"/>
+
+      	</form>
+
+	    	<strong>or</strong>
+
+	    	<br/>
+
+	    	<button type="button"
+	    		class="signup_button"
+	    		onclick="location.href='/login.html'">
+	    		Login
+				</button>
+
+				<br/><br/>
+	    </div>
+    </div>
+
+		<!-- Clear float values from first two divs -->
+		<!-- maybe we don't need this if we don't have anything at the bottom of the page -->
+    <div class="clearfloats"></div>
+  </div>
+
+	<script defer>
+		//let email = document.getElementById("email");
+		let pwd = document.getElementById("pwd");
+		let pwd_conf = document.getElementById("pwd_conf");
+
+		/*email_exists =
+		function() {
+			//exists = checkForEmail(email);
+
+			var result;
+			//$.get("/scripts/checkForEmail.py", function(data) { result = data; };
+			alert(result);
+			//$.alert(exists);
+
+			if(exists) {
+				email.setCustomValidity("This email is already registered")
+				return false;
+			}
+			else {
+				email.setCustomValidity("")
+				return true;
+			}
+		};
+
+		checkEmailScript =
+		function(callback) {
+			$.get("/scripts/checkForEmail.py", function(callback);
+		};*/
+
+		form_pwd_validate =
+		function() {
+			if (pwd.value != pwd_conf.value) {
+				pwd_conf.setCustomValidity("The passwords do not match")
+				return false;
+			}
+			else {
+				pwd_conf.setCustomValidity("")
+				return true;
+			}
+		};
+
+		/*
+		validate =
+		function() {
+			validateMail = email_exists();
+			validatePwd = form_pwd_validate();
+
+			if(validateMail === true) {
+				return true;
+			}
+			else {
+				return false;
+			}
+		};
+
+		mail.onchange = email_exists;*/
+		pwd.onchange = form_pwd_validate;
+		pwd_conf.onchange = form_pwd_validate;
+	</script>
+
+</body>
+
+</html>
