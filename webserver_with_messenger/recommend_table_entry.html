@@ -1,14 +1,83 @@
-<tr>
-<td>
-<strong><?entry_mail</strong>
-<br/>
-<form action = "/scripts/catalog.py"
-	method = "POST">
-<input type = "hidden"
-	name = "addition"
-	value = \"""" + str(entry.ID) + """"/>
-<input type = "submit"
-	value = "add"/>
-</form>
-</td>
-</tr>
+<html>
+<head>
+	<title>Users</title>
+	<link href="/css/master.css" type="text/css" rel="stylesheet"/>
+	<style>
+		table td {
+			border: solid black 0.1em;
+		}
+	</style>
+</head>
+
+<body>
+	<img class="logo" src="/css/lionpals logo.png"/>
+
+	<table>
+		<tr>
+			<th>Recommendations</th>
+		</tr>
+
+		<tr>
+			<td>
+				<strong><?entry_mail></strong>
+
+				<br/>
+
+				<form action = "/scripts/catalog.py"
+					method = "POST">
+					<input type = "hidden"
+						name = "addition"
+						value = "<?entry_id>"/>
+
+					<input type = "submit"
+						value = "add"/>
+				</form>
+			</td>
+		</tr>
+	</table>
+
+	<p>There are no recommendations available at this time. Please check back later.</p>
+
+	<hr/>
+
+	<table>
+		<tr>
+			<th>
+				Incoming Requests
+			</th>
+		</tr>
+
+		<tr>
+			<td>
+				<strong><?entry_mail></strong>
+
+				<br/>
+
+				<form action = "/scripts/catalog.py"
+					method = "POST">
+						<input type = "hidden"
+							name = "rejection"
+							value = "<?entry_id>"/>
+						<input type = "submit"
+							value = "reject"/>
+				</form>
+
+				<form action = "/scripts/catalog.py"
+					method = "POST">
+					<input type = "hidden"
+						name = "addition"
+						value = "<?entry_id>"/>
+					<input type = "submit"
+					value = "accept"/>
+			</td>
+		</tr>
+	</table>
+
+	<p>There are no pending requests at this time. Please check back later.</p>
+
+	<hr/>
+
+	<p>Visit the <a href = "/scripts/friends.py">friends page</a> to view added contacts.</p>
+</body>
+
+</html>
