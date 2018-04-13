@@ -23,7 +23,7 @@ for msg in c:
 	messages = messages + "<tr><td>" + msg[0] + "</td>"
 	messages = messages + '<td><a href="javascript:toggledisplay(msg' + str(msg[4]) + ');">' + msg[1] + '</a></td>'
 	messages = messages + "<td>" + msg[2] + "</td></tr>"
-	messages = messages + '<tr id="msg' + str(msg[4]) +'" style="display: none;"><td colspan="3">' + msg[3] + '</td></tr>'
+	messages = messages + '<tr id="msg' + str(msg[4]) +'" style="display: none;"><td colspan="3">' + msg[3] + '<br /><a href="javascript:deletemsg(' + str(msg[4]) + ')">Delete This Message</a></td></tr>'
 	hidescript = hidescript + 'msg' + str(msg[4]) + ' = document.getElementById("msg' + str(msg[4]) +'");\r\n'
 	
 print(open("messenger_private.html", "r").read()
