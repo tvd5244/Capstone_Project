@@ -132,3 +132,1384 @@ source/scripts/messenger_messages.py?source=L6sUh18cxoDlWDhhX1qnXpnXWSAEt2SSoM8p
 source
 /scripts/messenger_messages.py?source=L6sUh18cxoDlWDhhX1qnXpnXWSAEt2SSoM8p75GerSg
 source=L6sUh18cxoDlWDhhX1qnXpnXWSAEt2SSoM8p75GerSg/scripts/messenger_messages.py?source=L6sUh18cxoDlWDhhX1qnXpnXWSAEt2SSoM8p75GerSg
+login complete: session(ID = 9).
+login complete: session(ID = 10).
+login complete: session(ID = 11).
+/scripts/messenger_interface.py?target=1
+/css/lionpals%20logo.png
+login complete: session(ID = 12).
+/css/lionpals%20logo.png
+/scripts/account_details.py
+/scripts/friends.py
+/css/lionpals%20logo.png
+/css/signup.css
+/scripts/messenger_interface.py?target=1
+/scripts/messenger_submit.py?source=L6sUh18cxoDlWDhhX1qnXpnXWSAEt2SSoM8p75GerSg
+/scripts/messenger_messages.py?source=L6sUh18cxoDlWDhhX1qnXpnXWSAEt2SSoM8p75GerSg
+request: /scripts/messenger_messages.py?source=L6sUh18cxoDlWDhhX1qnXpnXWSAEt2SSoM8p75GerSg
+request: /scripts/messenger_messages.py?source=L6sUh18cxoDlWDhhX1qnXpnXWSAEt2SSoM8p75GerSg
+request: /scripts/messenger_messages.py?source=L6sUh18cxoDlWDhhX1qnXpnXWSAEt2SSoM8p75GerSg
+request: /scripts/login.py
+request: /scripts/login.py
+login complete: None.
+request: /css/lionpals%20logo.png
+C:\Users\Other\Documents\GitHub\Capstone_Project\webserver
+C:\Users\Other\Documents\GitHub\Capstone_Project\webserver
+C:\Users\Other\Documents\GitHub\Capstone_Project\webserver
+C:\Users\Other\Documents\GitHub\Capstone_Project\webserver
+request: /scripts/friends.py
+request: /css/lionpals%20logo.png
+login complete: session(ID = 13).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+request: /scripts/friends.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/messenger_interface.py?target=2
+request: /scripts/messenger_submit.py?source=L6sUh18cxoDlWDhhX1qnXpnXWSAEt2SSoM8p75GerSg
+request: /scripts/messenger_messages.py?source=L6sUh18cxoDlWDhhX1qnXpnXWSAEt2SSoM8p75GerSg
+request: /home.html
+request: /friends.html
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/friends.py
+request: /scripts/friends.py
+request: /css/lionpals%20logo.png
+login complete: session(ID = 14).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+request: /scripts/friends.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /signup.html
+request: /css/master.css
+request: /css/images/book.png
+request: /css/images/chatbubble.png
+request: /css/images/students.png
+request: /css/fonts/Serifa-Black.otf
+request: /css/fonts/Avenir-Medium.ttf
+request: /css/images/background.png
+request: /favicon.ico
+request: /login.html
+login complete: session(ID = 15).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+request: /scripts/friends.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/messenger_interface.py?ID1=2&ID2=1
+request: /scripts/messenger_interface.py?ID1=2&ID2=1
+request: /scripts/messenger_interface.py?ID1=2&ID2=1
+request: /scripts/login.py
+login complete: None.
+request: /css/lionpals%20logo.png
+login complete: session(ID = 16).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+request: /scripts/friends.py
+request: /css/lionpals%20logo.png
+request: /css/signup.css
+request: /scripts/messenger_interface.py?ID1=2&ID2=1
+request: /css/lionpals%20logo.png
+request: /scripts/messenger_interface.py?ID1=2&ID2=1
+request: /scripts/messenger_interface.py?ID1=2&ID2=1
+request: /scripts/messenger_interface.py?ID1=2&ID2=1
+request: /css/signup.css
+request: /scripts/messenger_interface.py?ID1=2&ID2=1
+request: /scripts/friends.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/messenger_interface.py?ID=1
+request: /scripts/messenger_interface.py?ID=1
+request: /scripts/messenger_interface.py?ID=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_submit.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_interface.py?ID=1
+request: /css/lionpals%20logo.png
+login complete: session(ID = 17).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+request: /scripts/friends.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/messenger_interface.py?ID=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_submit.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_interface.py?ID=1
+request: /css/lionpals%20logo.png
+login complete: session(ID = 18).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+request: /scripts/friends.py
+request: /css/lionpals%20logo.png
+request: /css/signup.css
+request: /scripts/messenger_interface.py?ID=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_submit.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_interface.py?ID=1
+request: /scripts/messenger_interface.py?ID=1
+request: /css/lionpals%20logo.png
+login complete: session(ID = 19).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+request: /scripts/friends.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/messenger_interface.py?ID=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_submit.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_interface.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /css/lionpals%20logo.png
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_interface.py?ID=1
+request: /css/lionpals%20logo.png
+request: /login.html
+login complete: session(ID = 20).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+request: /scripts/friends.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/messenger_interface.py?ID=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_submit.py?ID1=2&ID2=1
+login complete: session(ID = 21).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+request: /scripts/friends.py
+request: /css/lionpals%20logo.png
+request: /css/signup.css
+request: /scripts/messenger_interface.py?ID=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_submit.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_interface.py?ID=1
+request: /css/lionpals%20logo.png
+login complete: session(ID = 22).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+request: /scripts/friends.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/messenger_interface.py?ID=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_submit.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_interface.py?ID=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /css/lionpals%20logo.png
+login complete: session(ID = 23).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+request: /scripts/friends.py
+request: /css/lionpals%20logo.png
+request: /css/signup.css
+request: /scripts/messenger_interface.py?ID=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_submit.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+request: /scripts/messenger_interface.py?ID=1
+request: /css/lionpals%20logo.png
+login complete: session(ID = 24).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+request: /scripts/friends.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/messenger_interface.py?ID=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+sent: data:None
+
+
+sent: data:hello world
+
+
+sent: data:None
+
+
+sent: data:hello
+
+
+request: /scripts/messenger_submit.py?ID1=2&ID2=1
+sent: data:hi
+
+
+request: /login.html
+request: /css/master.css
+request: /css/images/book.png
+request: /css/images/chatbubble.png
+request: /css/images/students.png
+request: /css/images/background.png
+request: /css/fonts/Avenir-Medium.ttf
+request: /css/fonts/Serifa-Black.otf
+login complete: session(ID = 25).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+request: /scripts/friends.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/messenger_interface.py?ID=2
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+request: /scripts/messenger_submit.py?ID1=1&ID2=2
+an SSE connection has been opened.
+0
+sent: data:None
+
+
+sent: data:hello world
+
+
+sent: data:None
+
+
+sent: data:hello
+
+
+sent: data:None
+
+
+sent: data:hi
+
+
+sent: data:good bye
+
+
+sent: data:good bye
+
+
+sent: data:alright.
+
+
+sent: data:alright.
+
+
+request: /scripts/messenger_interface.py?ID=1
+request: /css/lionpals%20logo.png
+login complete: session(ID = 26).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+request: /scripts/friends.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/messenger_interface.py?ID=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+sent: data:None
+
+
+sent: data:hello world
+
+
+sent: data:None
+
+
+sent: data:hello
+
+
+sent: data:None
+
+
+sent: data:hi
+
+
+sent: data:None
+
+
+sent: data:good bye
+
+
+sent: data:alright.
+
+
+request: /scripts/messenger_submit.py?ID1=2&ID2=1
+sent: data:None
+
+
+sent: data:None
+
+
+request: /scripts/messenger_interface.py?ID=1
+request: /css/lionpals%20logo.png
+login complete: session(ID = 27).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+request: /scripts/friends.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/messenger_interface.py?ID=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+sent: data:None
+
+
+sent: data:hello world
+
+
+sent: data:None
+
+
+sent: data:hello
+
+
+sent: data:None
+
+
+sent: data:hi
+
+
+sent: data:None
+
+
+sent: data:good bye
+
+
+sent: data:alright.
+
+
+sent: data:None
+
+
+request: /scripts/messenger_submit.py?ID1=2&ID2=1
+sent: data:None
+
+
+sent: data:None
+
+
+sent: data:None
+
+
+sent: data:None
+
+
+request: /scripts/messenger_interface.py?ID=1
+request: /css/lionpals%20logo.png
+login complete: session(ID = 28).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+request: /scripts/friends.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/messenger_interface.py?ID=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_submit.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+sent: data:None
+
+
+sent: data:hello world
+
+
+sent: data:None
+
+
+sent: data:hello
+
+
+sent: data:None
+
+
+sent: data:hi
+
+
+sent: data:None
+
+
+sent: data:good bye
+
+
+sent: data:alright.
+
+
+sent: data:None
+
+
+sent: data:None
+
+
+sent: data:None
+
+
+sent: data:hi
+
+
+sent: data:hi
+
+
+sent: data:hi
+
+
+sent: data:hi
+
+
+sent: data:hi
+
+
+sent: data:hi
+
+
+sent: data:cool
+
+
+sent: data:hi
+
+
+sent: data:hi
+
+
+sent: data:1
+
+
+sent: data:1
+
+
+sent: data:1
+
+
+sent: data:1
+
+
+request: /scripts/messenger_interface.py?ID=2
+request: /css/lionpals%20logo.png
+login complete: session(ID = 29).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+request: /scripts/friends.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/messenger_interface.py?ID=1
+request: /scripts/messenger_submit.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+sent: data:None
+
+
+sent: data:hello world
+
+
+sent: data:None
+
+
+sent: data:hello
+
+
+sent: data:None
+
+
+sent: data:hi
+
+
+sent: data:None
+
+
+sent: data:good bye
+
+
+sent: data:alright.
+
+
+sent: data:None
+
+
+sent: data:None
+
+
+sent: data:None
+
+
+sent: data:hi
+
+
+sent: data:hi
+
+
+sent: data:cool
+
+
+sent: data:hi
+
+
+sent: data:1
+
+
+sent: data:1
+
+
+sent: data:2
+
+
+sent: data:None
+
+
+sent: data:None
+
+
+sent: data:None
+
+
+sent: data:None
+
+
+sent: data:hello there
+
+
+sent: data:hello there
+
+
+sent: data:hello there
+
+
+sent: data:hello there
+
+
+sent: data:cool
+
+
+sent: data:cool
+
+
+request: /scripts/messenger_interface.py?ID=1
+request: /css/lionpals%20logo.png
+login complete: session(ID = 30).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+request: /scripts/friends.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/messenger_interface.py?ID=1
+request: /scripts/messenger_submit.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+0
+sent: data:None
+
+
+sent: data:hello world
+
+
+sent: data:None
+
+
+sent: data:hello
+
+
+sent: data:None
+
+
+sent: data:hi
+
+
+sent: data:None
+
+
+sent: data:good bye
+
+
+sent: data:alright.
+
+
+sent: data:None
+
+
+sent: data:None
+
+
+sent: data:None
+
+
+sent: data:hi
+
+
+sent: data:None
+
+
+sent: data:hi
+
+
+sent: data:cool
+
+
+sent: data:hi
+
+
+sent: data:1
+
+
+sent: data:1
+
+
+sent: data:2
+
+
+sent: data:None
+
+
+sent: data:hello there
+
+
+sent: data:cool
+
+
+sent: data:None
+
+
+sent: data:None
+
+
+sent: data:None
+
+
+sent: data:None
+
+
+sent: data:nice
+
+
+sent: data:nice
+
+
+sent: data:nice
+
+
+sent: data:nice
+
+
+sent: data:nice
+
+
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /signup.html
+user signup complete: UserAccountVerifySet.UserAccount(mail = thatguy224455@gmail.com, awaiting_verify = True).
+user signup complete: UserAccountVerifySet.UserAccount(mail = gqj5052@psu.edu, awaiting_verify = True).
+request: /css/lionpals%20logo.png
+request: /css/lionpals%20logo.png
+login complete: session(ID = 1).
+request: /css/lionpals%20logo.png
+login complete: session(ID = 2).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+request: /scripts/friends.py
+request: /css/lionpals%20logo.png
+request: /css/signup.css
+request: /scripts/catalog.py
+request: /css/lionpals%20logo.png
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /css/signup.css
+request: /scripts/account_details.py
+request: /scripts/friends.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/catalog.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /css/lionpals%20logo.png
+request: /css/signup.css
+request: /scripts/friends.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/friends.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/messenger_interface.py?ID=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_submit.py?ID1=2&ID2=1
+request: /scripts/messenger_interface.py?ID=2
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+request: /scripts/messenger_submit.py?ID1=1&ID2=2
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /home.html
+user signup complete: UserAccountVerifySet.UserAccount(mail = gqj5052@psu.edu, awaiting_verify = True).
+request: /css/lionpals%20logo.png
+login complete: session(ID = 1).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+request: /scripts/friends.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/catalog.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /signup.html
+request: /css/master.css
+request: /css/fonts/Serifa-Black.otf
+request: /css/fonts/Avenir-Medium.ttf
+request: /css/images/students.png
+request: /css/images/chatbubble.png
+request: /css/images/book.png
+request: /css/images/background.png
+user signup complete: UserAccountVerifySet.UserAccount(mail = thatguy224455@gmail.com, awaiting_verify = True).
+request: /css/lionpals%20logo.png
+request: /login.html
+login complete: session(ID = 2).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+request: /scripts/catalog.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/friends.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/friends.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/catalog.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/friends.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/friends.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/messenger_interface.py?ID=2
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+an SSE connection has been opened.
+request: /scripts/messenger_submit.py?ID1=1&ID2=2
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+an SSE connection has been opened.
+SSE sent: "data:None
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice
+
+"
+request: /scripts/messenger_interface.py?ID=2
+request: /css/lionpals%20logo.png
+login complete: session(ID = 3).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+request: /scripts/friends.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/messenger_interface.py?ID=2
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+an SSE connection has been opened.
+SSE sent: "data:None
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice
+
+"
+request: /scripts/messenger_submit.py?ID1=1&ID2=2
+SSE sent: "data:None
+
+"
+SSE sent: "data:None
+
+"
+request: /scripts/messenger_interface.py?ID=2
+request: /css/lionpals%20logo.png
+login complete: session(ID = 4).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+request: /scripts/friends.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/messenger_interface.py?ID=2
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+an SSE connection has been opened.
+SSE sent: "data:None
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice
+
+"
+SSE sent: "data:None
+
+"
+request: /scripts/messenger_submit.py?ID1=1&ID2=2
+SSE sent: "data:None
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:lol
+
+"
+SSE sent: "data:lol
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:None
+
+"
+request: /scripts/messenger_interface.py?ID=2
+request: /css/lionpals%20logo.png
+login complete: session(ID = 5).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+request: /scripts/friends.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/messenger_interface.py?ID=2
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+an SSE connection has been opened.
+SSE sent: "data:None
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:lol
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:None
+
+"
+request: /scripts/messenger_submit.py?ID1=1&ID2=2
+SSE sent: "data:1234
+
+"
+SSE sent: "data:1234
+
+"
+request: /scripts/messenger_interface.py?ID=2
+request: /css/lionpals%20logo.png
+login complete: session(ID = 6).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+request: /scripts/friends.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/messenger_interface.py?ID=2
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+an SSE connection has been opened.
+SSE sent: "data:None
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:lol
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:1234
+
+"
+request: /scripts/messenger_submit.py?ID1=1&ID2=2
+request: /scripts/messenger_interface.py?ID=2
+request: /css/lionpals%20logo.png
+login complete: session(ID = 7).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+request: /scripts/friends.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/messenger_interface.py?ID=2
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+an SSE connection has been opened.
+SSE sent: "data:None
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:lol
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:1234
+
+"
+request: /scripts/messenger_submit.py?ID1=1&ID2=2
+request: /scripts/messenger_interface.py?ID=1
+request: /scripts/messenger_submit.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+SSE sent: "data:None
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:lol
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:1234
+
+"

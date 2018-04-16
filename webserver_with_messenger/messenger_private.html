@@ -18,6 +18,12 @@ function toggledisplay(messageid) {
     messageid.style.display = "none";
   }
 }
+function deletemsg(messageid) {
+  if(confirm('Are you sure you want to delete this message?')) {
+    document.getElementById("deletebox").value = messageid;
+    document.getElementById("deleteMessage").submit();
+  }
+}
 </script>
 </head>
 <body>
@@ -39,7 +45,7 @@ function toggledisplay(messageid) {
 			class="button">
 			Account Details
 		</button>
-
+		
 		<button onclick="location.href='/scripts/logout.py'"
 		class="button">
 		Logout
@@ -52,6 +58,14 @@ function toggledisplay(messageid) {
 <!-- This list of messages is passed from messenger.py -->
 <?messages>
 </table>
+	<form action="/scripts/messenger_delete.py"
+		method="post"
+		autocomplete="off"
+		name="deleteMessage"
+		id="deleteMessage"
+		style="display:none;">
+		<input type="text" id="deletebox" name="deletebox" />
+</form>
 <script>
 <?hidescript>
 </script>

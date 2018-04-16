@@ -4,90 +4,52 @@ file_uploads = On
 <html>
 <body>
 
-<form action="upload.php" method="post" enctype="multipart/form-data">
-    Select image to upload:
-    <input type="file" name="fileToUpload" id="fileToUpload">
-    <input type="submit" value="Upload Image" name="submit">
+<form method="post" enctype="multipart/form-data">
+  <div>
+    <label for="image_uploads">Choose images to upload (PNG, JPG)</label>
+    <input type="file" id="image_uploads" name="image_uploads" accept=".jpg, .jpeg, .png" multiple>
+  </div>
+  <div class="preview">
+    <p>No files currently selected for upload</p>
+  </div>
+  <div>
+    <button>Submit</button>
+  </div>
 </form>
 
-</body>
-</html>
+input.addEventListener('change', updateImageDisplay);
 
-<?php
-$target_dir = "uploads/";
-$target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
-$uploadOk = 1;
-$imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
-// Check if image file is a actual image or fake image
-if(isset($_POST["submit"])) {
-    $check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
-    if($check !== false) {
-        echo "File is an image - " . $check["mime"] . ".";
-        $uploadOk = 1;
-    } else {
-        echo "File is not an image.";
-        $uploadOk = 0;
+function updateImageDisplay() {
+  while(preview.firstChild) {
+    preview.removeChild(preview.firstChild);
+  }
+
+  var curFiles = input.files;
+  if(curFiles.length === 0) {
+    var para = document.createElement('p');
+    para.textContent = 'No files currently selected for upload';
+    preview.appendChild(para);
+  } else {
+    var list = document.createElement('ol');
+    preview.appendChild(list);
+    for(var i = 0; i < curFiles.length; i++) {
+      var listItem = document.createElement('li');
+      var para = document.createElement('p');
+      if(validFileType(curFiles[i])) {
+        para.textContent = 'File name ' + curFiles[i].name + ', file size ' + returnFileSize(curFiles[i].size) + '.';
+        var image = document.createElement('img');
+        image.src = window.URL.createObjectURL(curFiles[i]);
+
+        listItem.appendChild(image);
+        listItem.appendChild(para);
+
+      } else {
+        para.textContent = 'File name ' + curFiles[i].name + ': Not a valid file type. Update your selection.';
+        listItem.appendChild(para);
+      }
+
+      list.appendChild(listItem);
     }
+  }
 }
-?>
 
-if (file_exists($target_file)) {
-    echo "Sorry, file already exists.";
-    $uploadOk = 0;
-} 
-
-if ($_FILES["fileToUpload"]["size"] > 500000) {
-    echo "Sorry, your file is too large.";
-    $uploadOk = 0;
-} 
-
-if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg"
-&& $imageFileType != "gif" ) {
-    echo "Sorry, only JPG, JPEG, PNG & GIF files are allowed.";
-    $uploadOk = 0;
-} 
-
-<?php
-$target_dir = "uploads/";
-$target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
-$uploadOk = 1;
-$imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
-// Check if image file is a actual image or fake image
-if(isset($_POST["submit"])) {
-    $check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
-    if($check !== false) {
-        echo "File is an image - " . $check["mime"] . ".";
-        $uploadOk = 1;
-    } else {
-        echo "File is not an image.";
-        $uploadOk = 0;
-    }
-}
-// Check if file already exists
-if (file_exists($target_file)) {
-    echo "Sorry, file already exists.";
-    $uploadOk = 0;
-}
-// Check file size
-if ($_FILES["fileToUpload"]["size"] > 500000) {
-    echo "Sorry, your file is too large.";
-    $uploadOk = 0;
-}
-// Allow certain file formats
-if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg"
-&& $imageFileType != "gif" ) {
-    echo "Sorry, only JPG, JPEG, PNG & GIF files are allowed.";
-    $uploadOk = 0;
-}
-// Check if $uploadOk is set to 0 by an error
-if ($uploadOk == 0) {
-    echo "Sorry, your file was not uploaded.";
-// if everything is ok, try to upload file
-} else {
-    if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
-        echo "The file ". basename( $_FILES["fileToUpload"]["name"]). " has been uploaded.";
-    } else {
-        echo "Sorry, there was an error uploading your file.";
-    }
-}
-?>
