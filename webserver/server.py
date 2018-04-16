@@ -7,6 +7,10 @@ import datetime
 import urllib.parse as parse
 
 
+#from scripts import database
+#from scripts.UserAccountPropertySet import UserAccount 
+import scripts.logs as logs
+
 class Handler(CGIHTTPRequestHandler):
 	cgi_directories = ["/scripts"]
 
@@ -20,19 +24,20 @@ Connection: keep-alive\r\n\
 \r\n
 """).encode("UTF-8"))
 
-		source = parse.parse_qs(parse.urlparse(self.path).query)["source"][0]
-		file = open(source, "r")
+		query = parse.parse_qs(parse.urlparse(self.path).query)
+		source = UserAccount.get_account_by_id(query["source"])
+		destination = UserAccount.get_account_by_id(query["destination"]
+		conn = database.create_conn()
 
 		while not(self.wfile.closed): 
-			self.wfile.write(("data:" + source + "\n\n").encode("UTF-8"))
+			self.wfile.write(("data:" + "hello world" + "\n\n").encode("UTF-8"))
 			self.wfile.flush()
 			time.sleep(1)
 
+		logs.print_line("an SSE connection has been closed.")
 
 	def do_GET(self): 
-		file = open("log.txt", "a")
-		file.write(self.path + "\n")
-		file.close()
+		logs.print_line("request: " + self.path)
 		if self.path.startswith("/scripts/messenger_messages.py"): 
 			self.do_SSE()
 		else: 

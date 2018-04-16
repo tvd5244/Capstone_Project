@@ -132,3 +132,52 @@ source/scripts/messenger_messages.py?source=L6sUh18cxoDlWDhhX1qnXpnXWSAEt2SSoM8p
 source
 /scripts/messenger_messages.py?source=L6sUh18cxoDlWDhhX1qnXpnXWSAEt2SSoM8p75GerSg
 source=L6sUh18cxoDlWDhhX1qnXpnXWSAEt2SSoM8p75GerSg/scripts/messenger_messages.py?source=L6sUh18cxoDlWDhhX1qnXpnXWSAEt2SSoM8p75GerSg
+login complete: session(ID = 9).
+login complete: session(ID = 10).
+login complete: session(ID = 11).
+/scripts/messenger_interface.py?target=1
+/css/lionpals%20logo.png
+login complete: session(ID = 12).
+/css/lionpals%20logo.png
+/scripts/account_details.py
+/scripts/friends.py
+/css/lionpals%20logo.png
+/css/signup.css
+/scripts/messenger_interface.py?target=1
+/scripts/messenger_submit.py?source=L6sUh18cxoDlWDhhX1qnXpnXWSAEt2SSoM8p75GerSg
+/scripts/messenger_messages.py?source=L6sUh18cxoDlWDhhX1qnXpnXWSAEt2SSoM8p75GerSg
+request: /scripts/messenger_messages.py?source=L6sUh18cxoDlWDhhX1qnXpnXWSAEt2SSoM8p75GerSg
+request: /scripts/messenger_messages.py?source=L6sUh18cxoDlWDhhX1qnXpnXWSAEt2SSoM8p75GerSg
+request: /scripts/messenger_messages.py?source=L6sUh18cxoDlWDhhX1qnXpnXWSAEt2SSoM8p75GerSg
+request: /scripts/login.py
+request: /scripts/login.py
+login complete: None.
+request: /css/lionpals%20logo.png
+C:\Users\Other\Documents\GitHub\Capstone_Project\webserver
+C:\Users\Other\Documents\GitHub\Capstone_Project\webserver
+C:\Users\Other\Documents\GitHub\Capstone_Project\webserver
+C:\Users\Other\Documents\GitHub\Capstone_Project\webserver
+request: /scripts/friends.py
+request: /css/lionpals%20logo.png
+login complete: session(ID = 13).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+request: /scripts/friends.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/messenger_interface.py?target=2
+request: /scripts/messenger_submit.py?source=L6sUh18cxoDlWDhhX1qnXpnXWSAEt2SSoM8p75GerSg
+request: /scripts/messenger_messages.py?source=L6sUh18cxoDlWDhhX1qnXpnXWSAEt2SSoM8p75GerSg
+request: /home.html
+request: /friends.html
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/friends.py
+request: /scripts/friends.py
+request: /css/lionpals%20logo.png
+login complete: session(ID = 14).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+request: /scripts/friends.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png

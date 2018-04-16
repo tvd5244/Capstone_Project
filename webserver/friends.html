@@ -1,42 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <link href="css/master.css" rel="stylesheet">
-    <meta charset="UTF-8">
-    <title>LionPals - Friends</title>
+<title>Friends</title>
+<link href="/css/signup.css" type="text/css" rel="stylesheet"/>
+<style>
+
+table td {
+	border: solid black 0.1em;
+}
+
+</style>
 </head>
-
 <body>
-  <div class="topnav">
-      <a class = "active" href="home.html">Home</a>
-      <a class = "active" href="friends.html">Friends</a>
-      <a class = "active" href="messenger.html">Messenger</a>
-      <a class = "active" href="recommendations.html">Recommendations</a>
-      <a class = "navbar_right" href="/scripts/logout.py">Logout</a>
-  		<a class = "navbar_right" href="/scripts/account_details.py">Account</a>
-  </div>
-
-  <table>
-    <tr>
-      <th>Recommendations.</th>
-    </tr>
-
-    <tr>
-      <td>
-        <strong><?entry_mail></strong>
-
-        <br/>
-
-        <form action = "/scripts/catalog.py"
-    	   method = "POST">
-         <input type = "hidden"
-    	    name = "addition"
-    	    value = "<?entry_id>"/>
-         <input type = "submit"
-    	    value = "add"/>
-        </form>
-      </td>
-    </tr>
-  </table>
-</body>
-</html>
+<img class="logo" src="/css/lionpals logo.png"/>
+<table>
+<tr>
+<th>My Friends.</th>
+</tr>
+<?friends_table_entries>
+</table>
+<table>
+<tr>
+<th>My Requests.</th>
+</tr>
+<?pending_requests_table_entries>
+</table>
