@@ -7,7 +7,7 @@ import datetime
 import urllib.parse as parse
 
 
-#from scripts import database
+from scripts import database
 #from scripts.UserAccountPropertySet import UserAccount 
 import scripts.logs as logs
 
@@ -24,13 +24,37 @@ Connection: keep-alive\r\n\
 \r\n
 """).encode("UTF-8"))
 
-		query = parse.parse_qs(parse.urlparse(self.path).query)
-		source = UserAccount.get_account_by_id(query["source"])
-		destination = UserAccount.get_account_by_id(query["destination"]
-		conn = database.create_conn()
+		logs.print_line("an SSE connection has been opened.")
 
+		query = parse.parse_qs(parse.urlparse(self.path).query)
+		ID1 = int(query["ID1"][0])
+		ID2 = int(query["ID2"][0])
+		conn = database.create_conn()
+		conn.execute("""
+create table if not exists Conversations2 (
+	ID Integer primary key autoincrement, 
+	ID1 Integer, 
+	ID2 Integer, 
+	message Text
+)
+"""		)
+		last_ID = 0
+		
 		while not(self.wfile.closed): 
-			self.wfile.write(("data:" + "hello world" + "\n\n").encode("UTF-8"))
+			cursor = conn.cursor()
+			res = cursor.execute("""
+select message, ID 
+from Conversations2 
+where ID > ? 
+and ((ID1 = ? and ID2 = ?) or (ID1 = ? and ID2 = ?)) 
+order by ID asc
+"""			, (last_ID, ID1, ID2, ID2, ID1, ))
+
+			for (message, ID, ) in res: 
+				logs.print_line("SSE sent: \"" + "data:" + str(message) + "\n\n\"")
+				self.wfile.write(("data:" + str(message) + "\n\n").encode("UTF-8"))
+				last_ID = ID
+
 			self.wfile.flush()
 			time.sleep(1)
 

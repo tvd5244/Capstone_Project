@@ -8,7 +8,7 @@ import re
 import time
 import database
 
-TIMEOUT = 60 * 5
+TIMEOUT = 60 * 60 * 2
 
 class Session: 
 	conn = database.create_conn()

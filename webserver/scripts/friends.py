@@ -62,7 +62,7 @@ table td {
 <form action = "/scripts/messenger_interface.py" 
 	method = "GET">
 <input type = "hidden" 
-	name = "target" 
+	name = "ID" 
 	value = \"""" + str(friend.ID) + """"/>
 <input type = "submit" 
 	value = "message"/>
