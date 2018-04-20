@@ -1,55 +1,20 @@
-file_uploads = On 
-
 <!DOCTYPE html>
 <html>
+<head>
+<link class="jsbin" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
+<script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js"></script>
+<script type = "text/javascript" src = "photoupload.js"> </script>
+<meta charset=utf-8 />
+<style>
+  article, aside, figure, footer, header, hgroup, 
+  menu, nav, section { display: block; }
+</style>
+</head>
 <body>
+  <input type='file' onchange="readURL(this);" accept=".jpg, .jpeg, .png"/>
+    <img id="profilep" src="#" alt="your image" />
+</body>
+</html>
 
-<form method="post" enctype="multipart/form-data">
-  <div>
-    <label for="image_uploads">Choose images to upload (PNG, JPG)</label>
-    <input type="file" id="image_uploads" name="image_uploads" accept=".jpg, .jpeg, .png" multiple>
-  </div>
-  <div class="preview">
-    <p>No files currently selected for upload</p>
-  </div>
-  <div>
-    <button>Submit</button>
-  </div>
-</form>
-
-input.addEventListener('change', updateImageDisplay);
-
-function updateImageDisplay() {
-  while(preview.firstChild) {
-    preview.removeChild(preview.firstChild);
-  }
-
-  var curFiles = input.files;
-  if(curFiles.length === 0) {
-    var para = document.createElement('p');
-    para.textContent = 'No files currently selected for upload';
-    preview.appendChild(para);
-  } else {
-    var list = document.createElement('ol');
-    preview.appendChild(list);
-    for(var i = 0; i < curFiles.length; i++) {
-      var listItem = document.createElement('li');
-      var para = document.createElement('p');
-      if(validFileType(curFiles[i])) {
-        para.textContent = 'File name ' + curFiles[i].name + ', file size ' + returnFileSize(curFiles[i].size) + '.';
-        var image = document.createElement('img');
-        image.src = window.URL.createObjectURL(curFiles[i]);
-
-        listItem.appendChild(image);
-        listItem.appendChild(para);
-
-      } else {
-        para.textContent = 'File name ' + curFiles[i].name + ': Not a valid file type. Update your selection.';
-        listItem.appendChild(para);
-      }
-
-      list.appendChild(listItem);
-    }
-  }
-}
 
