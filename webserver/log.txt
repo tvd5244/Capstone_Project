@@ -1513,3 +1513,1602 @@ SSE sent: "data:None
 SSE sent: "data:1234
 
 "
+request: /signup.html
+request: /css/images/chatbubble.png
+request: /css/master.css
+request: /css/images/book.png
+request: /css/images/students.png
+request: /login.html
+request: /css/fonts/Avenir-Medium.ttf
+request: /css/images/background.png
+request: /css/fonts/Serifa-Black.otf
+request: /favicon.ico
+login complete: session(ID = 8).
+request: /css/lionpals%20logo.png
+request: /login.html
+request: /css/master.css
+request: /css/images/chatbubble.png
+request: /css/images/book.png
+request: /css/images/students.png
+request: /css/images/background.png
+request: /css/fonts/Avenir-Medium.ttf
+request: /css/fonts/Serifa-Black.otf
+login complete: session(ID = 9).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+request: /scripts/messenger.html
+request: /scripts/friends.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+request: /scripts/friends.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/messenger_interface.py?ID=1
+request: /scripts/messenger_submit.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+SSE sent: "data:None
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:lol
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:1234
+
+"
+request: /scripts/messenger_interface.py?ID=2
+request: /scripts/messenger_submit.py?ID1=1&ID2=2
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+an SSE connection has been opened.
+SSE sent: "data:None
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:lol
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:1234
+
+"
+SSE sent: "data:hello 
+world 
+how 
+are 
+you
+
+"
+SSE sent: "data:hello 
+world 
+how 
+are 
+you
+
+"
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /friends.html
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+SSE sent: "data:None
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:lol
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:1234
+
+"
+SSE sent: "data:hello \\nworld \\nhow \\nare \\nyou
+
+"
+request: /signup.html
+login complete: session(ID = 10).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+request: /scripts/friends.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+login complete: session(ID = 11).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+request: /scripts/friends.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/messenger_interface.py?ID=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+SSE sent: "data:None
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:lol
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:1234
+
+"
+SSE sent: "data:hello \\nworld \\nhow \\nare \\nyou
+
+"
+request: /scripts/messenger_submit.py?ID1=2&ID2=1
+request: /scripts/messenger_interface.py?ID=2
+request: /scripts/messenger_submit.py?ID1=1&ID2=2
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+an SSE connection has been opened.
+SSE sent: "data:None
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:lol
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:1234
+
+"
+SSE sent: "data:hello \\nworld \\nhow \\nare \\nyou
+
+"
+SSE sent: "data:hello \\nworld \\nhow \\nare \\nyou
+
+"
+SSE sent: "data:hello \\nworld \\nhow \\nare \\nyou
+
+"
+SSE sent: "data:hello \\nworld \\nhow \\nare \\nyou
+
+"
+SSE sent: "data:hello \\nworld\\n
+
+"
+SSE sent: "data:hello \\nworld\\n
+
+"
+SSE sent: "data:hello \\nworld\\n
+
+"
+new message: from = 1, to = 2: hello 
+world
+SSE sent: "data:hello \\nworld
+
+"
+SSE sent: "data:hello \\nworld
+
+"
+new message: from = 1, to = 2: hello
+world
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+an SSE connection has been opened.
+an SSE connection has been opened.
+SSE sent: "data:None
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:lol
+
+"
+SSE sent: "data:lol
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:1234
+
+"
+SSE sent: "data:hello \\nworld \\nhow \\nare \\nyou
+
+"
+SSE sent: "data:hello \\nworld \\nhow \\nare \\nyou
+
+"
+SSE sent: "data:hello \\nworld \\nhow \\nare \\nyou
+
+"
+SSE sent: "data:hello \\nworld\\n
+
+"
+SSE sent: "data:hello \\nworld
+
+"
+SSE sent: "data:hello \\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+new message: from = 1, to = 2: hello
+world
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+request: /scripts/messenger_messages.py?ID1=1&ID2=2
+request: /scripts/messenger_messages.py?ID1=2&ID2=1
+an SSE connection has been opened.
+an SSE connection has been opened.
+SSE sent: "data:None
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:lol
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:1234
+
+"
+SSE sent: "data:1234
+
+"
+SSE sent: "data:hello \\nworld \\nhow \\nare \\nyou
+
+"
+SSE sent: "data:hello \\nworld \\nhow \\nare \\nyou
+
+"
+SSE sent: "data:hello \\nworld\\n
+
+"
+SSE sent: "data:hello \\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+new message: from = 1, to = 2: hello
+world
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+request: /scripts/messenger_interface.py?ID=2
+request: /css/lionpals%20logo.png
+login complete: session(ID = 12).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+request: /scripts/friends.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/messenger_interface.py?ID=2
+request: /scripts/messenger_submit.py?ID1=1&ID2=2
+request: /scripts/messenger_interface.py?ID=1
+request: /css/lionpals%20logo.png
+login complete: session(ID = 13).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+request: /scripts/friends.py
+request: /css/lionpals%20logo.png
+request: /css/signup.css
+request: /scripts/messenger_interface.py?ID=1
+request: /scripts/messenger_submit.py?ID1=2&ID2=1
+new message: from = 1, to = 2: hi
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+request: /scripts/messenger_interface.py?ID=2
+request: /css/lionpals%20logo.png
+login complete: session(ID = 14).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+request: /scripts/friends.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/messenger_interface.py?ID=2
+request: /scripts/messenger_submit.py?ID1=1&ID2=2
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:None
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:lol
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:1234
+
+"
+SSE sent: "data:hello \\nworld \\nhow \\nare \\nyou
+
+"
+SSE sent: "data:hello \\nworld \\nhow \\nare \\nyou
+
+"
+SSE sent: "data:hello \\nworld\\n
+
+"
+SSE sent: "data:hello \\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hi
+
+"
+request: /scripts/messenger_interface.py?ID=1
+request: /css/lionpals%20logo.png
+login complete: session(ID = 15).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+request: /scripts/friends.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/messenger_interface.py?ID=1
+request: /scripts/messenger_submit.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:None
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:lol
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:1234
+
+"
+SSE sent: "data:hello \\nworld \\nhow \\nare \\nyou
+
+"
+SSE sent: "data:hello \\nworld \\nhow \\nare \\nyou
+
+"
+SSE sent: "data:hello \\nworld\\n
+
+"
+SSE sent: "data:hello \\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hi
+
+"
+new message: from = 2, to = 1: hi
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+request: /scripts/messenger_interface.py?ID=2
+request: /css/lionpals%20logo.png
+request: /scripts/messenger_interface.py?ID=1
+request: /css/lionpals%20logo.png
+login complete: session(ID = 16).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+request: /scripts/friends.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/messenger_interface.py?ID=1
+request: /scripts/messenger_submit.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:None
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:lol
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:1234
+
+"
+SSE sent: "data:hello \\nworld \\nhow \\nare \\nyou
+
+"
+SSE sent: "data:hello \\nworld \\nhow \\nare \\nyou
+
+"
+SSE sent: "data:hello \\nworld\\n
+
+"
+SSE sent: "data:hello \\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+login complete: session(ID = 17).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+request: /scripts/friends.py
+request: /css/lionpals%20logo.png
+request: /css/signup.css
+request: /scripts/messenger_interface.py?ID=2
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+request: /scripts/messenger_submit.py?ID1=1&ID2=2
+an SSE connection has been opened.
+SSE sent: "data:None
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:lol
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:1234
+
+"
+SSE sent: "data:hello \\nworld \\nhow \\nare \\nyou
+
+"
+SSE sent: "data:hello \\nworld \\nhow \\nare \\nyou
+
+"
+SSE sent: "data:hello \\nworld\\n
+
+"
+SSE sent: "data:hello \\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+request: /scripts/messenger_interface.py?ID=1
+request: /css/lionpals%20logo.png
+login complete: session(ID = 18).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+request: /scripts/friends.py
+request: /css/lionpals%20logo.png
+request: /css/signup.css
+request: /scripts/messenger_interface.py?ID=1
+request: /scripts/messenger_submit.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:None
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:lol
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:1234
+
+"
+SSE sent: "data:hello \\nworld \\nhow \\nare \\nyou
+
+"
+SSE sent: "data:hello \\nworld \\nhow \\nare \\nyou
+
+"
+SSE sent: "data:hello \\nworld\\n
+
+"
+SSE sent: "data:hello \\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+request: /scripts/messenger_interface.py?ID=1
+request: /css/lionpals%20logo.png
+login complete: session(ID = 19).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+request: /scripts/friends.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/messenger_interface.py?ID=1
+request: /scripts/messenger_submit.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:None
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:lol
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:1234
+
+"
+SSE sent: "data:hello \\nworld \\nhow \\nare \\nyou
+
+"
+SSE sent: "data:hello \\nworld \\nhow \\nare \\nyou
+
+"
+SSE sent: "data:hello \\nworld\\n
+
+"
+SSE sent: "data:hello \\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+request: /scripts/messenger_interface.py?ID=1
+request: /css/lionpals%20logo.png
+login complete: session(ID = 20).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+request: /scripts/friends.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/messenger_interface.py?ID=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:None
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:lol
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:1234
+
+"
+SSE sent: "data:hello \\nworld \\nhow \\nare \\nyou
+
+"
+SSE sent: "data:hello \\nworld \\nhow \\nare \\nyou
+
+"
+SSE sent: "data:hello \\nworld\\n
+
+"
+SSE sent: "data:hello \\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+request: /scripts/messenger_submit.py?ID1=2&ID2=1
+request: /scripts/messenger_interface.py?ID=2
+request: /css/lionpals%20logo.png
+login complete: session(ID = 21).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+request: /scripts/friends.py
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/messenger_interface.py?ID=2
+request: /scripts/messenger_submit.py?ID1=1&ID2=2
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:None
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:lol
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:1234
+
+"
+SSE sent: "data:hello \\nworld \\nhow \\nare \\nyou
+
+"
+SSE sent: "data:hello \\nworld \\nhow \\nare \\nyou
+
+"
+SSE sent: "data:hello \\nworld\\n
+
+"
+SSE sent: "data:hello \\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+request: /scripts/messenger_interface.py?ID=2
+request: /css/lionpals%20logo.png
+Session Cookie: LkrBIbeCs0FO_yGEfRWrOi6vBVkmyEMTyWixV9FQ9Rw
+login complete: session(ID = 23).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+Session: DK1oVTSJfg-vXncz4YvPZD1he-Axpdpt2GsN6yRGwOA
+Session Cookie: DK1oVTSJfg-vXncz4YvPZD1he-Axpdpt2GsN6yRGwOA
+request: /scripts/friends.py
+Session: W02h0o6ETthQHLAPpVyoBCAePN9dfzMNrG4qQML3Qlw
+Session Cookie: W02h0o6ETthQHLAPpVyoBCAePN9dfzMNrG4qQML3Qlw
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/messenger_interface.py?ID=2
+Session: xspSOo8d28fKBq7L2CfB9S3Dnc0sUHlRX2s2q2pZzkU
+Session Cookie: xspSOo8d28fKBq7L2CfB9S3Dnc0sUHlRX2s2q2pZzkU
+request: /scripts/messenger_submit.py?ID1=1&ID2=2
+Session: fpndX5AezeMadmS0gNHqrRgS1GewA2_Lt0Z_V8r8iaY
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+Session Cookie: fpndX5AezeMadmS0gNHqrRgS1GewA2_Lt0Z_V8r8iaY
+SSE sent: "data:None
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:lol
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:1234
+
+"
+SSE sent: "data:hello \\nworld \\nhow \\nare \\nyou
+
+"
+SSE sent: "data:hello \\nworld \\nhow \\nare \\nyou
+
+"
+SSE sent: "data:hello \\nworld\\n
+
+"
+SSE sent: "data:hello \\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+request: /scripts/messenger_interface.py?ID=2
+request: /css/lionpals%20logo.png
+Session Cookie: nO1c2IhZYjiVJm5nr2EcRWCn1dhDMYXhDKIiMlDURNg
+login complete: session(ID = 24).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+Session: mSkrUrdQ7wJHT9YK-iYaAd2mcy_KJzl3-QfmEn_MXUM
+Session Cookie: mSkrUrdQ7wJHT9YK-iYaAd2mcy_KJzl3-QfmEn_MXUM
+request: /scripts/friends.py
+Session: SXK8u-wpa2DDZSQH82DMfWeP_fM_GWve8g334aO1p_o
+Session Cookie: SXK8u-wpa2DDZSQH82DMfWeP_fM_GWve8g334aO1p_o
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/messenger_interface.py?ID=2
+Session: IWxFm96YQb6oAVqu7ul01gqbQaPHRT_DBkhDEyKUa2I
+Session Cookie: IWxFm96YQb6oAVqu7ul01gqbQaPHRT_DBkhDEyKUa2I
+request: /scripts/messenger_submit.py?ID1=1&ID2=2
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:None
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:lol
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:1234
+
+"
+SSE sent: "data:hello \\nworld \\nhow \\nare \\nyou
+
+"
+SSE sent: "data:hello \\nworld \\nhow \\nare \\nyou
+
+"
+SSE sent: "data:hello \\nworld\\n
+
+"
+SSE sent: "data:hello \\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+request: /scripts/messenger_interface.py?ID=2
+Session: SnJT1z-Gl_PdguPmouUvCQp9AekLD72HrUPK3rs7O5E
+Session Cookie: SnJT1z-Gl_PdguPmouUvCQp9AekLD72HrUPK3rs7O5E
+request: /scripts/messenger_submit.py?ID1=1&ID2=2
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:None
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:lol
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:1234
+
+"
+SSE sent: "data:hello \\nworld \\nhow \\nare \\nyou
+
+"
+SSE sent: "data:hello \\nworld \\nhow \\nare \\nyou
+
+"
+SSE sent: "data:hello \\nworld\\n
+
+"
+SSE sent: "data:hello \\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+request: /scripts/messenger_interface.py?ID=1
+request: /css/lionpals%20logo.png
+Session Cookie: -S70AB-Ru1_E5d_pDTDFA7ItkvzPm1f0GFaLEt1NnpE
+login complete: session(ID = 25).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+Session: PFLUSFHtgxBz5S88MFsTLpuwSgZwwIoo9Zt9sKoImNk
+Session Cookie: PFLUSFHtgxBz5S88MFsTLpuwSgZwwIoo9Zt9sKoImNk
+request: /scripts/friends.py
+Session: WvoJHHtFkgqWKd5iajYgooBc0-SZIHDREjQuWDOuZyE
+Session Cookie: WvoJHHtFkgqWKd5iajYgooBc0-SZIHDREjQuWDOuZyE
+request: /css/signup.css
+request: /css/lionpals%20logo.png
+request: /scripts/messenger_interface.py?ID=1
+Session: 3YCoG5OQk-avN0Gjg6jiZxco9PBhOtjQedeMyY_ZQj0
+Session Cookie: 3YCoG5OQk-avN0Gjg6jiZxco9PBhOtjQedeMyY_ZQj0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:None
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:lol
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:1234
+
+"
+SSE sent: "data:hello \\nworld \\nhow \\nare \\nyou
+
+"
+SSE sent: "data:hello \\nworld \\nhow \\nare \\nyou
+
+"
+SSE sent: "data:hello \\nworld\\n
+
+"
+SSE sent: "data:hello \\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+request: /scripts/messenger_submit.py?ID1=2&ID2=1
+request: /scripts/messenger_interface.py?ID=1
+Session: APEO9Me8T2YivthTLS5tyLrUaCw4VpSRK17UARHI1ME
+Session Cookie: APEO9Me8T2YivthTLS5tyLrUaCw4VpSRK17UARHI1ME
+request: /scripts/messenger_submit.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:None
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:lol
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:1234
+
+"
+SSE sent: "data:hello \\nworld \\nhow \\nare \\nyou
+
+"
+SSE sent: "data:hello \\nworld \\nhow \\nare \\nyou
+
+"
+SSE sent: "data:hello \\nworld\\n
+
+"
+SSE sent: "data:hello \\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+new message: from = 2, to = 1: hi there
+SSE sent: "data:hi there
+
+"
+SSE sent: "data:hi there
+
+"
+SSE sent: "data:hi there
+
+"
+SSE sent: "data:hi there
+
+"
+SSE sent: "data:hi there
+
+"
+SSE sent: "data:hi there
+
+"
+SSE sent: "data:hi there
+
+"
+SSE sent: "data:hi there
+
+"
+SSE sent: "data:hi there
+
+"
+SSE sent: "data:hi there
+
+"
+SSE sent: "data:hi there
+
+"
+SSE sent: "data:hi there
+
+"
+SSE sent: "data:hi there
+
+"
+request: /scripts/messenger_interface.py?ID=1
+Session: K5p_aqwgNkbqsrRMeGw0DcsVFKAYQAP_nAIvfIXb7nE
+Session Cookie: K5p_aqwgNkbqsrRMeGw0DcsVFKAYQAP_nAIvfIXb7nE
+request: /scripts/messenger_submit.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:None
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:lol
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:1234
+
+"
+SSE sent: "data:hello \\nworld \\nhow \\nare \\nyou
+
+"
+SSE sent: "data:hello \\nworld \\nhow \\nare \\nyou
+
+"
+SSE sent: "data:hello \\nworld\\n
+
+"
+SSE sent: "data:hello \\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi there
+
+"
+request: /scripts/messenger_interface.py?ID=1
+Session: x-qLQHlBmu3YC79rDywLeitXNha8tc_EL6Pz0bHeOks
+Session Cookie: x-qLQHlBmu3YC79rDywLeitXNha8tc_EL6Pz0bHeOks
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_submit.py?ID1=2&ID2=1
+an SSE connection has been opened.
+SSE sent: "data:None
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:lol
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:None
+
+"
+SSE sent: "data:1234
+
+"
+SSE sent: "data:hello \\nworld \\nhow \\nare \\nyou
+
+"
+SSE sent: "data:hello \\nworld \\nhow \\nare \\nyou
+
+"
+SSE sent: "data:hello \\nworld\\n
+
+"
+SSE sent: "data:hello \\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hello\\nworld
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi there
+
+"
+request: /signal
+user signup complete: UserAccountVerifySet.UserAccount(mail = thatguy22445566@gmail.com, awaiting_verify = True).
+request: /css/lionpals%20logo.png
+Session: OhVK0qCg1RvSMnGoskJKSE2vEYFAFCbExcfTFBd377E
+Session Cookie: OhVK0qCg1RvSMnGoskJKSE2vEYFAFCbExcfTFBd377E
+login complete: None.
+request: /css/lionpals%20logo.png
+Session: KMy4CRCuldZq6lGGiSEbREaFJrqua6eekbk-Ij1B7Xk
+Session Cookie: KMy4CRCuldZq6lGGiSEbREaFJrqua6eekbk-Ij1B7Xk
+login complete: None.
+request: /css/lionpals%20logo.png

@@ -1,5 +1,6 @@
 import cgitb; cgitb.enable()
 import cgi; fields = cgi.FieldStorage()
+import disable_auto_update_session; disable_auto_update_session.disable_auto_update_session()
 from Session import Session
 from UserAccountPropertySet import UserAccount
 import database
@@ -31,6 +32,7 @@ if ID1 is not None and ID2 is not None:
 	message = ""
 
 	if new_message is not None: 
+		logs.print_line("new message: from = " + str(ID1) + ", to = " + str(ID2) + ": " + new_message)
 		conn.execute("""
 insert into Conversations2 
 (ID1, ID2, message) 
