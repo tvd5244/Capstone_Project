@@ -38,7 +38,7 @@ create table if not exists Conversations2 (
 	message Text
 )
 """		)
-		last_ID = 0
+		last_ID = int(query["last_ID"][0]) or -1
 		
 		while not(self.wfile.closed): 
 			cursor = conn.cursor()
@@ -51,8 +51,9 @@ order by ID asc
 """			, (last_ID, ID1, ID2, ID2, ID1, ))
 
 			for (message, ID, ) in res: 
-				logs.print_line("SSE sent: \"" + "data:" + str(message) + "\n\n\"")
-				self.wfile.write(("data:" + str(message) + "\n\n").encode("UTF-8"))
+				response = "data:" + str(message).replace("\r\n", "\n").replace("\n", "\\n").replace("\\", "\\\\") + "\n\n"
+				logs.print_line("SSE sent: \"" + response + "\"")
+				self.wfile.write(response.encode("UTF-8"))
 				last_ID = ID
 
 			self.wfile.flush()

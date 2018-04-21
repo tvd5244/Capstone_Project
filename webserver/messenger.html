@@ -37,22 +37,38 @@ border: solid black 0.1em;
 
 let container = document.getElementById("container");
 let div = document.getElementById("div");
-let conn = new EventSource("/scripts/messenger_messages.py?ID1=<?ID1>&ID2=<?ID2>");
+let conn = {close: () => {}};
+let last_ID = -1;
 
-conn.onmessage =
+let onmessage = 
 function(e) {
 	console.log(e.data);
 
 	
 	let new_div = div.cloneNode(true);
 
-	new_div.innerText = e.data;
+	new_div.innerText = e.data.replace("\\\\", "\\").replace("\\n", "\n");
 	new_div.style.visibility = "visible";
 	container.appendChild(new_div);
 };
 
-conn.onerror = console.log;
-conn.onopen = console.log;
+let onopen = console.log;
+
+let onerror;
+
+onerror = 
+function(e) {
+	console.log(e);
+	
+	conn.close();
+	conn = new EventSource("/scripts/messenger_messages.py?ID1=<?ID1>&ID2=<?ID2>&last_ID=" + last_ID);
+	
+	conn.onmessage = onmessage;
+	conn.onopen = onopen;
+	conn.onerror = onerror;
+};
+
+onerror();
 
 </script>
 
