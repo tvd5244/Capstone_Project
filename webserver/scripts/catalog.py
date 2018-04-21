@@ -38,11 +38,9 @@ table td {
 </style>
 </head>
 <body>
-<img class="logo" src="/css/lionpals logo.png"/>
+<img class="logo" src="/css/images/lionpals logo.png"/>
+<h1>Recommendations</h1>
 <table>
-<tr>
-<th>Recommendations.</th>
-</tr>
 """	)
 
 	recommendations = user.recommend("", 10)
@@ -79,10 +77,8 @@ There are no recommendations available at this time. Please check back later.
 	print("<hr/>")
 
 	print("""
+<h1>Incomming Requests</h1>
 <table>
-<tr>
-<th>Incoming Requests.</th>
-</tr>
 """	)
 
 	requests = user.get_friend_requests_pending()
