@@ -12,6 +12,8 @@ class UserAccount(UserAccountVerifySet.UserAccount):
 create table if not exists UserAccountPropertySet (
 	ID integer primary key, 
 	interests Text, 
+	about_me Text, 
+	classes Text, 
 	program Text, 
 	campus Text, 
 	foreign key (ID) references UserAccountSet (ID)
@@ -54,8 +56,8 @@ where ID = ?
 		if res is None: 
 			self.conn.execute("""
 insert into UserAccountPropertySet 
-values (?, ?, ?, ?)
-"""			, (self.ID, "", "", "", ))
+values (?, ?, ?, ?, ?, ?)
+"""			, (self.ID, "", "", "", "", ""))
 
 
 
@@ -81,6 +83,58 @@ where ID = ?
 		self.conn.execute("""
 update UserAccountPropertySet 
 set interests = ? 
+where ID = ?
+"""		, (text, self.ID, ))
+
+
+	@property
+	def about_me(self): 
+		cursor = self.conn.cursor()
+		res = cursor.execute("""
+select about_me 
+from UserAccountPropertySet 
+where ID = ?
+"""		, (self.ID, )).fetchone()
+
+		cursor.close()
+
+		if res is None: 
+			return None
+
+		return res[0]
+	
+
+	@about_me.setter
+	def about_me(self, text): 
+		self.conn.execute("""
+update UserAccountPropertySet 
+set about_me = ? 
+where ID = ?
+"""		, (text, self.ID, ))
+
+
+	@property
+	def classes(self): 
+		cursor = self.conn.cursor()
+		res = cursor.execute("""
+select classes 
+from UserAccountPropertySet 
+where ID = ?
+"""		, (self.ID, )).fetchone()
+
+		cursor.close()
+
+		if res is None: 
+			return None
+
+		return res[0]
+	
+
+	@classes.setter
+	def classes(self, text): 
+		self.conn.execute("""
+update UserAccountPropertySet 
+set classes = ? 
 where ID = ?
 """		, (text, self.ID, ))
 

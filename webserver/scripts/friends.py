@@ -36,11 +36,9 @@ table td {
 </style>
 </head>
 <body>
-<img class="logo" src="/css/lionpals logo.png"/>
+<img class="logo" src="/css/images/lionpals logo.png"/>
+<h1>My Friends</h1>
 <table>
-<tr>
-<th>My Friends.</th>
-</tr>
 """	)
 
 	friends = user.get_friends()
@@ -62,7 +60,7 @@ table td {
 <form action = "/scripts/messenger_interface.py" 
 	method = "GET">
 <input type = "hidden" 
-	name = "target" 
+	name = "ID" 
 	value = \"""" + str(friend.ID) + """"/>
 <input type = "submit" 
 	value = "message"/>
@@ -85,10 +83,8 @@ No friends at this time.
 	print("<br/>")
 
 	print("""
+<h1>My Outgoing Requests</h1>
 <table>
-<tr>
-<th>My Requests.</th>
-</tr>
 """	)
 
 	requests = user.get_friend_requests()

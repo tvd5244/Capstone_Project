@@ -14,3 +14,22 @@ login complete: session(ID = 8).
 login complete: session(ID = 9).
 login complete: session(ID = 10).
 login complete: session(ID = 11).
+login complete: session(ID = 12).
+login complete: session(ID = 13).
+login complete: session(ID = 14).
+login complete: None.
+login complete: None.
+login complete: None.
+login complete: None.
+login complete: session(ID = 15).
+login complete: session(ID = 16).
+login complete: None.
+login complete: session(ID = 17).
+login complete: None.
+login complete: None.
+login complete: session(ID = 18).
+login complete: None.
+login complete: session(ID = 19).
+login complete: None.
+login complete: session(ID = 20).
+login complete: None.

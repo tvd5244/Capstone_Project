@@ -1,10 +1,11 @@
-import cgitb; cgitb.enable()
 import cgi; fields = cgi.FieldStorage()
 from Session import Session
 from UserAccountPropertySet import UserAccount
 import signal
 import sys
 import time
+
+#This functionality has been moved into "server.py" to avoid the buffering of output.
 
 source = fields.getvalue("source")
 done = False

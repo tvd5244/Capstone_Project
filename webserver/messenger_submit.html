@@ -5,13 +5,16 @@
 	action = "/scripts/messenger_submit.py"
 	method = "POST">
 <input type = "hidden"
-	name = "source"
-	value = "<?source>"/>
+	name = "ID1"
+	value = "<?ID1>"/>
+<input type = "hidden"
+	name = "ID2"
+	value = "<?ID2>"/>
 <input type = "submit"
 	value = "send"/>
 </form>
 <textarea placeholder = "enter a message here."
-	name = "data"
+	name = "message"
 	form = "form"></textarea>
 </body>
 <p><?message></p>

@@ -7,8 +7,10 @@ import os
 import re
 import time
 import database
+import logs
+import disable_auto_update_session
 
-TIMEOUT = 60 * 5
+TIMEOUT = 60 * 60 * 2
 
 class Session: 
 	conn = database.create_conn()
@@ -60,13 +62,15 @@ where secret = ?
 			return None
 
 
-	def update(self):
+	def update(self): 
+		secret = secrets.token_urlsafe()
+		logs.print_line("Session: " + secret)
 		self.conn.execute("""
 update Sessions 
 set secret = ?, 
 time = ?
 where ID = ?
-"""		, (secrets.token_urlsafe(), time.time(), self.ID, ))
+"""		, (secret, time.time(), self.ID, ))
 		self.conn.commit()
 
 
@@ -118,7 +122,9 @@ where ID = ?
 
 
 	def output_headers(self): 
+		logs.print_line("Session Cookie: " + self.secret)
 		html_builder.add_header("Set-Cookie: SESSION=" + self.secret)
+		self.conn.commit()
 
 
 	def get_account_id(self): 
@@ -144,6 +150,6 @@ where ID = ?
 
 session = Session.get_session()
 
-if session is not None: 
+if session is not None and not(disable_auto_update_session.disable_auto_update): 
 	session.update()
 	session.output_headers()
