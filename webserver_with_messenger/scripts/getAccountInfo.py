@@ -12,7 +12,7 @@ from DataAnalysisClassifier import classifier
 
 def getAccountInfo(user):
 
-    r = requests.post('http://www.work.psu.edu/cgi-bin/ldap/ldap_query.cgi', data={'mail': email})
+    r = requests.post('http://www.work.psu.edu/cgi-bin/ldap/ldap_query.cgi', data={'mail': user.mail})
     data = r.text
     soup = bs(data, 'html.parser')
     if ((soup.find(string=re.compile('[0-9]*\smatch(es)?'))[0][0]) == '0'):

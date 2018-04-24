@@ -55,7 +55,7 @@ where ID = ?
 			self.conn.execute("""
 insert into UserAccountPropertySet 
 values (?, ?, ?, ?)
-"""			, (self.ID, "", "", "", ))
+"""			, (self.ID, "", "", ""))
 
 
 
