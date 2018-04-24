@@ -33,3 +33,6 @@ login complete: session(ID = 19).
 login complete: None.
 login complete: session(ID = 20).
 login complete: None.
+login complete: None.
+user signup complete: UserAccountVerifySet.UserAccount(mail = jls6595@psu.edu, awaiting_verify = True).
+login complete: session(ID = 1).

@@ -26,110 +26,129 @@ if session is not None:
 	user.commit()
 
 	print("""
+<!DOCTYPE html>
 <html>
 <head>
-<title>Users</title>
-<link href="/css/signup.css" type="text/css" rel="stylesheet"/>
-<style>
-
-table td {
-	border: solid black 0.1em;
-}
-
-</style>
+	<title>Recommendations</title>
+	<link href="../css/master.css" type="text/css" rel="stylesheet"/>
 </head>
-<body>
-<img class="logo" src="/css/lionpals logo.png"/>
-<table>
-<tr>
-<th>Recommendations.</th>
-</tr>
+
+<body class="grey_bg">
+	<!--<img class="logo" src="/css/lionpals logo.png"/>-->
+
+	<div class="topnav">
+		<a class = "active" href="../home.html">Home</a>
+    	<a class = "active" href="/scripts/friends.py">Friends</a>
+    	<a class = "active" href="../messenger.html">Messenger</a>
+    	<a class = "active" href="/scripts/catalog.py">Recommendations</a>
+    	<a class = "active" href="../about.html">About Us</a>
+    	<a class = "active" href="../support.html">Support</a>
+		<a class = "navbar_right" href="/scripts/logout.py">Logout</a>
+		<a class = "navbar_right" href="/scripts/account_details.py">Account</a>
+  	</div>
+
+  	<div class="container">
+
+  	<div class="separator">hi</div>
+  	<div class="rec_left">
+		<div class="rec_table">
+			<div class="rec_header">
+				Recommendations
+			</div>
 """	)
 
 	recommendations = user.recommend("", 10)
 
 	for entry in user.recommend("", 10):
 		print("""
-<tr>
-<td>
-<strong>""" + entry.mail + """</strong>
-<br/>
-<form action = "/scripts/catalog.py"
-	method = "POST">
-<input type = "hidden"
-	name = "addition"
-	value = \"""" + str(entry.ID) + """"/>
-<input type = "submit"
-	value = "add"/>
-</form>
-</td>
-</tr>
+			<div class="rec_row">
+				<div class="rec_col_left">
+					<strong>""" + entry.mail + """</strong>
+				</div>
+
+				<div class="rec_col_right">
+					<form action = "/scripts/catalog.py"
+						method = "POST">
+						<input type = "hidden"
+							name = "addition"
+							value = \"""" + str(entry.ID) + """"/>
+						<input class="rec_button"
+							type = "submit"
+							value = "Send Request"/>
+					</form>
+				</div>
+			</div>
 """		)
 
 	print("""
-</table>
+		</div>
 """	)
 
 	if len(recommendations) == 0:
 		print("""
-<p>
-There are no recommendations available at this time. Please check back later.
-</p>
+		<p>No recommendations available at this time</p>
 """		)
 
-	print("<hr/>")
+	print("""
+	</div> <!-- ends left column -->
+
+	<div class="separator">hi</div>
+	""")
 
 	print("""
-<table>
-<tr>
-<th>Incoming Requests.</th>
-</tr>
+	<div class="rec_right">
+		<div class="rec_table">
+			<div class="rec_header">
+				Incoming Requests
+			</div>
 """	)
 
 	requests = user.get_friend_requests_pending()
 
 	for entry in requests:
 		print("""
-<tr>
-<td>
-<strong>""" + entry.mail + """</strong>
-<br/>
-<form action = "/scripts/catalog.py"
-	method = "POST">
-<input type = "hidden"
-	name = "rejection"
-	value = \"""" + str(entry.ID) + """"/>
-<input type = "submit"
-	value = "reject"/>
-</form>
-<form action = "/scripts/catalog.py"
-	method = "POST">
-<input type = "hidden"
-	name = "addition"
-	value = \"""" + str(entry.ID) + """"/>
-<input type = "submit"
-	value = "accept"/>
-</td>
-</tr>
+			<div class="req_row">
+				<div class="rec_col_left">
+					<strong>""" + entry.mail + """</strong>
+				</div>
+
+				<div class="rec_col_right">
+
+					<form action = "/scripts/catalog.py"
+						method = "POST">
+						<input type = "hidden"
+						name = "addition"
+						value = \"""" + str(entry.ID) + """"/>
+					<input class="req_button"
+						type = "submit"
+						value = "Accept"/>
+
+					<form action = "/scripts/catalog.py"
+						method = "POST">
+						<input type = "hidden"
+							name = "rejection"
+							value = \"""" + str(entry.ID) + """"/>
+						<input class="req_button"
+							type = "submit"
+							value = "Reject"/>
+					</form>
+				</div>
+			</div>
 """		)
 
 	print("""
-</table>
+		</div>
 """	)
 
 	if len(requests) == 0:
 		print("""
-<p>
-There are no pending requests at this time. Please check back later.
-</p>
+		<p>No pending requests at this time</p>
 """		)
 
 
 	print("""
-<hr/>
-<p>
-Visit the <a href = "/scripts/friends.py">friends page</a> to view added contacts.
-</p>
+	</div> <!-- ends right column -->
+</div> <!-- ends main container -->
 </body>
 </html>
 """	)
