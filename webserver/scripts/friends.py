@@ -58,17 +58,21 @@ if session is not None:
 
 	for friend in user.get_friends():
 		print("""
-				<div class="rec_row>
+				<div class="friends_row>
 					<div class="rec_col_left">
+						<strong>""" + friend.name + """</strong>
 						<strong>""" + friend.mail + """</strong>
+						<strong>""" + friend.campus + """</strong>
+						<strong>""" + friend.academic_program + """</strong>
 					</div>
 					
-					<div class="rec_col_right">
+					<div class="friends_col_right">
 						<form action = "/scripts/messenger_interface.py"
 							method = "GET">
 							<input type = "hidden"
 							name = "target"
-							value = \"""" + str(friend.ID) + """"/>
+							value = \"""" + str(friend.ID) + """\"/>
+
 							<input class="rec_button"
 								type = "submit"
 								value = "Message"/>
@@ -78,8 +82,8 @@ if session is not None:
 							method = "POST">
 							<input type = "hidden"
 								name = "target"
-								value = \"""" + str(friend.ID) + """"/>
-							<br/>
+								value = \"""" + str(friend.ID) + """\"/>
+							
 							<input class="rec_button"
 								type = "submit"
 								value = "Remove"/>
@@ -114,7 +118,7 @@ if session is not None:
 
 	for friend in requests:
 		print("""
-				<div class="rec_row">
+				<div class="req_row">
 					<div class="rec_col_left">
 						<strong>""" + friend.mail + """</strong>
 					</div>
@@ -125,6 +129,7 @@ if session is not None:
 							<input type = "hidden"
 								name = "cancelation"
 								value = \"""" + str(friend.ID) + """"/>
+
 							<input type = "submit"
 								value = "Cancel"/>
 						</form>

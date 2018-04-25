@@ -153,6 +153,20 @@ div.req_row {
 	border: solid 1px black;
 }
 
+div.friends_row {
+	width: 80%;
+	margin-top: 1em;
+	margin-left: 1em;
+	padding: .7em 0em 5.6em 2em;
+	border: solid 1px black;
+}
+
+div.friends_col_right {
+	float: left;
+	margin-left: 6em;
+	padding-top: 1.1em;
+}
+
 div.rec_col_left {
 	float: left;
 }

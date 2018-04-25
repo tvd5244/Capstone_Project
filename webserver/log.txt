@@ -3733,3 +3733,193 @@ user signup complete: UserAccountVerifySet.UserAccount(mail = shauby19@gmail.com
 request: /error_must_login.html
 request: /error_must_login.html
 request: /error_must_login.html
+request: /signup.html
+request: /css/master.css
+request: /css/images/book.png
+request: /css/images/chatbubble.png
+request: /css/images/students.png
+request: /css/fonts/Avenir-Medium.ttf
+request: /css/fonts/Serifa-Black.otf
+request: /css/images/background.png
+request: /signup.html
+request: /css/master.css
+request: /css/images/book.png
+request: /css/images/chatbubble.png
+request: /css/images/students.png
+request: /css/images/background.png
+request: /about.html
+request: /signup.html
+request: /css/master.css
+request: /css/images/students.png
+request: /css/images/chatbubble.png
+request: /css/images/book.png
+request: /css/images/background.png
+request: /promotional%20website/index.html
+request: /signup.html
+request: /css/master.css
+request: /css/images/book.png
+request: /css/images/students.png
+request: /css/images/chatbubble.png
+request: /css/images/background.png
+request: /promotional+website/index.html
+request: /signup.html
+request: /css/master.css
+request: /css/images/book.png
+request: /css/images/students.png
+request: /css/images/chatbubble.png
+request: /css/images/background.png
+request: /promotional_website/index.html
+request: /promotional_website/index.html
+request: /css/master.css
+request: /favicon.ico
+Session Cookie: TSyk5TO3yeWZIuBNkVZj3oc0IgXy_LyUk2V7VwWY8rA
+login complete: session(ID = 22).
+request: /scripts/account_details.py
+Session: sxyZ0SmBvoZfKxY02zYQRRu5Y5GRKe-E_nOZW_3G10I
+Session Cookie: sxyZ0SmBvoZfKxY02zYQRRu5Y5GRKe-E_nOZW_3G10I
+request: /scripts/friends.py
+Session: _qY4uacWJGG291UiFSEKQ8bukdQGD0XDM1wZE8MIkAA
+Session Cookie: _qY4uacWJGG291UiFSEKQ8bukdQGD0XDM1wZE8MIkAA
+request: /scripts/friends.py
+Session: gbqFNLnTJM6JxNY1YyQwY7FwwlXtoSQzuOq50-KKkxg
+Session Cookie: gbqFNLnTJM6JxNY1YyQwY7FwwlXtoSQzuOq50-KKkxg
+request: /scripts/friends.py
+Session: uhXL5yYHykurHa8OomKkvyfT0Ix9qwTbQG5CjGXCrp0
+Session Cookie: uhXL5yYHykurHa8OomKkvyfT0Ix9qwTbQG5CjGXCrp0
+request: /scripts/friends.py
+Session: IiHGnI_HII2R_MvE93baquQfNFQnkLFeqbiH9xlrGAY
+Session Cookie: IiHGnI_HII2R_MvE93baquQfNFQnkLFeqbiH9xlrGAY
+request: /scripts/friends.py
+Session: qB7wf354O50ndPqr7oSaF7JOCciyGJzTIl5UGpB4VBk
+Session Cookie: qB7wf354O50ndPqr7oSaF7JOCciyGJzTIl5UGpB4VBk
+request: /scripts/friends.py
+Session: 9Vt7kYtZhkuiojwZKLkR9oTqo6HQn0yLzoPWu1PQ7JU
+Session Cookie: 9Vt7kYtZhkuiojwZKLkR9oTqo6HQn0yLzoPWu1PQ7JU
+request: /scripts/friends.py
+Session: X3pbwqxMIcsLdFaFzeuXnOqE_Gd5iBK-_ahFwK6FJXU
+Session Cookie: X3pbwqxMIcsLdFaFzeuXnOqE_Gd5iBK-_ahFwK6FJXU
+request: /scripts/friends.py
+Session: eitkgO3HwUfaE1795pTlhgnyrGgS-lJQglAD13iGdK4
+Session Cookie: eitkgO3HwUfaE1795pTlhgnyrGgS-lJQglAD13iGdK4
+request: /css/master.css
+request: /scripts/friends.py
+Session: ZbxsMcf3VG05eoW9zSPU-cU4-tNkOIwtVUJEj9OZ48I
+Session Cookie: ZbxsMcf3VG05eoW9zSPU-cU4-tNkOIwtVUJEj9OZ48I
+request: /css/master.css
+request: /scripts/friends.py
+Session: Qum8f342a_VdY8V7uy6TlECtGMcBSEGPfrnJ1WvX5Xs
+Session Cookie: Qum8f342a_VdY8V7uy6TlECtGMcBSEGPfrnJ1WvX5Xs
+request: /css/master.css
+request: /scripts/friends.py
+Session: 3J39vc6E948hrPS17d71Dhoo8ZDjVysYoKgrYDU-CYA
+Session Cookie: 3J39vc6E948hrPS17d71Dhoo8ZDjVysYoKgrYDU-CYA
+request: /css/master.css
+request: /scripts/friends.py
+Session: 5_Kz4HOEywU5HDTB6QJfZjkJ7gAUAC6vCl8J0kwouZU
+Session Cookie: 5_Kz4HOEywU5HDTB6QJfZjkJ7gAUAC6vCl8J0kwouZU
+request: /css/master.css
+request: /scripts/friends.py
+Session: N3xwZhw1EThN9yVR8HqfNMOfX69wW5Gv_kkKdU_cyBI
+Session Cookie: N3xwZhw1EThN9yVR8HqfNMOfX69wW5Gv_kkKdU_cyBI
+request: /scripts/friends.py
+Session: 08TMwQ3qheupDd3u2VPTihos3rsvG0oiyzkbOpeU7gI
+Session Cookie: 08TMwQ3qheupDd3u2VPTihos3rsvG0oiyzkbOpeU7gI
+request: /scripts/friends.py
+Session: pqdiCmUNloFdgtvH9oTA-FCu7x6XJurAYtJWoOPgCek
+Session Cookie: pqdiCmUNloFdgtvH9oTA-FCu7x6XJurAYtJWoOPgCek
+request: /scripts/friends.py
+Session: o358WKeTiwrvepUwPDJQsEvxw3eJ0PkAVUgd61jrmqE
+Session Cookie: o358WKeTiwrvepUwPDJQsEvxw3eJ0PkAVUgd61jrmqE
+request: /css/master.css
+request: /scripts/friends.py
+Session: kW0_c_9fQmn4eeK0mmX7Q2y2mNJxCGoGzYZY5b8TCUc
+Session Cookie: kW0_c_9fQmn4eeK0mmX7Q2y2mNJxCGoGzYZY5b8TCUc
+request: /css/master.css
+request: /scripts/friends.py
+Session: -lh3f6lhwYVffgY9we6f86JythNnm9u-ULEBgUNbTSI
+Session Cookie: -lh3f6lhwYVffgY9we6f86JythNnm9u-ULEBgUNbTSI
+request: /css/master.css
+request: /scripts/friends.py
+Session: TIW-FO_-KdpfdX9USLNMV08ZHKjOiTTkEcNfKnUekB0
+Session Cookie: TIW-FO_-KdpfdX9USLNMV08ZHKjOiTTkEcNfKnUekB0
+request: /scripts/friends.py
+Session: QJU5hDQ6OVsU4XGWYsdABBwtEiqNy1KeS5GhoAIo7bA
+Session Cookie: QJU5hDQ6OVsU4XGWYsdABBwtEiqNy1KeS5GhoAIo7bA
+request: /css/master.css
+request: /scripts/friends.py
+Session: bbSzo3iNQd-JP7wmi5lV57sFQV_qfUlE1LsQ19lnjo0
+Session Cookie: bbSzo3iNQd-JP7wmi5lV57sFQV_qfUlE1LsQ19lnjo0
+request: /css/master.css
+request: /scripts/friends.py
+Session: DYIvQyRWDV-yZpCDeu84WqN9mStrBF1rxUoSlhkqREQ
+Session Cookie: DYIvQyRWDV-yZpCDeu84WqN9mStrBF1rxUoSlhkqREQ
+request: /css/master.css
+request: /scripts/friends.py
+Session: 6YlztEz3j5oRAKRFWFPYhcYmedNYcUSG1PD5vWIvPgs
+Session Cookie: 6YlztEz3j5oRAKRFWFPYhcYmedNYcUSG1PD5vWIvPgs
+request: /css/master.css
+request: /scripts/friends.py
+Session: cuCWh-cmEIGUUwb_4jkJau9voFn1A0jaSagVBQU9ApA
+Session Cookie: cuCWh-cmEIGUUwb_4jkJau9voFn1A0jaSagVBQU9ApA
+request: /css/master.css
+request: /scripts/friends.py
+Session: SYbnLg2DhRLUiKrUhyYDTT12MBIV8zYglZ8cCQi72AQ
+Session Cookie: SYbnLg2DhRLUiKrUhyYDTT12MBIV8zYglZ8cCQi72AQ
+request: /css/master.css
+request: /scripts/friends.py
+Session: EilCgD5v3Dt3Cq2Dbeq93eVvHZa9NXt2XNVx7rCrbZU
+Session Cookie: EilCgD5v3Dt3Cq2Dbeq93eVvHZa9NXt2XNVx7rCrbZU
+request: /css/master.css
+request: /scripts/friends.py
+Session: VviZIEF_NX6f1x2VYRovCL_k_EF6dsRCq8UGlOPrRaI
+Session Cookie: VviZIEF_NX6f1x2VYRovCL_k_EF6dsRCq8UGlOPrRaI
+request: /css/master.css
+request: /scripts/friends.py
+Session: nl9ywQ8SkFVbC3ZQdWE1m4Ry8QgA2NevSa3l6Nl9d24
+Session Cookie: nl9ywQ8SkFVbC3ZQdWE1m4Ry8QgA2NevSa3l6Nl9d24
+request: /css/master.css
+request: /scripts/friends.py
+Session: 3GByi6Ur5TBei-nYNPeKTqEvpQpE8ccDrXum-iUzffI
+Session Cookie: 3GByi6Ur5TBei-nYNPeKTqEvpQpE8ccDrXum-iUzffI
+request: /css/master.css
+request: /scripts/friends.py
+Session: jd5DrwztMuGA3oUa1EMTzOgnca9Kx8et1-AmD08v8O4
+Session Cookie: jd5DrwztMuGA3oUa1EMTzOgnca9Kx8et1-AmD08v8O4
+request: /css/master.css
+request: /scripts/friends.py
+Session: RZntwlUEr8PLKEVGEruKshAd-Nc5Q8xoR8dvIsxPxds
+Session Cookie: RZntwlUEr8PLKEVGEruKshAd-Nc5Q8xoR8dvIsxPxds
+request: /css/master.css
+request: /scripts/friends.py
+Session: RPWqhexDkdTr0qCZML3ez3HvV6nm45HPsGnxWG28im0
+Session Cookie: RPWqhexDkdTr0qCZML3ez3HvV6nm45HPsGnxWG28im0
+request: /css/master.css
+request: /scripts/friends.py
+Session: XgldA1L5joF6cHeQsoe28yKodua2i8uIHzAFK81zNIE
+Session Cookie: XgldA1L5joF6cHeQsoe28yKodua2i8uIHzAFK81zNIE
+request: /css/master.css
+request: /scripts/friends.py
+Session: bcyvF96qxDR6J3qDZG3X9etuGJw6Fd_IHcCLtYpJUV8
+Session Cookie: bcyvF96qxDR6J3qDZG3X9etuGJw6Fd_IHcCLtYpJUV8
+request: /css/master.css
+request: /scripts/friends.py
+Session: VdtUFiglpHSGorpt764NpnaXnMREzZxf_4ES1WxGRyg
+Session Cookie: VdtUFiglpHSGorpt764NpnaXnMREzZxf_4ES1WxGRyg
+request: /css/master.css
+request: /scripts/friends.py
+Session: j1MzbFVa-CwyNsOFS-Wk1q5PcwDpCPJ4t5sHhKb8gqg
+Session Cookie: j1MzbFVa-CwyNsOFS-Wk1q5PcwDpCPJ4t5sHhKb8gqg
+request: /css/master.css
+request: /scripts/friends.py
+Session: _Ugk7-O-vx84gXemKLqt18SLnGozlZVC9PNF_ZzbFec
+Session Cookie: _Ugk7-O-vx84gXemKLqt18SLnGozlZVC9PNF_ZzbFec
+request: /css/master.css
+request: /scripts/friends.py
+Session: 8R2srbG4e9eaELIeOagsFeaEVW66WjMYPKBfAOcbIN4
+Session Cookie: 8R2srbG4e9eaELIeOagsFeaEVW66WjMYPKBfAOcbIN4
+request: /scripts/friends.py
+Session: XzTzsZugJBCv3Jkt22ZWZqx6tziF9I8Xz7tzNRT4hAY
+Session Cookie: XzTzsZugJBCv3Jkt22ZWZqx6tziF9I8Xz7tzNRT4hAY
+request: /scripts/friends.py
+Session: XL_fxbKlS3QGqsis6tt-zQxUuHZWSoKVxu4L-kqh4OY
+Session Cookie: XL_fxbKlS3QGqsis6tt-zQxUuHZWSoKVxu4L-kqh4OY
