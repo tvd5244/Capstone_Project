@@ -1,0 +1,106 @@
+
+<html>
+<head>
+<title>Friend Finder Project.</title>
+</head>
+<body style = "
+max-width: 70%; 
+margin: auto;">
+<h1>The Friend Finder Capstone Project.</h1>
+<section>
+<a href = "./documentation.html">Documentation</a>.
+</section>
+<article>
+<header>
+<h2>Major Features</h2>
+</header>
+<div style = "
+display: block; 
+background-color: #CCF2FF;
+">
+<table>
+<tr><td><a href = "#account_system">Account System</a></td></tr>
+<tr><td><a href = "#account_details">Account Details</a></td></tr>
+<tr><td><a href = "#friend_recommendations">Friend Recommendations</a></td></tr>
+<tr><td><a href = "#instant_messenger">Instant Messenger</a></td></tr>
+</table>
+</div>
+<br/>
+An individual uses the friend finder service by initially requesting an account corresponding to their Penn State University E-mail address by submitting the form on the sign-up page. After verifying their ownership of the e-mail address by clicking the verification link in the message received at the e-mail address that was provided, the user can navigate to the log-in page to begin using the service. The user should fill out the forms on the account details page to provide the system with information which it can use to match the individual with other users on the recommendations page. The recommendations page provides a list of users which are suspected matches for the active user. The user can choose to send a friend request to any individual in the recommendation queue by selecting the appropriate option for the corresponding entry in the queue. Afterward, the user corresponding the recommendation entry is notfied on their friends page of the pending request. This other user can choose to either accept or dismiss the pending request. Whenever a pending request is dismissed, the request is removed from the user's in-comming requests and the initiator's out-going requests; when a request is accepted, both users will appear on the friend list of the other user. At this point, the system enables the users to communicate through the instant messaging feature by selecting the appropriate action from the entry on the friends page. Additionally, this page provides the user with the option to remove any of the listed friends.
+</article>
+<article id = "account_system">
+<header>
+<h2>Account System</h2>
+</header>
+<section>
+<h3>Signing-up for a User Account.</h3>
+<video style = "width: 100%;" autoplay loop>
+<source src = "./signup.webm" type = "video/webm"/>
+</video>
+The "Friend Finder" service implements a basic account system which allows individuals to register for an account using an email address and a password. These credentials are required to authenticate the user in the log-in webpage whenever the user returns to the site. The service verifies the credientials comparing the salted hash values for the password of the user account corresponding to the unique email address. The user is automatically deauthenticated after the user has not interacted with the page for a while. The active user is determined by installing a cookie in the browser which provides a temporary key for the log-in session.
+</section>
+<section>
+<h3></h3>
+</section>
+<section>
+<h3>Logging-in to a User Account.</h3>
+<video style = "width: 100%;" autoplay loop>
+<source src = "./login.webm" type = "video/webm"/>
+</video>
+A returning user logs-in to a user account using the credentials supplied during the sign-up process. The system verifies that the user account has been verified before granting access to the user account.
+</section>
+</article>
+<hr/>
+<article id = "account_details">
+<header>
+<h2>Account Details.</h2>
+</header>
+<section>
+<h3>Automatic Import of User Account Attributes from the Student Directory.</h3>
+<video style = "width: 100%;" autoplay loop>
+<source src = "./student_directory.webm" type = "video/webm"/>
+</video>
+On sign-up with a valid Penn State University e-mail address, the system imports information from the <a href = "www.psu.edu/directory/">Student Directory</a> which includes student information such as name, program of study, and career path.
+</section>
+<section>
+<h3>Modifying Personal Attributes of the User Account.</h3>
+<video style = "width: 100%;" autoplay loop>
+<source src = "./account_details.webm" type = "video/webm"/>
+</video>
+The "Account Details" webpage stores the personal information which the aritificial intelligence system uses to match the individual with other users in the recommendations webpage. The user can specify various attributes which are used to match other users; these attributes can be changed at any time by navigating to this page and modifying the contents of the text fields and saving the contents. These fields are parsed for comma separated values which feed into a data set for analysis.
+</section>
+</article>
+<hr/>
+<article id = "friend_recommendations">
+<header>
+<h2>Friend Recommendations.</h2>
+</header>
+<section>
+<h3>Adding a Friend.</h3>
+<video style = "width: 100%;" autoplay loop>
+<source src = "friend_recommendations.mp4" type = "video/mp4"/>
+</video>
+The system provides friend recommendations based on the contents of the "interests" text field of the "Account Details" webpage. A friend request is sent by selecting an entry from the recommendations queue, and the corresponding user is notified in their friends page. The other user can interact with the friend request by either accepting or rejecting it. Whenever a friend request is accepted, each user will be able to view eachother in the friends list.
+</section>
+<section>
+<h3>Removing a Friend.</h3>
+<video style = "width: 100%;" autoplay loop>
+<source src = "./friend_remove.webm" type = "video/webm"/>
+</video>
+Whenever a user removes someone from their friend list, the user is simultaneously removed from the other user's friend list. Each user is then reinserted into their respective recommendation queues.
+</section>
+</article>
+<hr/>
+<article id = "instant_messenger">
+<header>
+<h2>Instant Messenger.</h2>
+</header>
+<h3>Sending and Receiving Messages.</h3>
+<video style = "width: 100%;" autoplay loop>
+<source src = "./instant_messenger.webm" type = "video/webm"/>
+</video>
+The system enables users to communicate with their friends through the instant messenger service. This features employs Server-Sent Events to achieve real-time communication between the server and the browser; whenever a new message becomes available, the server triggers an event in the browser to display the message to the user.
+</section>
+</article>
+</body>
+</html>
