@@ -31,6 +31,7 @@ def getAccountInfo(user):
         #    for string in item.stripped_strings:
         #        accountInfo.append(repr(string))
         #accountInfo = list(OrderedDict.fromkeys(accountInfo))
+
         return accountInfo
 
 

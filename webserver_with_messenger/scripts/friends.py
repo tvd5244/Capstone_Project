@@ -27,103 +27,94 @@ if session is not None:
 	print("""
 <html>
 <head>
-<title>Friends</title>
-<link href="/css/signup.css" type="text/css" rel="stylesheet"/>
-<style>
-
-table td {
-	border: solid black 0.1em;
-}
-
-</style>
+	<title>Friends</title>
+	<link href="/css/master.css" type="text/css" rel="stylesheet"/>
 </head>
-<body>
-<img class="logo" src="/css/lionpals logo.png"/>
-<table>
-<tr>
-<th>My Friends.</th>
-</tr>
+<body class="grey_bg">
+
+	<table>
+		<tr>
+			<th>My Friends.</th>
+		</tr>
 """	)
 
 	friends = user.get_friends()
 
 	for friend in user.get_friends():
 		print("""
-<tr>
-<td>
-<strong>""" + friend.mail + """</strong>
-<form action = "/scripts/friends.py"
-	method = "POST">
-<input type = "hidden"
-	name = "target"
-	value = \"""" + str(friend.ID) + """"/>
-<br/>
-<input type = "submit"
-	value = "remove"/>
-</form>
-<form action = "/scripts/messenger_interface.py"
-	method = "GET">
-<input type = "hidden"
-	name = "target"
-	value = \"""" + str(friend.ID) + """"/>
-<input type = "submit"
-	value = "message"/>
-</form>
-</td>
-</tr>
+		<tr>
+			<td>
+				<strong>""" + friend.mail + """</strong>
+				
+				<form action = "/scripts/friends.py"
+					method = "POST">
+					<input type = "hidden"
+						name = "target"
+						value = \"""" + str(friend.ID) + """"/>
+					<br/>
+					<input type = "submit"
+						value = "remove"/>
+				</form>
+
+				<form action = "/scripts/messenger_interface.py"
+					method = "GET">
+					<input type = "hidden"
+					name = "target"
+					value = \"""" + str(friend.ID) + """"/>
+					<input type = "submit"
+						value = "message"/>
+				</form>
+			</td>
+		</tr>
 """		)
 
 	print("""
-</table>
+	</table>
 """	)
 
 	if len(friends) == 0:
 		print("""
-<p>
-No friends at this time.
-</p>
+	<p>No friends at this time</p>
 """		)
 
 	print("<br/>")
 
 	print("""
-<table>
-<tr>
-<th>My Requests.</th>
-</tr>
+	<table>
+		<tr>
+			<th>My Requests.</th>
+		</tr>
 """	)
 
 	requests = user.get_friend_requests()
 
 	for friend in requests:
 		print("""
-<tr>
-<td>
-<strong>""" + friend.mail + """</strong>
-<form action = "/scripts/friends.py"
-	method = "POST">
-<input type = "hidden"
-	name = "cancelation"
-	value = \"""" + str(friend.ID) + """"/>
-<br/>
-<input type = "submit"
-	value = "cancel"/>
-</form>
-</td>
-</tr>
+		<tr>
+			<td>
+				<strong>""" + friend.mail + """</strong>
+				<form action = "/scripts/friends.py"
+					method = "POST">
+					<input type = "hidden"
+						name = "cancelation"
+						value = \"""" + str(friend.ID) + """"/>
+					<br/>
+					<input type = "submit"
+						value = "cancel"/>
+				</form>
+			</td>
+		</tr>
 """		)
 
 	print("""
-</table>
+	</table>
 """	)
 
 	if len(requests) == 0:
 		print("""
-<p>
-Nothing to display.
-<br/>
-Visit the <a href = "/scripts/catalog.py">catalog</a> to add friends.
-</p>
+	<p>Nothing to display</p>
+	<br/>
+	<p>Visit your <a href = "/scripts/catalog.py">Recommendations page</a> to add friends</p>
 """		)
 
 	print("""

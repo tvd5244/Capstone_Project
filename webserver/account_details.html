@@ -5,16 +5,19 @@
 	<link href="/css/master.css" type="text/css" rel="stylesheet"/>
 </head>
 
-<body>
+<body class="grey_bg">
   <!-- NAVBAR -->
   <div class="topnav">
 		<a class = "active" href="home.html">Home</a>
     <a class = "active" href="/scripts/friends.py">Friends</a>
     <a class = "active" href="messenger.html">Messenger</a>
     <a class = "active" href="/scripts/catalog.py">Recommendations</a>
+    <a class = "active" href="about.html">About Us</a>
+    <a class = "active" href="support.html">Support</a>
 		<a class = "navbar_right" href="/scripts/logout.py">Logout</a>
 		<a class = "navbar_right" href="/scripts/account_details.py">Account</a>
   </div>
+
   <div class="account_page">
     <div class="details">
 
@@ -39,7 +42,7 @@
             Email:
           </div>
           <div class="col_right">
-            <?email>
+            <?mail>
           </div>
         </div>
 
@@ -82,7 +85,7 @@
 							name = "about_me"
 							placeholder="Tell other students a little bit about yourself"
 							rows="7"
-              cols="30"><?about_me></textarea>
+              cols="30"></textarea>
 					</form>
         </div>
 
@@ -107,16 +110,14 @@
             id="interests"
 						action="/scripts/account_details.py"
 						method="POST">
-						
-					</form>
-					<textarea type="text" 
-							form = "interests" 
+						<textarea type="text"
 							class="interests"
 							id="interests_textbox"
 							name = "interests"
 							placeholder="Enter your interests"
 							rows="7"
-              cols="30"><?interests></textarea>
+              cols="30"></textarea>
+					</form>
         </div>
 
         <div class="row">
@@ -147,7 +148,7 @@
 							placeholder="Enter classes you have taken"
               value=""
 							rows="7"
-              cols="30"><?classes></textarea>
+              cols="30"></textarea>
 					</form>
         </div>
 
@@ -249,6 +250,7 @@
     pwd_new_conf.onchange = new_pwd_match;
 
   </script>
+
 </body>
 
 </html>

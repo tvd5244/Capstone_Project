@@ -70,6 +70,25 @@ a.navbar_right {
 	/*background-image: url(images/background.png);*/
 }
 
+div.rec_left {
+	float: left;
+	width: 41%;
+	height: 100%;
+}
+
+div.rec_right {
+	float: left;
+	width: 41%;
+	height: 100%;
+}
+
+div.separator {
+	float: left;
+	width: 6%;
+	height: 100%;
+	color: #e3e3e3;
+}
+
 .clearfloats {
 	clear: both;
 }
@@ -114,6 +133,35 @@ div.details_buttons {
 	text-align: center;
 }
 
+div.rec_table {
+
+}
+
+div.rec_row {
+	width: 70%;
+	margin-top: 1em;
+	margin-left: 1em;
+	padding: .7em 1em 2em 3em;
+	border: solid 1px black;
+}
+
+div.req_row {
+	width: 80%;
+	margin-top: 1em;
+	margin-left: 1em;
+	padding: .7em 0em 2em 1.8em;
+	border: solid 1px black;
+}
+
+div.rec_col_left {
+	float: left;
+}
+
+div.rec_col_right {
+	float: left;
+	margin-left: 6em;
+}
+
 input.signup_button, button.signup_button, input.login_button, button.login_button {
 	background-color: #ffec8b; /* light goldenrod 1 */
 	margin-top: 4px;
@@ -126,8 +174,39 @@ input.signup_button, button.signup_button, input.login_button, button.login_butt
 	text-align: center;
 }
 
+input.rec_button {
+	background-color: #ffec8b;
+	padding: 2px;
+	margin-top: 1px;
+	border-radius: 10px;
+	border-style: none;
+	text-align: center;
+	width: 110px;
+	background-color: #3b5998;
+	color: #ffffff;
+	font-weight: 525;
+}
+
+input.req_button {
+	background-color: #ffec8b;
+	padding: 2px;
+	margin-top: 1px;
+	border-radius: 10px;
+	border-style: none;
+	text-align: center;
+	width: 80px;
+	background-color: #3b5998;
+	color: #ffffff;
+	font-weight: 525;
+}
+
 input.signup_button:hover, button.signup_button:hover, input.login_button:hover, button.login_button:hover {
 	background-color: #eedc82;
+}
+
+input.rec_button:hover, input.req_button:hover {
+	background-color: #8b9dc3;
+	color: black;
 }
 
 h1 {
@@ -199,7 +278,7 @@ div.details {
 	margin-left: 10%;
 }
 
-div.details_header {
+div.details_header, div.rec_header {
 	width: 100%;
 	font-size: 24pt;
 	border-bottom: 1px solid black;

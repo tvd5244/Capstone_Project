@@ -3321,3 +3321,415 @@ request: /scripts/account_details.py
 request: /css/lionpals%20logo.png
 request: /scripts/account_details.py
 request: /css/lionpals%20logo.png
+request: /css/master.css
+request: /favicon.ico
+user signup complete: UserAccountVerifySet.UserAccount(mail = jls6595@psu.edu, awaiting_verify = True).
+request: /css/lionpals%20logo.png
+user signup complete: UserAccountVerifySet.UserAccount(mail = kxh5263@psu.edu, awaiting_verify = True).
+request: /css/lionpals%20logo.png
+Session Cookie: Sy47gJB_bujq6UcYDqaiI3cVjZCusmcyD6oq5E-xYu0
+login complete: session(ID = 1).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+Session: 5V_FeGaCplitnvNw6ixnIc-iCxMV1-HL21jSNGK_Lvk
+Session Cookie: 5V_FeGaCplitnvNw6ixnIc-iCxMV1-HL21jSNGK_Lvk
+request: /scripts/logout.py
+Session: Okv6qAeBmwdy2LJLBQrfAYgFeremzULrQ-ppUhaYehQ
+Session Cookie: Okv6qAeBmwdy2LJLBQrfAYgFeremzULrQ-ppUhaYehQ
+request: /css/lionpals%20logo.png
+Session Cookie: fbeKKj_Q7qeQOhKeyjK0EvvBCaSAmbvwOrWAfjoAR6M
+login complete: session(ID = 2).
+request: /css/lionpals%20logo.png
+Session: towLOtB6LCc5V3cGcQWOR2XNSkPNm39j8CrXhCGpwII
+Session Cookie: towLOtB6LCc5V3cGcQWOR2XNSkPNm39j8CrXhCGpwII
+Session Cookie: XFJEUzH0ZqraG2JATh3VKRaIBkG9FgTNiE1H7Q_SHZc
+login complete: session(ID = 3).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+Session: nC1ASDtIF_iu2urOYzOvQenh-_SQTj3J9u6KxCbMAEE
+Session Cookie: nC1ASDtIF_iu2urOYzOvQenh-_SQTj3J9u6KxCbMAEE
+request: /scripts/catalog.py
+Session: i918P6yX6Vqku2PrfzsaruVNaX3LxKGhWKa3oD2u8O0
+Session Cookie: i918P6yX6Vqku2PrfzsaruVNaX3LxKGhWKa3oD2u8O0
+request: /css/signup.css
+request: /css/images/lionpals%20logo.png
+request: /signup.html
+request: /css/master.css
+user signup complete: UserAccountVerifySet.UserAccount(mail = jls6595@psu.edu, awaiting_verify = True).
+request: /css/lionpals%20logo.png
+Session Cookie: FvmSqPYhrwSomCepPjgufq3w4FJkrk8R7KWEcx5gbsY
+login complete: session(ID = 1).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+Session: KbUMWm58sAYEcB3aw7hxdEgUsyDEoce4Ma-guO5Oyuk
+Session Cookie: KbUMWm58sAYEcB3aw7hxdEgUsyDEoce4Ma-guO5Oyuk
+request: /css/master.css
+request: /scripts/catalog.py
+Session: 4WC7h_fheIpw-IrcRKDf_vVbJoP9RdsTb2zsdST9rms
+Session Cookie: 4WC7h_fheIpw-IrcRKDf_vVbJoP9RdsTb2zsdST9rms
+request: /scripts/logout.py
+Session: eeVGbURqtJNx-zQ62O7Q3_ImgLtcQyGR6B1O6jatUBQ
+Session Cookie: eeVGbURqtJNx-zQ62O7Q3_ImgLtcQyGR6B1O6jatUBQ
+request: /css/lionpals%20logo.png
+login complete: None.
+request: /css/lionpals%20logo.png
+request: /css/master.css
+user signup complete: UserAccountVerifySet.UserAccount(mail = kxh5263@psu.edu, awaiting_verify = True).
+request: /css/lionpals%20logo.png
+Session Cookie: eBUoy_nTTIL-sO-FeaoigeB8f5BAS9DmTxO7vK5w9R4
+login complete: session(ID = 2).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+Session: Gg5omD1xfuiB0uOAC1n4iPkris-FN7cZ6TWoqjRAxR0
+Session Cookie: Gg5omD1xfuiB0uOAC1n4iPkris-FN7cZ6TWoqjRAxR0
+request: /scripts/catalog.py
+Session: L7woO_Ck_dCiQs-AMEjmkAHBzWMchheVwFQPRmXvlB8
+Session Cookie: L7woO_Ck_dCiQs-AMEjmkAHBzWMchheVwFQPRmXvlB8
+Session: f1bub6PZuyhu5E_bmbaiG001x8x9Sb2UB9MMzmfQrGY
+Session Cookie: f1bub6PZuyhu5E_bmbaiG001x8x9Sb2UB9MMzmfQrGY
+request: /css/master.css
+request: /scripts/logout.py
+Session: HGYMeMkmheBlgyZcOyagmWB3gFYF7hArkiHUoaYrUSQ
+Session Cookie: HGYMeMkmheBlgyZcOyagmWB3gFYF7hArkiHUoaYrUSQ
+request: /css/lionpals%20logo.png
+Session Cookie: 0L3ojFe9VBUWBEa_slPPtvwXPAhlHsXyIZCdIC3ULzU
+login complete: session(ID = 3).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+Session: x7bDUOcLBcxRgsWaEEKiiZgvXp0wByFqldFvkD3g3xk
+Session Cookie: x7bDUOcLBcxRgsWaEEKiiZgvXp0wByFqldFvkD3g3xk
+request: /scripts/catalog.py
+Session: k5PaDwHxASH1S9Fzg9_8MlFhgwweJO2La_zCGT8HmoA
+Session Cookie: k5PaDwHxASH1S9Fzg9_8MlFhgwweJO2La_zCGT8HmoA
+Session: BukBtq7w_TpSU-atnEOOIPESVX7CIOGzgAKAgG6TIZs
+Session Cookie: BukBtq7w_TpSU-atnEOOIPESVX7CIOGzgAKAgG6TIZs
+request: /scripts/friends.py
+Session: Qv4gymq8T77JlzO8uRm_7GNzSU2a7ezEAKBvg0zvZYg
+Session Cookie: Qv4gymq8T77JlzO8uRm_7GNzSU2a7ezEAKBvg0zvZYg
+request: /scripts/catalog.py
+Session: OD8x_y4J51WEeiTe8fTues4H-T-4m8ZRnYdF577JYt8
+Session Cookie: OD8x_y4J51WEeiTe8fTues4H-T-4m8ZRnYdF577JYt8
+request: /css/master.css
+request: /scripts/catalog.py
+Session: eV9TuqLTbxGbSqEr_SjHmwg0m06PzrXAJqUjxePFnQw
+Session Cookie: eV9TuqLTbxGbSqEr_SjHmwg0m06PzrXAJqUjxePFnQw
+request: /css/master.css
+request: /scripts/catalog.py
+Session: kbfhoxzZ6EWUF7VjEPul8WwdRmjdBjbFZQ_l3YEFqB4
+Session Cookie: kbfhoxzZ6EWUF7VjEPul8WwdRmjdBjbFZQ_l3YEFqB4
+request: /scripts/catalog.py
+Session: M44WbNaUy7U8R1lvdqQ5U1eu5I1xXzFM0Nx-UgkHqx0
+Session Cookie: M44WbNaUy7U8R1lvdqQ5U1eu5I1xXzFM0Nx-UgkHqx0
+request: /scripts/catalog.py
+Session: Fsr7Xy8XiMPAEzB3dcY1xF4Ge4Fs_8d85idhTDM_m8Y
+Session Cookie: Fsr7Xy8XiMPAEzB3dcY1xF4Ge4Fs_8d85idhTDM_m8Y
+request: /scripts/catalog.py
+Session: KKTas9sBeUfmV3SgNDa2v0LxW8fz0lT3W6ey6c-WSIY
+Session Cookie: KKTas9sBeUfmV3SgNDa2v0LxW8fz0lT3W6ey6c-WSIY
+request: /scripts/catalog.py
+Session: x9fJo3AXN4NSU_taRkW4zO-vy9f6asgLrHTmi7H97W4
+Session Cookie: x9fJo3AXN4NSU_taRkW4zO-vy9f6asgLrHTmi7H97W4
+request: /scripts/friends.py
+Session: VqINet5LjVFu6a2G47cfTj4n3WYZTBiG11IcCIQjSlI
+Session Cookie: VqINet5LjVFu6a2G47cfTj4n3WYZTBiG11IcCIQjSlI
+Session: NAGXjmvQE4nraIpiDtMKk-fl9Tux1uMZWC9T9ipxxhA
+Session Cookie: NAGXjmvQE4nraIpiDtMKk-fl9Tux1uMZWC9T9ipxxhA
+request: /scripts/account_details.py
+Session: QrvDxT6W4LHk6maxX1yylf1KnbWw7yJ3N9mQtoGl9ko
+Session Cookie: QrvDxT6W4LHk6maxX1yylf1KnbWw7yJ3N9mQtoGl9ko
+request: /css/master.css
+request: /scripts/logout.py
+Session: tU9hTolirm7bW99saVUtEcbRbsxqutD2CW_NPrSNZiw
+Session Cookie: tU9hTolirm7bW99saVUtEcbRbsxqutD2CW_NPrSNZiw
+request: /css/lionpals%20logo.png
+login complete: None.
+request: /css/lionpals%20logo.png
+Session Cookie: lW_iOTwfSegOB4QATNLzK-7HCiNoS-CGCJeG6HN4NIo
+login complete: session(ID = 4).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+Session: zKyX6o4lebV2PKU-unLUDZ_E-m_HNp8iEiwtN-hfpdA
+Session Cookie: zKyX6o4lebV2PKU-unLUDZ_E-m_HNp8iEiwtN-hfpdA
+request: /scripts/friends.py
+Session: NK1xZfyT0GQftocIIHwGIqoi-GkuuW8puz-aUd0EGNM
+Session Cookie: NK1xZfyT0GQftocIIHwGIqoi-GkuuW8puz-aUd0EGNM
+request: /scripts/catalog.py
+Session: r1YvMVtZg_TSZu30P6RtTvo6LXZsOT9APvOBfVITEiY
+Session Cookie: r1YvMVtZg_TSZu30P6RtTvo6LXZsOT9APvOBfVITEiY
+Session: gzTjDbTXfqtl0MMltNGcliTkQKeyR9H9n6a7Zwe51tE
+Session Cookie: gzTjDbTXfqtl0MMltNGcliTkQKeyR9H9n6a7Zwe51tE
+request: /scripts/account_details.py
+request: /css/master.css
+request: /css/lionpals%20logo.png
+Session Cookie: x5L7CalzJqfBgDt94M8mHKOXAsvLvjBd3LE4dWmNtPQ
+login complete: session(ID = 5).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+Session: 1ivWqA8t_nEFpm49b2gxGnc8I8sbFBqS6XLATHIa7ek
+Session Cookie: 1ivWqA8t_nEFpm49b2gxGnc8I8sbFBqS6XLATHIa7ek
+request: /scripts/catalog.py
+Session: 7RS89aW_l1CMiaJzyCc-jMkCuihaHwwHrwpQH8-3FoY
+Session Cookie: 7RS89aW_l1CMiaJzyCc-jMkCuihaHwwHrwpQH8-3FoY
+Session: VleVqOoYRvFQSielaLss0yYL82XEEL55jCLXj5Tb5jE
+Session Cookie: VleVqOoYRvFQSielaLss0yYL82XEEL55jCLXj5Tb5jE
+request: /scripts/logout.py
+Session: blmj8-o3CD8119nf34KJuJA00zmWQXfUz1qIhA9IWdQ
+Session Cookie: blmj8-o3CD8119nf34KJuJA00zmWQXfUz1qIhA9IWdQ
+request: /css/lionpals%20logo.png
+Session Cookie: LfsQ_UwFzczDQKWLas1EHb9Ot2OIfvulQ-JQbMd6yfg
+login complete: session(ID = 6).
+request: /css/lionpals%20logo.png
+request: /scripts/account_details.py
+Session: -QtCqC4F-zsCsxStzDvnhyAg33qmWqPmxYhybBHJ60w
+Session Cookie: -QtCqC4F-zsCsxStzDvnhyAg33qmWqPmxYhybBHJ60w
+request: /scripts/catalog.py
+Session: 8munT6E0vmRT63B8I-bFkbG0Fep_nnom1NcqPXrSahY
+Session Cookie: 8munT6E0vmRT63B8I-bFkbG0Fep_nnom1NcqPXrSahY
+Session: 7SQ2dYNd9rvKXtDtkuc34Yp3yUX77hqshSHaGDf45Lw
+Session Cookie: 7SQ2dYNd9rvKXtDtkuc34Yp3yUX77hqshSHaGDf45Lw
+request: /scripts/friends.py
+Session: flWAJjX8SnKthxbJEf1LCZ41hy3YUljRgdonKBZ1Xt8
+Session Cookie: flWAJjX8SnKthxbJEf1LCZ41hy3YUljRgdonKBZ1Xt8
+request: /css/master.css
+request: /scripts/friends.py
+Session: qRB4MxmiLN-uYqg2ELkrxmclXrVAfJXPUAPigHtO0SU
+Session Cookie: qRB4MxmiLN-uYqg2ELkrxmclXrVAfJXPUAPigHtO0SU
+request: /scripts/friends.py
+Session: VXXQFDeMKfjiiZN2CEj7YrB2GnbaGZybijt0UlxbB5o
+Session Cookie: VXXQFDeMKfjiiZN2CEj7YrB2GnbaGZybijt0UlxbB5o
+request: /scripts/friends.py
+Session: Tt91GSiGERPv3Pfr0tAPhNWo6hY-4LZzg6e3ylddn4Y
+Session Cookie: Tt91GSiGERPv3Pfr0tAPhNWo6hY-4LZzg6e3ylddn4Y
+request: /messenger.html
+request: /scripts/messenger_submit.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+new message: from = <?ID1>, to = <?ID2>: hey
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /recommendations.html
+request: /scripts/account_details.py
+Session: 8mzsShavpKW8if25K3JcudbStyHoCP0ClDf4scAtHeo
+Session Cookie: 8mzsShavpKW8if25K3JcudbStyHoCP0ClDf4scAtHeo
+request: /scripts/catalog.py
+Session: c-1edypivJpfXPhzYy_CVNH34YUYzuoTiLEKNwD2Dxw
+Session Cookie: c-1edypivJpfXPhzYy_CVNH34YUYzuoTiLEKNwD2Dxw
+request: /scripts/messenger_submit.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/account_details.py
+Session: d7hL31AwZ44XYPFbCdmYD8czjVfi2poPGHe0oyWYZtY
+Session Cookie: d7hL31AwZ44XYPFbCdmYD8czjVfi2poPGHe0oyWYZtY
+request: /scripts/friends.py
+Session: VFE7pID25r-yJvqlUWD3G6MfHV4ymlHwTEEIF_Znnhk
+Session Cookie: VFE7pID25r-yJvqlUWD3G6MfHV4ymlHwTEEIF_Znnhk
+request: /scripts/logout.py
+Session: xSCOgxPKsE3lz-7ItxZhndoZdwvXro0irNFybQgSuDc
+Session Cookie: xSCOgxPKsE3lz-7ItxZhndoZdwvXro0irNFybQgSuDc
+request: /css/lionpals%20logo.png
+login complete: None.
+Session Cookie: ogb0KO-Lzsx1s5t5MhZxXzljfvsUgo6FLAG8kIwzBjQ
+login complete: session(ID = 7).
+request: /scripts/logout.py
+Session: 2xF13aTVj5gc_pVQYnZ2qC3DI3LLtDf_w80DKW_-AGs
+Session Cookie: 2xF13aTVj5gc_pVQYnZ2qC3DI3LLtDf_w80DKW_-AGs
+request: /css/lionpals%20logo.png
+Session Cookie: FlC9YHhwTVpVDTqmWpWVzpLgkwlfwf2vAZGF4ofXaX4
+login complete: session(ID = 8).
+Session: dSAjo-nfimZSTgz00Hoevz6rSRq0_l-mEDzpHxJJA_A
+Session Cookie: dSAjo-nfimZSTgz00Hoevz6rSRq0_l-mEDzpHxJJA_A
+Session Cookie: 2OI3ssOcD1q6oeCHrAQzNaRAAR96B58LnhSm8d_EuxY
+login complete: session(ID = 9).
+Session: 1kvUDE6UcLqdj9MNh9YtlxZH7vnUDYhZ622xIJy-BWU
+Session Cookie: 1kvUDE6UcLqdj9MNh9YtlxZH7vnUDYhZ622xIJy-BWU
+Session Cookie: mvcHaJ1bcFXOp1_oTqc4v0bJU56Qfzpz5FvKrNlk6l4
+login complete: session(ID = 10).
+Session: KhAHUKofHd67wYdoiOWEh-qlwwX5yKhJXKbW3pkxM0U
+Session Cookie: KhAHUKofHd67wYdoiOWEh-qlwwX5yKhJXKbW3pkxM0U
+Session Cookie: GdIa5qVLJxP3buoSkIb8-Ca33Zoxti51s0L4jsHXKoY
+login complete: session(ID = 11).
+request: /scripts/logout.py
+Session: 9RBnPJsGd2NdNG--FbkgowLWt0Qn9yM7sE0ewi6Skxk
+Session Cookie: 9RBnPJsGd2NdNG--FbkgowLWt0Qn9yM7sE0ewi6Skxk
+request: /css/lionpals%20logo.png
+Session Cookie: GAeky8SsXE3j2n29mNxaFZuD0JuRaSi1RxDEmVpj_rk
+login complete: session(ID = 12).
+request: /css/lionpals%20logo.png
+Session Cookie: 596K9nltRB4Njxjqpq3nL5Yp7N3FWnZu28mRK4nIMAI
+login complete: session(ID = 13).
+request: /css/lionpals%20logo.png
+Session Cookie: Ly9V94VMyDRaTdiiv3cvvaunrFzHsNNc46d9J3JL5D8
+login complete: session(ID = 14).
+request: /css/lionpals%20logo.png
+Session Cookie: ebnV4yoBmddVlKiT6Vpik3d74zRFAvvwhF-uBVk-mFM
+login complete: session(ID = 15).
+request: /css/lionpals%20logo.png
+Session Cookie: fub6UEHdCD7G51AGKcVJcbr4F1cQAmgysWSBNsqjgek
+login complete: session(ID = 16).
+request: /css/lionpals%20logo.png
+request: /login.html
+request: /css/master.css
+request: /css/images/book.png
+request: /css/images/chatbubble.png
+request: /css/fonts/Avenir-Medium.ttf
+request: /css/fonts/Serifa-Black.otf
+request: /css/images/students.png
+request: /css/images/background.png
+Session Cookie: Y0X31VWoyoWUSqEVgDbs_lbebfepeRvCvlyT6Ugeum0
+login complete: session(ID = 17).
+request: /css/lionpals%20logo.png
+request: /css/lionpals%20logo.png
+Session Cookie: cxHa5Cpqbwpehj_b_-0tD5Y8kBOyxLxjXFxR8yGpfnc
+login complete: session(ID = 18).
+request: /css/lionpals%20logo.png
+Session Cookie: 4eGPDnzRTccVtqyLAi5PVlmgfk4HkdO83ryzrn8_4yY
+login complete: session(ID = 19).
+request: /css/lionpals%20logo.png
+request: /scripts/logout.py
+request: /scripts/account_details.py
+request: /css/lionpals%20logo.png
+Session Cookie: i7BQQ0r329kIJR98Sr53mzonFpHBgPdndxpQKZrN8qQ
+login complete: session(ID = 20).
+Session: N0fcO0PtR_1sWwm_gRnG7qNCvq7IZBjRCWMqiLe4PbA
+Session Cookie: N0fcO0PtR_1sWwm_gRnG7qNCvq7IZBjRCWMqiLe4PbA
+Session Cookie: rDFlMvC0-YLRl9Db-_9YAuxPGr2kKCj9uTt6RJMiUFs
+login complete: session(ID = 21).
+request: /scripts/account_details.py
+Session: earFSw3Lh4JXULLB-24NQ45nurmob1JumWpAIMgP-tw
+Session Cookie: earFSw3Lh4JXULLB-24NQ45nurmob1JumWpAIMgP-tw
+request: /scripts/logout.py
+Session: 1etRiSKREAvs9oDwTkGu94lo8xRpk4Pds_7JSkeUVG0
+Session Cookie: 1etRiSKREAvs9oDwTkGu94lo8xRpk4Pds_7JSkeUVG0
+request: /signup.html
+user signup complete: UserAccountVerifySet.UserAccount(mail = shauby19@gmail.com, awaiting_verify = True).
+request: /error_must_login.html
+request: /error_must_login.html
+request: /error_must_login.html

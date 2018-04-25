@@ -17,7 +17,7 @@ try:
 	user.commit()
 
 	status = "0"
-	message = "<?mail> has been verified successfully"
+	message = "<?mail> has been verified successfully, redirecting you to Account Details"
 	print(open("signup_verify_result.html", "r").read()
 		.replace("<?script>", script)
 		.replace("<?status>", status)

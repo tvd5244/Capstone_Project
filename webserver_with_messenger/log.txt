@@ -36,3 +36,17 @@ login complete: None.
 login complete: None.
 user signup complete: UserAccountVerifySet.UserAccount(mail = jls6595@psu.edu, awaiting_verify = True).
 login complete: session(ID = 1).
+login complete: session(ID = 2).
+login complete: session(ID = 3).
+login complete: session(ID = 4).
+login complete: session(ID = 5).
+login complete: session(ID = 6).
+login complete: session(ID = 7).
+login complete: None.
+user signup complete: UserAccountVerifySet.UserAccount(mail = kxh5263@psu.edu, awaiting_verify = True).
+login complete: session(ID = 8).
+login complete: session(ID = 9).
+login complete: session(ID = 10).
+login complete: session(ID = 11).
+login complete: session(ID = 12).
+login complete: session(ID = 13).

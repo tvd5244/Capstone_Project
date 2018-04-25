@@ -15,7 +15,7 @@ html_builder.begin_output()
 if session is not None: 
 
 	status = "0"
-	message = "Login successful"
+	message = "Login successful, redirecting you to Account Details"
 	print(open("login_result.html", "r").read()
 		.replace("<?script>", script)
 		.replace("<?status>", status)
@@ -24,7 +24,7 @@ if session is not None:
 else: 
 	status = "-1"
 	message = "An error occurred while logging in"
-	print(open("login_result.html", "r").read()
+	print(open("login.html", "r").read()
 		.replace("<?script>", script)
 		.replace("<?status>", status)
 		.replace("<?message>", message))
