@@ -20,7 +20,7 @@ if session is not None:
 	# This next section and two loops split the name and campus strings, capitalizes only
 	# the first letter of each word, and reconstructs the original string
 	name = accountInfo[0].split(' ')
-	campus = accountInfo[2].split(',')[0].split(' ')
+	campus = user.campus.split(',')[0].split(' ')
 	string = ""
 
 	for words in name:
@@ -41,9 +41,11 @@ if session is not None:
 	print(open("account_details.html").read()
 		.replace("<?name>", name or "unknown")
 		.replace("<?mail>", user.mail or "unknown")
-		.replace("<?academic_program>", user.academic_program or "unknown")
-		.replace("<?interests>", user.interests or "none")
 		.replace("<?campus>", campus or "unknown")
+		.replace("<?academic_program>", user.academic_program or "unknown")
+		.replace("<?about_me>", user.about_me or "")
+		.replace("<?interests>", user.interests or "")
+		.replace("<?classes>", user.classes or "")
 		.replace("<?message>", message))
 
 else: 

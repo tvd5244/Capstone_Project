@@ -3923,3 +3923,123 @@ Session Cookie: XzTzsZugJBCv3Jkt22ZWZqx6tziF9I8Xz7tzNRT4hAY
 request: /scripts/friends.py
 Session: XL_fxbKlS3QGqsis6tt-zQxUuHZWSoKVxu4L-kqh4OY
 Session Cookie: XL_fxbKlS3QGqsis6tt-zQxUuHZWSoKVxu4L-kqh4OY
+request: /css/master.css
+request: /favicon.ico
+Session Cookie: zewOGihHDckPmEg-RXgRSrv1S5x7IfvpazGHFzZpuPU
+login complete: session(ID = 23).
+request: /scripts/account_details.py
+Session: WjyB5tbfR8ufQfPHbmwk2HL8xqaD8bX-ZNs-4F8P3Mo
+Session Cookie: WjyB5tbfR8ufQfPHbmwk2HL8xqaD8bX-ZNs-4F8P3Mo
+request: /scripts/friends.py
+Session: BAO1I7Y6R-JqGrvOAUl5neoMrzSmkiQU-IQMxNi2a5c
+Session Cookie: BAO1I7Y6R-JqGrvOAUl5neoMrzSmkiQU-IQMxNi2a5c
+request: /scripts/friends.py
+Session: 6bH8C8elyicvIWPWvZXNbi2vZPqa8sdCeYTf3vwYgOc
+Session Cookie: 6bH8C8elyicvIWPWvZXNbi2vZPqa8sdCeYTf3vwYgOc
+request: /scripts/friends.py
+Session: YbjPF-Ay7WtE55rZKS2DQDKOSdG45f_8gkw6NKBX14o
+Session Cookie: YbjPF-Ay7WtE55rZKS2DQDKOSdG45f_8gkw6NKBX14o
+request: /scripts/catalog.py
+Session: Rj_r9OuVR88kNMid-xOAxueeRRaqT2g__lDDwDotV3Q
+Session Cookie: Rj_r9OuVR88kNMid-xOAxueeRRaqT2g__lDDwDotV3Q
+Session: 77hgrJ96NGHXZHsbDK6ijDa2aLO2nZ0Chi0chtVXRYA
+Session Cookie: 77hgrJ96NGHXZHsbDK6ijDa2aLO2nZ0Chi0chtVXRYA
+request: /scripts/account_details.py
+Session: oxscxzye904Lw2Yfd5Ev8AFQP0Z4U5bo7UnD9zsXYPE
+Session Cookie: oxscxzye904Lw2Yfd5Ev8AFQP0Z4U5bo7UnD9zsXYPE
+request: /scripts/account_details.py
+Session: TcFn8a4wTXUF46SWEOVUjRpuzVmEIqRbblIsAInyM_Y
+Session Cookie: TcFn8a4wTXUF46SWEOVUjRpuzVmEIqRbblIsAInyM_Y
+request: /css/master.css
+request: /scripts/home.html
+request: /scripts/logout.py
+Session: v9DEA3U7vwnIdqP0j-3k_6q1JLmO3ftDN_nOkaYASxg
+Session Cookie: v9DEA3U7vwnIdqP0j-3k_6q1JLmO3ftDN_nOkaYASxg
+Session Cookie: MvIhN0eGkkUi0azbVA_m0g3INknuVN0lCdB-UvAcTFg
+login complete: session(ID = 24).
+request: /scripts/account_details.py
+Session: Wb0aQb_Y3mdarxL_OCc3PlKt0aZwAbcbLNy6BkZlIdk
+Session Cookie: Wb0aQb_Y3mdarxL_OCc3PlKt0aZwAbcbLNy6BkZlIdk
+request: /signup.html
+request: /css/master.css
+request: /css/images/book.png
+request: /css/fonts/Avenir-Medium.ttf
+request: /css/fonts/Serifa-Black.otf
+request: /css/images/chatbubble.png
+request: /css/images/students.png
+request: /css/images/background.png
+request: /favicon.ico
+request: /login.html
+Session Cookie: X1nte2DQi9n_ZotPGOOQEy7UJl_UdXRTMoP_N5BO3yw
+login complete: session(ID = 25).
+request: /scripts/account_details.py
+Session: kh8PiNDvfmJR-ij9lL-gTi8OdyoES7X6p5iiRW6vRGM
+Session Cookie: kh8PiNDvfmJR-ij9lL-gTi8OdyoES7X6p5iiRW6vRGM
+request: /scripts/account_details.py
+Session: UhjZr6kdVeAn1WOgbGsbiW9BNq9ybac38LeOZNDrGmo
+Session Cookie: UhjZr6kdVeAn1WOgbGsbiW9BNq9ybac38LeOZNDrGmo
+request: /scripts/logout.py
+Session: pPzzfbF35YFeJvHm4N78u61PG4JJHK07SZIPmOkQ3zs
+Session Cookie: pPzzfbF35YFeJvHm4N78u61PG4JJHK07SZIPmOkQ3zs
+Session Cookie: oPIS0pG6cpaEdXFjm7EPB-TSIa4rcWDJm-_PStLycww
+login complete: session(ID = 26).
+request: /scripts/account_details.py
+Session: kGOEOjF9UJ1yHN3KKvnNki_k_8Afi7cJRM1L60SuqyM
+Session Cookie: kGOEOjF9UJ1yHN3KKvnNki_k_8Afi7cJRM1L60SuqyM
+request: /scripts/account_details.py
+Session: T-MAgZ1S_S3mX7CJj9l83sZY5Iq9hN3lqlMpabKOzMk
+Session Cookie: T-MAgZ1S_S3mX7CJj9l83sZY5Iq9hN3lqlMpabKOzMk
+request: /scripts/account_details.py
+Session: b-QNYe40gqQi9ymmng7HyzMhl3VKX3-eSnXXaWbi0GQ
+Session Cookie: b-QNYe40gqQi9ymmng7HyzMhl3VKX3-eSnXXaWbi0GQ
+Session: ZKmjfzbvNsZjENNvNvFu8OxSqc9UZOFEE-8A7h-Vie0
+Session Cookie: ZKmjfzbvNsZjENNvNvFu8OxSqc9UZOFEE-8A7h-Vie0
+request: /scripts/account_details.py
+Session: 8ecUjPn7RryTMNCx_bE25xvFXDcfNToh6hlph82BeqM
+Session Cookie: 8ecUjPn7RryTMNCx_bE25xvFXDcfNToh6hlph82BeqM
+Session: D_kcgjfD_R49GC97fVcglVE9uMZlxaMx6vrTzR5Lct4
+Session Cookie: D_kcgjfD_R49GC97fVcglVE9uMZlxaMx6vrTzR5Lct4
+request: /scripts/account_details.py
+Session: b7ZfERLhIvsl5m9LOHoqqxZ1M5W1BrglHnO6hhN6ebU
+Session Cookie: b7ZfERLhIvsl5m9LOHoqqxZ1M5W1BrglHnO6hhN6ebU
+request: /scripts/account_details.py
+Session: t_FK-pEr52fv9hPwn8upYczIsEaJpBVIurvowmAyEA8
+Session Cookie: t_FK-pEr52fv9hPwn8upYczIsEaJpBVIurvowmAyEA8
+request: /scripts/logout.py
+user signup complete: UserAccountVerifySet.UserAccount(mail = jls6595@psu.edu, awaiting_verify = True).
+Session Cookie: w8kfMpn3NXX2uhGp-H4G6yH0pJ-ljAJr776Tb0aBsqo
+login complete: session(ID = 1).
+request: /scripts/account_details.py
+Session: REHwigwP0SqtEkEV2nLswbQbovw20TrpGYQbVYzJjzE
+Session Cookie: REHwigwP0SqtEkEV2nLswbQbovw20TrpGYQbVYzJjzE
+request: /scripts/account_details.py
+Session: q02OFqoCphFmSeaxsMSfIrbP3cpm0QFeh02_vSBOWGU
+Session Cookie: q02OFqoCphFmSeaxsMSfIrbP3cpm0QFeh02_vSBOWGU
+request: /scripts/logout.py
+Session: GPfN88sLQCsxZEHC1R2L-9xyNz4_fF9L1PQ62WS0sTQ
+Session Cookie: GPfN88sLQCsxZEHC1R2L-9xyNz4_fF9L1PQ62WS0sTQ
+user signup complete: UserAccountVerifySet.UserAccount(mail = jls6595@psu.edu, awaiting_verify = True).
+Session Cookie: fwHzKRwM3eN-b-Kwprs7U1TIeoDfCpJgUFtiGpHW_gE
+login complete: session(ID = 1).
+request: /scripts/account_details.py
+Session: qzhdw-pTv_zaXtrbH64zS3dn7Sskd0TgyWPVfmF0CNI
+Session Cookie: qzhdw-pTv_zaXtrbH64zS3dn7Sskd0TgyWPVfmF0CNI
+Session: xJCe4mYPMol_Y1bzorO9MDrVWCfr2l-mQNSEdBQTHXE
+Session Cookie: xJCe4mYPMol_Y1bzorO9MDrVWCfr2l-mQNSEdBQTHXE
+request: /scripts/account_details.py
+Session: wSRgGESo8Y2-QM6v4KKphbcUgHt8dUo1QPsQ-fY7CO0
+Session Cookie: wSRgGESo8Y2-QM6v4KKphbcUgHt8dUo1QPsQ-fY7CO0
+Session: by_TldTk8Sr5dv_LR9nv0c37lBTWmhk966ktxOmJqa4
+Session Cookie: by_TldTk8Sr5dv_LR9nv0c37lBTWmhk966ktxOmJqa4
+request: /scripts/account_details.py
+Session: 35MjwQZZxJ6i9WhoqBfL3XoCrnnJKxdJYDob3rBKgWE
+Session Cookie: 35MjwQZZxJ6i9WhoqBfL3XoCrnnJKxdJYDob3rBKgWE
+request: /scripts/catalog.py
+Session: DbqOXJogLwjv235Tz49YtdvJupcZCDMLNMNAuD3fq2I
+Session Cookie: DbqOXJogLwjv235Tz49YtdvJupcZCDMLNMNAuD3fq2I
+request: /scripts/friends.py
+Session: Y1f7OlOEhOUcWrwkktzlcPDO0zx2FsedacgLb5ekjjE
+Session Cookie: Y1f7OlOEhOUcWrwkktzlcPDO0zx2FsedacgLb5ekjjE
+request: /scripts/friends.py
+Session: wQuIArb5p9NZoGWW2vCVrclJD4d6TBK_ghkJ5K7IdVk
+Session Cookie: wQuIArb5p9NZoGWW2vCVrclJD4d6TBK_ghkJ5K7IdVk
