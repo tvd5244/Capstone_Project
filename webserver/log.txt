@@ -3923,3 +3923,19 @@ Session Cookie: XzTzsZugJBCv3Jkt22ZWZqx6tziF9I8Xz7tzNRT4hAY
 request: /scripts/friends.py
 Session: XL_fxbKlS3QGqsis6tt-zQxUuHZWSoKVxu4L-kqh4OY
 Session Cookie: XL_fxbKlS3QGqsis6tt-zQxUuHZWSoKVxu4L-kqh4OY
+request: /signup.html
+request: /css/master.css
+request: /css/images/book.png
+request: /css/fonts/Avenir-Medium.ttf
+request: /css/images/background.png
+request: /css/fonts/Serifa-Black.otf
+request: /css/images/chatbubble.png
+request: /css/images/students.png
+request: /favicon.ico
+user signup complete: UserAccountVerifySet.UserAccount(mail = thatguy224455@gmail.com, awaiting_verify = True).
+request: /login.html
+Session Cookie: 83AEpq4lSzCHO77c9ivurcEFUXjUWuGWZqIvGBeWHFA
+login complete: session(ID = 23).
+request: /scripts/account_details.py
+Session: U5wdmYZgsYTUs10GKJ-tZynVfT2N9uUo80bAglym8YE
+Session Cookie: U5wdmYZgsYTUs10GKJ-tZynVfT2N9uUo80bAglym8YE
