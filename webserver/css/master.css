@@ -298,6 +298,19 @@ div.details_header, div.rec_header {
 	border-bottom: 1px solid black;
 }
 
+div.message_header {
+	width: 40%;
+	font-size: 24pt;
+	border-bottom: 1px solid black;
+	margin-top: .5em;
+	margin-left: 1em;
+}
+
+iframe.message_container {
+	border: solid black 0.1em;
+	margin-left: 3em;
+}
+
 div.table {
 	margin-top: .5em;
 	font-size: 16pt;
