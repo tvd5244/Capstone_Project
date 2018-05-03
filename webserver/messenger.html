@@ -1,10 +1,16 @@
 <html>
 <head>
+	<style>
+	
+	.message {
+		border: solid black 0.1em;
+	}
+
+	</style>
 	<link href="/css/master.css" type="text/css" rel="stylesheet">
 	<meta charset="UTF-8">
 	<title>Messenger</title>
 </head>
-
 <body>
 	<div class="topnav">
 		<a class = "active" href="/home.html">Home</a>
@@ -42,10 +48,11 @@
 
 		let onmessage = 
 		function(e) {
-			console.log(e.data);
+			console.log("message received: \"" + e.data + "\"");
+			last_ID = Math.max(parseInt(e.lastEventId), last_ID);
 
 			let new_div = div.cloneNode(true);
-
+			
 			new_div.innerText = e.data.replace("\\\\", "\\").replace("\\n", "\n");
 			new_div.style.visibility = "visible";
 			container.appendChild(new_div);
@@ -59,8 +66,12 @@
 		function(e) {
 			console.log(e);
 			
+
+			let new_url = "/scripts/messenger_messages.py?ID1=<?ID1>&ID2=<?ID2>&last_ID=" + last_ID;
+			
+			console.log("new URL = \"" + new_url + "\"");
 			conn.close();
-			conn = new EventSource("/scripts/messenger_messages.py?ID1=<?ID1>&ID2=<?ID2>&last_ID=" + last_ID);
+			conn = new EventSource(new_url);
 			
 			conn.onmessage = onmessage;
 			conn.onopen = onopen;

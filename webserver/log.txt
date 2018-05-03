@@ -1,0 +1,6905 @@
+request: /signup.html
+request: /css/master.css
+request: /css/images/book.png
+request: /css/images/students.png
+request: /css/fonts/Serifa-Black.otf
+request: /css/fonts/Avenir-Medium.ttf
+request: /css/images/chatbubble.png
+request: /css/images/background.png
+user signup complete: UserAccountVerifySet.UserAccount(mail = thatguy224455@gmail.com, awaiting_verify = True).
+login complete: None.
+Session Cookie: esFjwqqkDpUQA1mWiuxCIKJFb_2IC-oANPzWGkkynus
+login complete: session(ID = 1).
+request: /scripts/account_details.py
+Session: qkDpdsay222mTeS0v0h-Jg5GQa6gUmCVr818o7K1j4c
+Session Cookie: qkDpdsay222mTeS0v0h-Jg5GQa6gUmCVr818o7K1j4c
+user signup complete: UserAccountVerifySet.UserAccount(mail = thatguy224455@gmail.com, awaiting_verify = True).
+Session Cookie: NTdcWx14NZnLXMyxc2QZ2OdYbIlC2__5eFm7W6717TI
+login complete: session(ID = 1).
+request: /scripts/account_details.py
+Session: unZr47hXqT6S7ib3SVGi6jVfnMQiMciy_1-fdqhajx8
+Session Cookie: unZr47hXqT6S7ib3SVGi6jVfnMQiMciy_1-fdqhajx8
+user signup complete: UserAccountVerifySet.UserAccount(mail = thatguy224455@gmail.com, awaiting_verify = True).
+Session Cookie: fb0fKBJkhSqKHTBnWKZvQ8TLod4isd5ivCHqEUiBji0
+login complete: session(ID = 1).
+request: /scripts/account_details.py
+Session: 7SKatATsOAoEXEYkNEw9opo8e86qZz8Ho57Fp-JGwlw
+Session Cookie: 7SKatATsOAoEXEYkNEw9opo8e86qZz8Ho57Fp-JGwlw
+user signup complete: UserAccountVerifySet.UserAccount(mail = gqj5052@psu.edu, awaiting_verify = True).
+request: /css/master.css
+request: /login.html
+Session Cookie: dEBHBfrq48BJjaP5UBx2Pi9w0nBaVJF-kWkoDvv0IvI
+login complete: session(ID = 2).
+request: /scripts/account_details.py
+Session: uVWDjNSO1XPKgJ0WUz1H2RFKHeSJ2JcxK4k64QwcwME
+Session Cookie: uVWDjNSO1XPKgJ0WUz1H2RFKHeSJ2JcxK4k64QwcwME
+request: /scripts/catalog.py
+Session: -nevgkU-FJG4u7HLCz6J73lxvXcn2pTFOdgqPhZ52Ys
+Session Cookie: -nevgkU-FJG4u7HLCz6J73lxvXcn2pTFOdgqPhZ52Ys
+request: /scripts/catalog.py
+Session: 6T8CYw6SpkRWKM-pxgOg2useYP0IBa0l1HqcN1iNfn4
+Session Cookie: 6T8CYw6SpkRWKM-pxgOg2useYP0IBa0l1HqcN1iNfn4
+Session: fcXxtqhAvgHUE2AOW30IhfYXphv-0eojNjsHCDCjIDw
+Session Cookie: fcXxtqhAvgHUE2AOW30IhfYXphv-0eojNjsHCDCjIDw
+request: /scripts/catalog.py
+Session: -ApjZ6rr1KPIbdnt2YewgNMvZh7CW0UbhnYyTPT8b54
+Session Cookie: -ApjZ6rr1KPIbdnt2YewgNMvZh7CW0UbhnYyTPT8b54
+request: /scripts/friends.py
+Session: 5giTeavrdLBZpCk8T8RXYmNRb7ykPi4kuF9abPANnEQ
+Session Cookie: 5giTeavrdLBZpCk8T8RXYmNRb7ykPi4kuF9abPANnEQ
+Session: -a-GkE3_SdTt1TY7ncn7ixa897XeL2WRCNUDAQ2279U
+Session Cookie: -a-GkE3_SdTt1TY7ncn7ixa897XeL2WRCNUDAQ2279U
+request: /scripts/catalog.py
+Session: zNn18jaZTkdsqT6Dse8fbbnyOCunc7YYf-ykkJcc1Ks
+Session Cookie: zNn18jaZTkdsqT6Dse8fbbnyOCunc7YYf-ykkJcc1Ks
+request: /scripts/catalog.py
+Session: r26IZq0gd21LotfIPlckHch7e5GLu6AHven0AXro3wk
+Session Cookie: r26IZq0gd21LotfIPlckHch7e5GLu6AHven0AXro3wk
+Session: Wi5V78yO1XP__QoefiAXdWhPoJUTAVXetkt8C5J2BgM
+Session Cookie: Wi5V78yO1XP__QoefiAXdWhPoJUTAVXetkt8C5J2BgM
+request: /css/master.css
+request: /scripts/catalog.py
+Session: rD6DrItV10Zio5oEi_IRyuygQVyg7YDddCdusZ-F2Ok
+Session Cookie: rD6DrItV10Zio5oEi_IRyuygQVyg7YDddCdusZ-F2Ok
+Session: -rm006Om0vUGew8Psd1q7xh2kmwVkOS_bx92Y2zBtAs
+Session Cookie: -rm006Om0vUGew8Psd1q7xh2kmwVkOS_bx92Y2zBtAs
+request: /scripts/catalog.py
+Session: yeSzQydV96jLm06WJRPiIwwJdhpWBBIgYO2fY7kB4TQ
+Session Cookie: yeSzQydV96jLm06WJRPiIwwJdhpWBBIgYO2fY7kB4TQ
+Session: NvOXFUxwoEme-BBUcgaqwKFsvsxhxutz-FxFDJeJ0Lc
+Session Cookie: NvOXFUxwoEme-BBUcgaqwKFsvsxhxutz-FxFDJeJ0Lc
+request: /scripts/friends.py
+Session: QiRAnss_2TBFXn7vzuXbxNvyTeXL1pzr8KG1lJkC0Jc
+Session Cookie: QiRAnss_2TBFXn7vzuXbxNvyTeXL1pzr8KG1lJkC0Jc
+request: /scripts/catalog.py
+Session: Yelz23g9K5Ibm3JgBkbhjkqmCriZsgIxHzGBgi8vPcU
+Session Cookie: Yelz23g9K5Ibm3JgBkbhjkqmCriZsgIxHzGBgi8vPcU
+request: /scripts/catalog.py
+Session: ViLfPEsm8Bg_3VxI1OBcO2wZzAQzfzqZOo6_Dc_LRrg
+Session Cookie: ViLfPEsm8Bg_3VxI1OBcO2wZzAQzfzqZOo6_Dc_LRrg
+Session: -KOc5F2ZguUwbGxd2PjchOGGjo6D66nd7jAsXRxcXTs
+Session Cookie: -KOc5F2ZguUwbGxd2PjchOGGjo6D66nd7jAsXRxcXTs
+request: /scripts/catalog.py
+Session: tef-K9OehEEnghCeGJgopYNmUjZEBP-EVJCeKu0G8t4
+Session Cookie: tef-K9OehEEnghCeGJgopYNmUjZEBP-EVJCeKu0G8t4
+Session: pNlKbHhszuGTyJ0hg9wNFZ1dooEryTp7c3YDjLVGOzI
+Session Cookie: pNlKbHhszuGTyJ0hg9wNFZ1dooEryTp7c3YDjLVGOzI
+adding friend from 1 to 2.
+Session: YdL3QRSI0wJjlubxATJE-aa2trXG7IU0Vo2vlQFHR9o
+Session Cookie: YdL3QRSI0wJjlubxATJE-aa2trXG7IU0Vo2vlQFHR9o
+adding friend from 2 to 1.
+removing friend of 1 from 2.
+request: /css/master.css
+Session: acpg0INqeMmFga0OZ-p0R_pNj7l-mnOMNt0VsMzgZDg
+Session Cookie: acpg0INqeMmFga0OZ-p0R_pNj7l-mnOMNt0VsMzgZDg
+adding friend from 1 to 2.
+request: /scripts/catalog.py
+Session: _gKMoJnro_OZajsc04sE7uJ2m0Nptren0vW2jwJOsN4
+Session Cookie: _gKMoJnro_OZajsc04sE7uJ2m0Nptren0vW2jwJOsN4
+Session: V_7z0eEJBL0qW5RnNstm_CR4RFMOKI8ZU_m706FgFMs
+Session Cookie: V_7z0eEJBL0qW5RnNstm_CR4RFMOKI8ZU_m706FgFMs
+adding friend from 2 to 1.
+removing friend of 1 from 2.
+Session: 6yNnTcqZvBtocxNHcA2ugSTIt0QGxndVuOcxzMBdg8g
+Session Cookie: 6yNnTcqZvBtocxNHcA2ugSTIt0QGxndVuOcxzMBdg8g
+adding friend from 1 to 2.
+request: /scripts/catalog.py
+Session: 04OWkoOH7HfW2hWbqOLVijRz4tjTbvKi0oLTprL4sOI
+Session Cookie: 04OWkoOH7HfW2hWbqOLVijRz4tjTbvKi0oLTprL4sOI
+request: /css/master.css
+Session: YVoaq2Tt_h2_5aGcWL2E8kvd0xX9vIR5G_5d-qnIMIM
+Session Cookie: YVoaq2Tt_h2_5aGcWL2E8kvd0xX9vIR5G_5d-qnIMIM
+adding friend from 2 to 1.
+request: /scripts/friends.py
+Session: iQa_mSvRcBEGU4x_w1sgIhZcZy4kKL7LbScTHUc9PHQ
+Session Cookie: iQa_mSvRcBEGU4x_w1sgIhZcZy4kKL7LbScTHUc9PHQ
+request: /scripts/messenger_interface.py?target=1
+Session: NI0G7cDa14oULhv2WLPhrXKrQaJaKTHjl8MkrDsRxXE
+Session Cookie: NI0G7cDa14oULhv2WLPhrXKrQaJaKTHjl8MkrDsRxXE
+request: /scripts/messenger_interface.py?target=1
+Session: 7rMHh3W2U6rsJtO4fYOTnJ0MXWfxy3Dx4J8OA8mtTlo
+Session Cookie: 7rMHh3W2U6rsJtO4fYOTnJ0MXWfxy3Dx4J8OA8mtTlo
+request: /scripts/friends.py
+Session: BMm5B8fxpU3NT_WizvX5qIAp4rbuJniuu-NjXLivkZw
+Session Cookie: BMm5B8fxpU3NT_WizvX5qIAp4rbuJniuu-NjXLivkZw
+request: /css/master.css
+request: /scripts/messenger_interface.py?ID=1
+Session: bFMpMAvzhjEbZB05gy1LBwOiL7QPc02XoDdHWJqy9B0
+Session Cookie: bFMpMAvzhjEbZB05gy1LBwOiL7QPc02XoDdHWJqy9B0
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_submit.py?ID1=2&ID2=1
+an SSE connection has been opened.
+request: /scripts/friends.py
+Session: vEGRDIDIytJdLEh-LbIuFX13WBanCW9NombDFf1sH68
+Session Cookie: vEGRDIDIytJdLEh-LbIuFX13WBanCW9NombDFf1sH68
+request: /scripts/messenger_interface.py?ID=2
+Session: FBRHeeTsmxWgWDG1XivE57ZhXQyWrs8BAjZMZ2I_jkQ
+Session Cookie: FBRHeeTsmxWgWDG1XivE57ZhXQyWrs8BAjZMZ2I_jkQ
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+request: /scripts/messenger_submit.py?ID1=1&ID2=2
+an SSE connection has been opened.
+new message: from = 1, to = 2: hello world
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hello world
+
+"
+new message: from = 1, to = 2: hi
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+new message: from = 1, to = 2: cool
+SSE sent: "data:cool
+
+"
+SSE sent: "data:cool
+
+"
+new message: from = 2, to = 1: nice to meet you.
+SSE sent: "data:nice to meet you.
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+an SSE connection has been opened.
+SSE sent: "data:cool
+
+"
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been closed.
+SSE sent: "data:hello world
+
+"
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+SSE sent: "data:hi
+
+"
+an SSE connection has been opened.
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+an SSE connection has been opened.
+SSE sent: "data:cool
+
+"
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been closed.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+SSE sent: "data:cool
+
+"
+opened.
+SSE sent: "data:nice to meet you.
+
+"
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been closed.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+SSE sent: "data:cool
+
+"
+an SSE connection has been opened.
+SSE sent: "data:nice to meet you.
+
+"
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+n opened.
+SSE sent: "data:cool
+
+"
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+request: /scripts/messenger_interface.py?ID=2
+Session: GbU9PruIyh0yAY3ML9h3b54BOIdGOIbvLm452TVohLA
+Session Cookie: GbU9PruIyh0yAY3ML9h3b54BOIdGOIbvLm452TVohLA
+request: /scripts/messenger_submit.py?ID1=1&ID2=2
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+request: /scripts/messenger_interface.py?ID=2
+Session: aT_IQSN0BPm_fgD9p1ZnlPl6nyns8gyhNQLhtUd2laQ
+Session Cookie: aT_IQSN0BPm_fgD9p1ZnlPl6nyns8gyhNQLhtUd2laQ
+request: /scripts/messenger_submit.py?ID1=1&ID2=2
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+request: /scripts/messenger_interface.py?ID=2
+Session: e3xsCzIYZF1qaogoW3PQXyiJrMOvg44tO6UrDSRc3fk
+Session Cookie: e3xsCzIYZF1qaogoW3PQXyiJrMOvg44tO6UrDSRc3fk
+request: /scripts/messenger_submit.py?ID1=1&ID2=2
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_interface.py?ID=2
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+Session: CKrgRY2QudC_y5n9uB_d3VuvqNbiaAaA-8SCKglTgjM
+Session Cookie: CKrgRY2QudC_y5n9uB_d3VuvqNbiaAaA-8SCKglTgjM
+an SSE connection has been closed.
+request: /scripts/messenger_submit.py?ID1=1&ID2=2
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_interface.py?ID=2
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+Session: BwOmPODyEKiNpUhBEm5-dDy6tIBBusMKHpxg7DuXz1A
+Session Cookie: BwOmPODyEKiNpUhBEm5-dDy6tIBBusMKHpxg7DuXz1A
+request: /scripts/messenger_submit.py?ID1=1&ID2=2
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "data:hello world
+
+"
+SSE sent: "data:hi
+
+"
+SSE sent: "data:cool
+
+"
+SSE sent: "data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /messenger.html
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+request: /scripts/messenger_submit.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /messenger.html
+request: /scripts/messenger_submit.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+accessing: ========================> ['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+accessing: ========================> ['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+accessing: ========================> ['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+request: /scripts/friends.py
+Session: 5S80Q0i-ilcEjysfVbnWSUeErdSTdAJO2HHaTZ-BaFY
+Session Cookie: 5S80Q0i-ilcEjysfVbnWSUeErdSTdAJO2HHaTZ-BaFY
+request: /scripts/messenger_interface.py?ID=2
+Session: iDdRRMNtN7pOm5VHDYGXvayqdayhWTqajdNYmyW2eTg
+Session Cookie: iDdRRMNtN7pOm5VHDYGXvayqdayhWTqajdNYmyW2eTg
+request: /scripts/messenger_submit.py?ID1=1&ID2=2
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+accessing: ========================> ['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+accessing: ========================> ['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+accessing: ========================> ['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+accessing: ========================> ['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+accessing: ========================> ['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+accessing: ========================> ['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+accessing: ========================> ['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+accessing: ========================> ['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+accessing: ========================> ['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+accessing: ========================> ['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+accessing: ========================> ['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+accessing: ========================> ['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+accessing: ========================> ['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+accessing: ========================> ['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+accessing: ========================> ['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+accessing: ========================> ['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+accessing: ========================> ['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+accessing: ========================> ['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+accessing: ========================> ['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+accessing: ========================> ['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+accessing: ========================> ['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+accessing: ========================> ['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+accessing: ========================> ['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+accessing: ========================> ['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+accessing: ========================> ['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+accessing: ========================> ['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+accessing: ========================> ['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+accessing: ========================> ['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+accessing: ========================> ['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+accessing: ========================> ['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+accessing: ========================> ['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+accessing: ========================> ['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+request: /scripts/messenger_interface.py?ID=2
+Session: XCOgapXoKPAalh0jIh8n7wx-eVlNTzOwHz_WUXl8gjY
+Session Cookie: XCOgapXoKPAalh0jIh8n7wx-eVlNTzOwHz_WUXl8gjY
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+request: /scripts/messenger_submit.py?ID1=1&ID2=2
+an SSE connection has been opened.
+accessing: ========================> ['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+an SSE connection has been closed.
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+accessing: ========================> ['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=4
+an SSE connection has been opened.
+accessing: ========================> ['4']
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+accessing: ========================> ['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=4
+an SSE connection has been opened.
+accessing: ========================> ['4']
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+accessing: ========================> ['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=4
+an SSE connection has been opened.
+accessing: ========================> ['4']
+an SSE connection has been closed.
+request: /scripts/messenger_interface.py?ID=1
+Session: uScGmBJoYenw0vPHASEXOM9fqSZDWgkM0KqJCVeifVo
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+Session Cookie: uScGmBJoYenw0vPHASEXOM9fqSZDWgkM0KqJCVeifVo
+accessing: ========================> ['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+request: /css/master.css
+request: /scripts/messenger_submit.py?ID1=2&ID2=1
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=-1
+an SSE connection has been opened.
+accessing: ========================> ['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=4
+an SSE connection has been opened.
+accessing: ========================> ['4']
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=4
+an SSE connection has been opened.
+accessing: ========================> ['4']
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=4
+an SSE connection has been opened.
+accessing: ========================> ['4']
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=4
+an SSE connection has been opened.
+accessing: ========================> ['4']
+new message: from = 1, to = 2: hi
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=4
+an SSE connection has been opened.
+accessing: ========================> ['4']
+SSE sent: "id: 5
+
+data:hi
+
+"
+SSE sent: "id: 5
+
+data:hi
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=5
+an SSE connection has been opened.
+accessing: ========================> ['5']
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=5
+an SSE connection has been opened.
+accessing: ========================> ['5']
+new message: from = 2, to = 1: cool
+SSE sent: "id: 6
+
+data:cool
+
+"
+SSE sent: "id: 6
+
+data:cool
+
+"
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=2&ID2=1&last_ID=6
+an SSE connection has been opened.
+accessing: ========================> ['6']
+an SSE connection has been closed.
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=6
+an SSE connection has been opened.
+accessing: ========================> ['6']
+an SSE connection has been closed.
+an SSE connection has been closed.

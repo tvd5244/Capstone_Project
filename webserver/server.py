@@ -11,6 +11,8 @@ from scripts import database
 #from scripts.UserAccountPropertySet import UserAccount 
 import scripts.logs as logs
 
+CONNECTION_TIMEOUT = 4
+
 class Handler(CGIHTTPRequestHandler):
 	cgi_directories = ["/scripts"]
 
@@ -38,9 +40,11 @@ create table if not exists Conversations2 (
 	message Text
 )
 """		)
+		logs.print_line("accessing: ========================> " + str(query["last_ID"]))
 		last_ID = int(query["last_ID"][0]) or -1
+		start_time = time.time()
 		
-		while not(self.wfile.closed): 
+		while not(self.wfile.closed) and (time.time() - start_time) < CONNECTION_TIMEOUT: 
 			cursor = conn.cursor()
 			res = cursor.execute("""
 select message, ID 
@@ -51,10 +55,10 @@ order by ID asc
 """			, (last_ID, ID1, ID2, ID2, ID1, ))
 
 			for (message, ID, ) in res: 
-				response = "data:" + str(message).replace("\r\n", "\n").replace("\n", "\\n").replace("\\", "\\\\") + "\n\n"
+				last_ID = ID
+				response = "id: " + str(last_ID) + "\n\ndata:" + str(message).replace("\r\n", "\n").replace("\n", "\\n").replace("\\", "\\\\") + "\n\n"
 				logs.print_line("SSE sent: \"" + response + "\"")
 				self.wfile.write(response.encode("UTF-8"))
-				last_ID = ID
 
 			self.wfile.flush()
 			time.sleep(1)

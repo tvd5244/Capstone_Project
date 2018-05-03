@@ -17,21 +17,6 @@ if session is not None:
 	interests = fields.getvalue("interests")
 	message = ""
 
-	# This next section and two loops split the name and campus strings, capitalizes only
-	# the first letter of each word, and reconstructs the original string
-	name = accountInfo[0].split(' ')
-	campus = user.campus.split(',')[0].split(' ')
-	string = ""
-
-	for words in name:
-		string = string + words.capitalize() + " "
-	name = string
-
-	string = ""
-	for words in campus:
-		string = string + words.capitalize() + " "
-	campus = string
-
 	if interests is not None: 
 		user.interests = interests
 		user.commit()
@@ -39,9 +24,9 @@ if session is not None:
 		message = "Changes have been committed"
 	
 	print(open("account_details.html").read()
-		.replace("<?name>", name or "unknown")
+		.replace("<?name>", user.name or "unknown")
 		.replace("<?mail>", user.mail or "unknown")
-		.replace("<?campus>", campus or "unknown")
+		.replace("<?campus>", user.campus or "unknown")
 		.replace("<?academic_program>", user.academic_program or "unknown")
 		.replace("<?about_me>", user.about_me or "")
 		.replace("<?interests>", user.interests or "")

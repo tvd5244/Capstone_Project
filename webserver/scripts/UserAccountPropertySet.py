@@ -11,6 +11,7 @@ class UserAccount(UserAccountVerifySet.UserAccount):
 	conn.executescript("""
 create table if not exists UserAccountPropertySet (
 	ID integer primary key, 
+	name Text, 
 	interests Text, 
 	about_me Text, 
 	classes Text, 
@@ -56,9 +57,34 @@ where ID = ?
 		if res is None: 
 			self.conn.execute("""
 insert into UserAccountPropertySet 
-values (?, ?, ?, ?, ?, ?)
-"""			, (self.ID, "", "", "", "", ""))
+values (?, ?, ?, ?, ?, ?, ?)
+"""			, (self.ID, "", "", "", "", "", ""))
 
+
+	@property
+	def name(self): 
+		cursor = self.conn.cursor()
+		res = cursor.execute("""
+select name 
+from UserAccountPropertySet 
+where ID = ?
+"""		, (self.ID, )).fetchone()
+
+		cursor.close()
+
+		if res is None: 
+			return ""
+
+		return res[0]
+
+	
+	@name.setter
+	def name(self, name): 
+		self.conn.execute("""
+update UserAccountPropertySet 
+set name = ? 
+where ID = ?
+"""		, (name, self.ID, ))
 
 
 	@property

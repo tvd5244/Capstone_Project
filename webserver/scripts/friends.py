@@ -70,7 +70,7 @@ if session is not None:
 						<form action = "/scripts/messenger_interface.py"
 							method = "GET">
 							<input type = "hidden"
-							name = "target"
+							name = "ID"
 							value = \"""" + str(friend.ID) + """\"/>
 
 							<input class="rec_button"

@@ -3,6 +3,7 @@ import cgitb; cgitb.enable()
 import cgi; fields = cgi.FieldStorage()
 from Session import Session
 from UserAccountPropertySet import UserAccount
+import logs
 
 # HTML IN THIS FILE IS COPIED IN recommend_table_entry.html
 
@@ -15,12 +16,14 @@ if session is not None:
 	user = UserAccount.get_account_by_id(session.get_account_id())
 	addition = fields.getvalue("addition")
 
-	if addition is not None:
+	if addition is not None: 
+		logs.print_line("adding friend from " + str(session.get_account_id()) + " to " + str(addition) + ".")
 		user.add_friend(UserAccount.get_account_by_id(int(addition)))
 
 	rejection = fields.getvalue("rejection")
 
-	if rejection is not None:
+	if rejection is not None: 
+		logs.print_line("removing friend of " + str(rejection) + " from " + str(session.get_account_id()) + ".")
 		user.remove_friend(UserAccount.get_account_by_id(int(rejection)))
 
 	user.commit()
@@ -122,6 +125,7 @@ if session is not None:
 					<input class="req_button"
 						type = "submit"
 						value = "Accept"/>
+					</form>
 
 					<form action = "/scripts/catalog.py"
 						method = "POST">
