@@ -22,8 +22,8 @@ else:
 		accountInfo = getAccountInfo(user)
 
 		if accountInfo: 
-			user.academic_program = accountInfo[4]
-			user.campus = accountInfo[3]
+			user.academic_program = accountInfo[3]
+			user.campus = accountInfo[2]
 
 		user.commit()
 		logs.print_line("user signup complete: " + str(user) + ".")

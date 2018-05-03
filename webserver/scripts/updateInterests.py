@@ -22,6 +22,16 @@ def updateInterests(user):
 	if(linefound == False):
 		f.write(str(index) + ' ' + interests + "\n")
 	f.close()
+
+	print(open("account_details.html").read()
+		.replace("<?name>", name or "unknown")
+		.replace("<?mail>", user.mail or "unknown")
+		.replace("<?campus>", campus or "unknown")
+		.replace("<?academic_program>", user.academic_program or "unknown")
+		.replace("<?about_me>", user.about_me or "")
+		.replace("<?interests>", user.interests or "")
+		.replace("<?classes>", user.classes or "")
+		.replace("<?message>", message))
 	
 
 	

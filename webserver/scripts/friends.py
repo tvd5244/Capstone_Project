@@ -58,7 +58,7 @@ if session is not None:
 
 	for friend in user.get_friends():
 		print("""
-				<div class="friends_row>
+				<div class="friends_row">
 					<div class="rec_col_left">
 						<strong>""" + friend.name + """</strong>
 						<strong>""" + friend.mail + """</strong>
