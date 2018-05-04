@@ -7,33 +7,13 @@
 
 <body>
 	<!-- NAVBAR -->
-  <div class="topnav">
-    <a class = "navbar_right" href="/login.html">Login</a>
+  	<div class="topnav">
+    	<a class = "navbar_right" href="/login.html">Login</a>
 		<a class = "navbar_right" href="/signup.html">Sign-Up</a>
-  </div>
-
-	<img class="logo" src="/css/lionpals logo.png"/>
+  	</div>
 
 	<!-- This message is passed from login.py or logout.py -->
 	<p class="result"><?message></p>
-
-	<div class="buttongroup"
-		style="text-align: center;">
-		<button onclick="location.href='/signup.html'"
-			class="button">
-			Sign-Up
-		</button>
-
-		<button onclick="location.href='/login.html'"
-			class="button">
-			Login
-		</button>
-
-		<button onclick="location.href='/scripts/account_details.py'"
-			class="button">
-			Account Details
-		</button>
-	</div>
 
 	<script type="text/javascript">
 		//alert("start of javascript");
@@ -57,7 +37,7 @@
 			else {
 				// Login successful, redirect to account details page
 				if(script == "login") {
-					//setTimeout("location.href = '/scripts/account_details.py';", 1500);
+					setTimeout("location.href = '/scripts/account_details.py';", 750);
 				}
 			}
 		}

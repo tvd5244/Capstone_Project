@@ -1,172 +1,183 @@
+import html_builder
 import cgitb; cgitb.enable()
 import cgi; fields = cgi.FieldStorage()
 from Session import Session
 from UserAccountPropertySet import UserAccount
-from getAccountInfo import getAccountInfo
-from getAccountInfo import getRecommendations
+import logs
 
+# HTML IN THIS FILE IS COPIED IN recommend_table_entry.html
+
+html_builder.begin_output()
 
 session = Session.get_session()
 
-if session is not None: 
+if session is not None:
 
 	user = UserAccount.get_account_by_id(session.get_account_id())
 	addition = fields.getvalue("addition")
+	determine = fields.getvalue("determine")
+	
+	if determine is None:
+		determine = 0
 
+		
 	if addition is not None: 
+		logs.print_line("adding friend from " + str(session.get_account_id()) + " to " + str(addition) + ".")
 		user.add_friend(UserAccount.get_account_by_id(int(addition)))
 
 	rejection = fields.getvalue("rejection")
 
 	if rejection is not None: 
+		logs.print_line("removing friend of " + str(rejection) + " from " + str(session.get_account_id()) + ".")
 		user.remove_friend(UserAccount.get_account_by_id(int(rejection)))
 
 	user.commit()
 
 	print("""
 <!DOCTYPE html>
-<html lang="en">
-
-
+<html>
 <head>
-<title>Recommendations</title>
-<link href="/css/master.css" type="text/css" rel="stylesheet"/>
-
+	<title>Recommendations</title>
+	<link href="../css/master.css" type="text/css" rel="stylesheet"/>
 </head>
 
-<div class="topnav">
-    <a class = "active" href="home.html">Home</a>
-    <a class = "active" href="friends.html">Friends</a>
-    <a class = "active" href="messenger.html">Messenger</a>
-    <a class = "active" href="recommendations.html">Recommendations</a>
-    <a class = "navbar_right" href="/scripts/logout.py">Logout</a>
-    <a class = "navbar_right" href="/scripts/account_details.py">Account</a>
-</div>
-
 <body class="grey_bg">
-	<!-- <img class="logo" src="/css/lionpals logo.png"/> -->
-	<table>
-	<tr>
-		<th>Recommendations</th>
-	</tr>
+	<div class="topnav">
+		<a class = "active" href="../home.html">Home</a>
+    	<a class = "active" href="/scripts/friends.py">Friends</a>
+    	<a class = "active" href="../messenger.html">Messenger</a>
+    	<a class = "active" href="/scripts/catalog.py">Recommendations</a>
+    	<a class = "active" href="../about.html">About Us</a>
+    	<a class = "active" href="../support.html">Support</a>
+		<a class = "navbar_right" href="/scripts/logout.py">Logout</a>
+		<a class = "navbar_right" href="/scripts/account_details.py">Account</a>
+  	</div>
+
+  	<div class="container">
+
+  	<div class="separator">hi</div>
+  	<div class="rec_left">
+		<div class="rec_table">
+			</br>
+			<div class="rec_header">
+				Recommendations
+			</div>
 """	)
-
-	recommendations = user.recommend("", 10)
 	
-	#recommendations = getAccountInfo(user.interests)
-	
+	if determine == '3':
+		recommendations = user.recommendCampus(user.campus, 10)
+	elif determine == '1':
+		recommendations = user.recommendClassification(user.classification, 10)
+	elif determine == '2':
+		recommendations = user.recommendClassClassification(user.classClassification, 10)
+	else:
+		recommendations = user.recommend("", 10)
 
-	for entry in user.recommend("", 10): 
-		accountInfo = getAccountInfo(entry.mail)
+	for entry in recommendations:
 		print("""
-<tr>
-<td>
-<strong>""" + entry.mail + """</strong>
-<br/>
-		""")
-		
-		if accountInfo:
-			print("""
-			<strong>""" + accountInfo[0] + """</strong>
-			<br/>
-			<strong>""" + accountInfo[3] + """</strong>
-			<br/>
-			<strong>""" + accountInfo[4] + """</strong>
-			<br/>
-			""")
-		
-		print("""
-		
-<form action = "/scripts/catalog.py" 
-	method = "POST">
-<input type = "hidden" 
-	name = "addition"
-	value = \"""" + str(entry.ID) + """"/>
-<input type = "submit" 
-	value = "add"/>
-</form>
-</td>
-</tr>
+			<div class="rec_row">
+				<div class="rec_col_left">
+					<strong>""" + entry.mail + """</strong>
+				</div>
+
+				<div class="rec_col_right">
+					<form action = "/scripts/catalog.py"
+						method = "POST">
+						<input type = "hidden"
+							name = "addition"
+							value = \"""" + str(entry.ID) + """"/>
+						<input class="rec_button"
+							type = "submit"
+							value = "Send Request"/>
+					</form>
+				</div>
+			</div>
 """		)
 
 	print("""
-</table>
+		</div>
 """	)
 
-	if len(recommendations) == 0: 
+	if len(recommendations) == 0:
 		print("""
-<p>
-There are no recommendations available at this time. Please check back later.
-</p>
+		<p>No recommendations available at this time</p>
 """		)
 
-	print("<hr/>")
+	print("""
+	</div> <!-- ends left column -->
+
+	<div class="separator">hi</div>
+	""")
 
 	print("""
-<table>
-<tr>
-<th>Incomming Requests.</th>
-</tr>
+	<div class="rec_right">
+		<div class="rec_table">
+			</br>
+			<div class="rec_header">
+				Incoming Requests
+			</div>
 """	)
 
 	requests = user.get_friend_requests_pending()
 
-	for entry in requests: 
+	for entry in requests:
 		print("""
-<tr>
-<td>
-<strong>""" + entry.mail + """</strong>
-<br/>
-<form action = "/scripts/catalog.py" 
-	method = "POST">
-<input type = "hidden" 
-	name = "rejection"
-	value = \"""" + str(entry.ID) + """"/>
-<input type = "submit" 
-	value = "reject"/>
-</form>
-<form action = "/scripts/catalog.py" 
-	method = "POST">
-<input type = "hidden" 
-	name = "addition" 
-	value = \"""" + str(entry.ID) + """"/>
-<input type = "submit" 
-	value = "accept"/>
-</td>
-</tr>
+			<div class="req_row">
+				<div class="rec_col_left">
+					<strong>""" + entry.mail + """</strong>
+				</div>
+
+				<div class="rec_col_right">
+
+					<form action = "/scripts/catalog.py"
+						method = "POST">
+						<input type = "hidden"
+						name = "addition"
+						value = \"""" + str(entry.ID) + """"/>
+					<input class="req_button"
+						type = "submit"
+						value = "Accept"/>
+					</form>
+
+					<form action = "/scripts/catalog.py"
+						method = "POST">
+						<input type = "hidden"
+							name = "rejection"
+							value = \"""" + str(entry.ID) + """"/>
+						<input class="req_button"
+							type = "submit"
+							value = "Reject"/>
+					</form>
+				</div>
+			</div>
 """		)
 
 	print("""
-</table>
+		</div>
 """	)
 
-	if len(requests) == 0: 
+	if len(requests) == 0:
 		print("""
-<p>
-There are no pending requests at this time. Please check back later.
-</p>
+		<p>No pending requests at this time</p>
 """		)
 
-
 	print("""
-<hr/>
-<p>
-Visit the <a href = "/scripts/friends.py">friends page</a> to view added contacts.
-</p>
+	</div> <!-- ends right column -->
+	<div>
+	<form method="post">
+    <select name='determine' onchange='if(this.value != 0) { this.form.submit(); }'>
+         <option value='0'>Match based on...</option>
+		 <option value='1'>Interests</option>
+         <option value='2'>Classes</option>
+         <option value='3'>Campus</option>
+		 <option value='4'>None</option>
+    </select>
+	</form>
+	</div>
+</div> <!-- ends main container -->
 </body>
 </html>
 """	)
-	
-	print("""
-<tr>
-<td>
-<p>""" + getRecommendations() + """</p>
 
-</td>
-</tr>
-"""		)
-
-
-
-else: 
+else:
 	print(open("error_must_login.html", "r").read())

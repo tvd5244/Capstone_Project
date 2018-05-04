@@ -1,10 +1,8 @@
+import html_builder
 import cgitb; cgitb.enable()
 import os
 
-print("""\
-Content-Type: text/html
-\r\n
-""")
+html_builder.begin_output()
 
 print("""
 <html>

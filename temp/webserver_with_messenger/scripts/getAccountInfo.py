@@ -2,12 +2,7 @@ import requests
 from bs4 import BeautifulSoup as bs
 from collections import OrderedDict
 import re
-from UserAccountPropertySet import UserAccount
-from Session import Session
 from DataAnalysisClassifier import classifier
-
-session = Session.get_session()
-user = UserAccount.get_account_by_id(session.get_account_id())
 
 
 #this function assumes psu emails are 1 to 1 (i.e only 1 result in student directory per email)
@@ -15,22 +10,32 @@ user = UserAccount.get_account_by_id(session.get_account_id())
 #takes a psu email as a string and returns -1 if no results are found in student directory,
 #or a list containing the account info if a result is found.
 
-def getAccountInfo(email):
-    r = requests.post('http://www.work.psu.edu/cgi-bin/ldap/ldap_query.cgi', data={'mail': email})
+def getAccountInfo(user):
+
+    r = requests.post('http://www.work.psu.edu/cgi-bin/ldap/ldap_query.cgi', data={'mail': user.mail})
     data = r.text
     soup = bs(data, 'html.parser')
-    if ((soup.find(string=re.compile('[0-9]*\smatch(es)?'))[0][0]) == '0' or not re.search(re.compile('[a-z]{3}[0-9]*@psu.edu'), email)):
+    if ((soup.find(string=re.compile('[0-9]*\smatch(es)?'))[0][0]) == '0'):
         return []
     else:
         accountInfo = []
-        for item in soup.find_all('td'):
-            for string in item.stripped_strings:
-                accountInfo.append(repr(string))
-        accountInfo = list(OrderedDict.fromkeys(accountInfo))
+        getNext = False;
+        for string in soup.stripped_strings:
+            if getNext:
+                accountInfo.append(string)
+                getNext = False
+            elif string == 'Name:' or string == 'E-Mail:' or string == "Title:" or string == "Campus:" or string == "Curriculum:" or string == "Department:":
+                getNext = True
+
+        #for item in soup.find_all('td'):
+        #    for string in item.stripped_strings:
+        #        accountInfo.append(repr(string))
+        #accountInfo = list(OrderedDict.fromkeys(accountInfo))
+
         return accountInfo
 
 
-def getRecommendations():
+def getRecommendations(user):
 	f = open('test.csv', 'w')
 	f.write("PersonID,Interests")
 	f.write("\n")
@@ -48,6 +53,39 @@ def getRecommendations():
 	else:
 		f.close()
 		return returnValue
+		
+def getClassRecommendations(classes):
+	n = 0
+	lst = []
+	for word in classes.split():
+		if n == 0:
+			lst.append(word)
+			n = 1
+		else:
+			n = 0
+	return max(set(lst), key=lst.count)
+	
+	
+		
+#def getClassRecommendations(user):
+#	f = open('testClass.csv', 'w')
+#	f.write("PersonID,Classes")
+#	f.write("\n")
+#	f.write("\n")
+#	f.write("1, " + user.interests)
+#	f.close()
+#	#replace classifier with classClassifier when classClassifier is finished
+#	classifier()
+#	print('\n')
+#	try:
+#		f = open('finalClass.csv', 'r')
+#		data = f.readlines()
+#		returnValue = data[1].split(',')[1]
+#	except FileNotFoundError:
+#		returnValue = ""
+#	else:
+#		f.close()
+#		return returnValue
 			
 		
 	

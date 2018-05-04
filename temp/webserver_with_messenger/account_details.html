@@ -5,16 +5,19 @@
 	<link href="/css/master.css" type="text/css" rel="stylesheet"/>
 </head>
 
-<body>
+<body class="grey_bg">
   <!-- NAVBAR -->
   <div class="topnav">
 		<a class = "active" href="home.html">Home</a>
     <a class = "active" href="/scripts/friends.py">Friends</a>
-    <a class = "active" href="messenger.html">Messenger</a>
+    <a class = "active" href="../messenger.html">Messenger</a>
     <a class = "active" href="/scripts/catalog.py">Recommendations</a>
+    <a class = "active" href="about.html">About Us</a>
+    <a class = "active" href="support.html">Support</a>
 		<a class = "navbar_right" href="/scripts/logout.py">Logout</a>
 		<a class = "navbar_right" href="/scripts/account_details.py">Account</a>
   </div>
+
   <div class="account_page">
     <div class="details">
 
@@ -73,7 +76,7 @@
         </div>
         <div class="row">
           <form class="about_me"
-            id="interests"
+            id="about_me"
 						action="/scripts/account_details.py"
 						method="POST">
 						<textarea type="text"
@@ -90,7 +93,6 @@
           <div class="save_button">
     				<input type="submit"
     					form="about_me"
-    					id="savechanges"
     					class="savechanges"
     					value="Save"/>
     			</div>
@@ -107,23 +109,20 @@
             id="interests"
 						action="/scripts/account_details.py"
 						method="POST">
-						
-					</form>
-					<textarea type="text" 
-							form = "interests" 
+						<textarea type="text"
 							class="interests"
 							id="interests_textbox"
 							name = "interests"
 							placeholder="Enter your interests"
 							rows="7"
               cols="30"><?interests></textarea>
+					</form>
         </div>
 
         <div class="row">
           <div class="save_button">
     				<input type="submit"
     					form="interests"
-    					id="savechanges"
     					class="savechanges"
     					value="Save"/>
     			</div>
@@ -154,8 +153,7 @@
         <div class="row">
           <div class="save_button">
     				<input type="submit"
-    					form="interests"
-    					id="savechanges"
+    					form="classes"
     					class="savechanges"
     					value="Save"/>
     			</div>
@@ -168,18 +166,20 @@
           Change Password
         </div>
 
-        <form class="change_password"
-          method="post"
+		<form class="change_password"
+			id = "change_password" 
+          method="POST"
           action="/scripts/change_password.py"
           onsubmit="return new_pwd_match();">
-
+			<input type = "hidden" name = "test" value = "1234"/>
           <div class="row">
             <div class="col_left">
               Current Password:
             </div>
             <div class="col_right">
               <input class="change_password"
-                id="password_current"
+				id="password_current"
+				name="password_current"
                 type="password"/>
             </div>
           </div>
@@ -192,10 +192,12 @@
             </div>
             <div class="col_right">
               <input class="change_password"
-                id="password_new"
+				id="password_new"
+				name="password_new" 
                 type="password"/>
             </div>
-          </div>
+		  </div>
+		  </form>
 
           <br/>
 
@@ -214,13 +216,13 @@
 
           <div class="row">
             <div class="save_button">
-      				<input type="submit"
-      					id="change_password"
+					  <input type="submit"
+						form="change_password"
       					class="savechanges"
       					value="Save"/>
       			</div>
           </div>
-
+		  <strong style = "color: orange;"><?message></strong>
         </form>
 
       </div> <!-- end of table div -->
@@ -249,6 +251,7 @@
     pwd_new_conf.onchange = new_pwd_match;
 
   </script>
+
 </body>
 
 </html>

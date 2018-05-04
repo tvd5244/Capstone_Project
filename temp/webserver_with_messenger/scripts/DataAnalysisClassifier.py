@@ -117,8 +117,8 @@ def classifier():
 
     #Suggesting Friends by person ID to each of the person in test.csv
 
-    for row in df_test.iterrows():
-        print("Person ID in test.csv : {} \n\t Predicted Class : {} \n\t Suggested Friends Person IDs : {}".format(row[0],class_names[predictions[row[0]-1]] ,list(group_by_type.get_group(row[0]).index)))
+    #for row in df_test.iterrows():
+    #    print("Person ID in test.csv : {} \n\t Predicted Class : {} \n\t Suggested Friends Person IDs : {}".format(row[0],class_names[predictions[row[0]-1]] ,list(group_by_type.get_group(row[0]).index)))
 
 
     # In[150]:

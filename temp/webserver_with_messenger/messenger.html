@@ -1,41 +1,86 @@
-
 <html>
-<head> 
-	<link href="css/template.css" rel="stylesheet">
-    <meta charset="UTF-8">
-    <title>Messenger</title>
+<head>
+	<style>
+	
+	.message {
+		border: solid black 0.1em;
+	}
+
+	</style>
+	<link href="/css/master.css" type="text/css" rel="stylesheet">
+	<meta charset="UTF-8">
+	<title>Messenger</title>
 </head>
-
-<div class="topnav">
-    <a class = "active" href="home.html">Home</a>
-    <a class = "active" href="friends.html">Friends</a>
-    <a class = "active" href="messenger.html">Messenger</a>
-    <a class = "active" href="recommendations.html">Recommendations</a>
-</div>
-
 <body>
-<div id = "container">
-</div>
-<iframe src = "/scripts/messenger_submit.py?source=<?source>" 
-	style = "
-border: solid black 0.1em;
-"></iframe>
+	<div class="topnav">
+		<a class = "active" href="/home.html">Home</a>
+    	<a class = "active" href="/scripts/friends.py">Friends</a>
+    	<a class = "active" href="/messenger.html">Messenger</a>
+    	<a class = "active" href="/scripts/catalog.py">Recommendations</a>
+    	<a class = "active" href="/about.html">About Us</a>
+    	<a class = "active" href="/support.html">Support</a>
+		<a class = "navbar_right" href="/scripts/logout.py">Logout</a>
+		<a class = "navbar_right" href="/scripts/account_details.py">Account</a>
+	</div>
 
-<script defer>
+	<div class="message_header">
+		Messages:
+	</div>
 
-let container = document.getElementById("container");
-let conn = new EventSource("/scripts/messenger_messages.py?source=<?source>");
-	
-conn.onmessage = 
-function(e) {
-	console.log(e.data);
-	container.innerText += "\n" + e.data;
-};
-	
-conn.onerror = console.log;
-conn.onopen = console.log;
-	
-</script>
+	<div id = "div" 
+		class = "message" 
+		style = "visibility: hidden;">
+		<br/>
+	</div>
+
+	<div id = "container"></div>
+
+	<iframe class="message_container" 
+		src = "/scripts/messenger_submit.py?ID1=<?ID1>&ID2=<?ID2>">		
+	</iframe>
+
+	<script defer>
+
+		let container = document.getElementById("container");
+		let div = document.getElementById("div");
+		let conn = {close: () => {}};
+		let last_ID = -1;
+
+		let onmessage = 
+		function(e) {
+			console.log("message received: \"" + e.data + "\"");
+			last_ID = Math.max(parseInt(e.lastEventId), last_ID);
+
+			let new_div = div.cloneNode(true);
+			
+			new_div.innerText = e.data.replace("\\\\", "\\").replace("\\n", "\n");
+			new_div.style.visibility = "visible";
+			container.appendChild(new_div);
+		};
+
+		let onopen = console.log;
+
+		let onerror;
+
+		onerror = 
+		function(e) {
+			console.log(e);
+			
+
+			let new_url = "/scripts/messenger_messages.py?ID1=<?ID1>&ID2=<?ID2>&last_ID=" + last_ID;
+			
+			console.log("new URL = \"" + new_url + "\"");
+			conn.close();
+			conn = new EventSource(new_url);
+			
+			conn.onmessage = onmessage;
+			conn.onopen = onopen;
+			conn.onerror = onerror;
+		};
+
+		onerror();
+
+	</script>
 
 </body>
 </html>
