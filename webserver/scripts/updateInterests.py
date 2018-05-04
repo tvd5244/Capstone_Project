@@ -24,9 +24,9 @@ def updateInterests(user):
 	f.close()
 
 	print(open("account_details.html").read()
-		.replace("<?name>", name or "unknown")
+		.replace("<?name>", user.name or "unknown")
 		.replace("<?mail>", user.mail or "unknown")
-		.replace("<?campus>", campus or "unknown")
+		.replace("<?campus>", user.campus or "unknown")
 		.replace("<?academic_program>", user.academic_program or "unknown")
 		.replace("<?about_me>", user.about_me or "")
 		.replace("<?interests>", user.interests or "")

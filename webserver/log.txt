@@ -6903,3 +6903,305 @@ an SSE connection has been opened.
 accessing: ========================> ['6']
 an SSE connection has been closed.
 an SSE connection has been closed.
+Session Cookie: c-3H5CXMX35dUmIDngkDKmkuPFpHQKFxqvy2GtTXTiY
+login complete: session(ID = 3).
+request: /scripts/account_details.py
+Session: 6bcyCVKQDdNHHG1IAi6H7G_k1Ncn590GdVEPzPfjNEA
+Session Cookie: 6bcyCVKQDdNHHG1IAi6H7G_k1Ncn590GdVEPzPfjNEA
+request: /favicon.ico
+request: /scripts/account_details.py
+Session: SWyqypkcjwfFidSDlgSH_QcANIG_Hlmc4rvlXBQaQqw
+Session Cookie: SWyqypkcjwfFidSDlgSH_QcANIG_Hlmc4rvlXBQaQqw
+request: /scripts/account_details.py
+Session: N4VcaACdzDiVdxbM8djc41aNjyFCww3HAHtqCzk0s2U
+Session Cookie: N4VcaACdzDiVdxbM8djc41aNjyFCww3HAHtqCzk0s2U
+request: /scripts/account_details.py
+Session: 2kwAj9u1Agi0ph-FEDN1ImCZM9b3iEB1lqoyyExEgZg
+Session Cookie: 2kwAj9u1Agi0ph-FEDN1ImCZM9b3iEB1lqoyyExEgZg
+Session: mMV8hpqv5O0Yd90BeuKQbsU5alq_F3RgG6LgGuq-EO4
+Session Cookie: mMV8hpqv5O0Yd90BeuKQbsU5alq_F3RgG6LgGuq-EO4
+Session: IpMLhRl8lKhX5SFzsb7GkNeX8SBZJeopAXvxP-CVgyw
+Session Cookie: IpMLhRl8lKhX5SFzsb7GkNeX8SBZJeopAXvxP-CVgyw
+Session: utr8wEP3zd8F1sskUhq-Z0Vvy9PtJ1o9UOTiVQenPjM
+Session Cookie: utr8wEP3zd8F1sskUhq-Z0Vvy9PtJ1o9UOTiVQenPjM
+Session: GC4TNL2ZLtmgUsa0sykHFdxAP1X1X4zSNuFkfyp2RF8
+Session Cookie: GC4TNL2ZLtmgUsa0sykHFdxAP1X1X4zSNuFkfyp2RF8
+Session: UMWLudlWId4JqOuX6tS4w_Tqtbaa-sFA4-tg1YrpK5w
+Session Cookie: UMWLudlWId4JqOuX6tS4w_Tqtbaa-sFA4-tg1YrpK5w
+Session: LcijYjArUnY78h_N9rbpLPq_gJy8315604s2pqCn8TI
+Session Cookie: LcijYjArUnY78h_N9rbpLPq_gJy8315604s2pqCn8TI
+Session: G0M8H5KDU3v_w7LlNKxNce4k_xqxVUKMUr3tg_ckLGk
+Session Cookie: G0M8H5KDU3v_w7LlNKxNce4k_xqxVUKMUr3tg_ckLGk
+Session: kxOzna4iQ7Q_cfD3V8_yz_XvGXEQLfR4dbs8m3sBwy4
+Session Cookie: kxOzna4iQ7Q_cfD3V8_yz_XvGXEQLfR4dbs8m3sBwy4
+Session: _vGaBj44lfr623KFWosI06iAhjYarhBdqelZETNz7SU
+Session Cookie: _vGaBj44lfr623KFWosI06iAhjYarhBdqelZETNz7SU
+Session: nOJJ0Dd1vs8tocb5bJEatCwgiRdQ9cDILUfkS82lM3Q
+Session Cookie: nOJJ0Dd1vs8tocb5bJEatCwgiRdQ9cDILUfkS82lM3Q
+Session: E7X2-wGlJHuGkMVmXYD1tqW2Ovud6Oc2-Xn4lsoTr6A
+Session Cookie: E7X2-wGlJHuGkMVmXYD1tqW2Ovud6Oc2-Xn4lsoTr6A
+Session: US5epWtK9rYtxowL-RH37c_RAWQx91aM4Zq3tE27krM
+Session Cookie: US5epWtK9rYtxowL-RH37c_RAWQx91aM4Zq3tE27krM
+Session: FMva-X5wofOJCOzbDesDGpsJGWbaKdrF4zoZTlpVYlc
+Session Cookie: FMva-X5wofOJCOzbDesDGpsJGWbaKdrF4zoZTlpVYlc
+Session: 8fnlLDr0NDoX46FdjiqG8M5kYn16bhI5DvIZhPLvxCk
+Session Cookie: 8fnlLDr0NDoX46FdjiqG8M5kYn16bhI5DvIZhPLvxCk
+Session: 7cF45PavE2Kya5P7LuoUKZ2zHnBwE11ikjsvxzsAmTw
+Session Cookie: 7cF45PavE2Kya5P7LuoUKZ2zHnBwE11ikjsvxzsAmTw
+Session: Am6F1oiaBgKPfOpMfh3V3E3G-u62czEghpZqfxsy5qE
+Session Cookie: Am6F1oiaBgKPfOpMfh3V3E3G-u62czEghpZqfxsy5qE
+Session: XmEB-om6QCPlPm0xJ-U6xqkNL5kyWMUTpkslfVF9Xtk
+Session Cookie: XmEB-om6QCPlPm0xJ-U6xqkNL5kyWMUTpkslfVF9Xtk
+Session: RUHIuJ5zSs_sfANK3H050HyDYFNzCdh6a5kxilw-OeA
+Session Cookie: RUHIuJ5zSs_sfANK3H050HyDYFNzCdh6a5kxilw-OeA
+received: None
+Session: iPiJqYDGkiMF6NlsN9mjIs5ZCA26sP7VPfe6aO6otVE
+Session Cookie: iPiJqYDGkiMF6NlsN9mjIs5ZCA26sP7VPfe6aO6otVE
+received: None
+Session: YLQD-hDX7O-9KwYs4CqUU2vy5YVB0WZkdJWNg3aa0L8
+Session Cookie: YLQD-hDX7O-9KwYs4CqUU2vy5YVB0WZkdJWNg3aa0L8
+<bound method FieldStorage.keys of FieldStorage(None, None, [])>
+Session: jy5ClBF1waJj79Syo2EQwbnR88bBfk4r8NveFF5AITc
+Session Cookie: jy5ClBF1waJj79Syo2EQwbnR88bBfk4r8NveFF5AITc
+Session: 2tKa24-SLasHM3d7kwd_DpLnNg-RLFm3ovVTZxyklcs
+Session Cookie: 2tKa24-SLasHM3d7kwd_DpLnNg-RLFm3ovVTZxyklcs
+[MiniFieldStorage('interests', 'hi')]
+Session: zfVrX3s4d8YfmqQL_Bnz00xlcTQJjvm0EuPptygtXPA
+Session Cookie: zfVrX3s4d8YfmqQL_Bnz00xlcTQJjvm0EuPptygtXPA
+[]
+Session: NGYYTG9p0YMYUuQ2g_s7-B6DDmp76FCXeXikOBx2KGU
+Session Cookie: NGYYTG9p0YMYUuQ2g_s7-B6DDmp76FCXeXikOBx2KGU
+Session: 2_kkkQXK_UKwKSit6WDV8OPp5GGBhGlK216X2GX5-pk
+Session Cookie: 2_kkkQXK_UKwKSit6WDV8OPp5GGBhGlK216X2GX5-pk
+MiniFieldStorage('interests', 'hi')
+Session: SW4yK8OWDM3WmNSBVnftBw5mpZ8Tbj7cRoKygl-QHiM
+Session Cookie: SW4yK8OWDM3WmNSBVnftBw5mpZ8Tbj7cRoKygl-QHiM
+MiniFieldStorage('interests', 'hi')
+Session: mM4ZuKjCx5ckO6F_E_KTE82D_IKTF7gjTVbAIbKW9aA
+Session Cookie: mM4ZuKjCx5ckO6F_E_KTE82D_IKTF7gjTVbAIbKW9aA
+received: MiniFieldStorage('interests', 'hello')
+Session: _Yuu-8pZZh8LNZcNRBCjyM30UD2D-jmANr8A4zsrt3E
+Session Cookie: _Yuu-8pZZh8LNZcNRBCjyM30UD2D-jmANr8A4zsrt3E
+received: MiniFieldStorage('interests', 'hello')
+Session: 5c5T8C9gD9iMAkUo3V3QSNMLt8iGmGCgZlO0lVL9qNI
+Session Cookie: 5c5T8C9gD9iMAkUo3V3QSNMLt8iGmGCgZlO0lVL9qNI
+received: MiniFieldStorage('interests', 'cool')
+Session: kdcBuwUb7yWUZUP5WaTLJTj_1MInfHf6tjxZ0gNDRCg
+Session Cookie: kdcBuwUb7yWUZUP5WaTLJTj_1MInfHf6tjxZ0gNDRCg
+none
+Session: rA3AksAA0BYRhPDtmUuC1b6xFGLifoDUamYUo8b9354
+Session Cookie: rA3AksAA0BYRhPDtmUuC1b6xFGLifoDUamYUo8b9354
+Session: Yk1WpNUyfDNDlR-uH2VNNMklT25RI2ew1_9YoLaD1VU
+Session Cookie: Yk1WpNUyfDNDlR-uH2VNNMklT25RI2ew1_9YoLaD1VU
+Session: quVaRimFQYE6THVHsM0YdQohgoZpZr4sP4XzSP6mzIk
+Session Cookie: quVaRimFQYE6THVHsM0YdQohgoZpZr4sP4XzSP6mzIk
+Session: egYrCTRfSu33uZcRoKJavMaLktrYeZ0m82mP1deRomY
+Session Cookie: egYrCTRfSu33uZcRoKJavMaLktrYeZ0m82mP1deRomY
+request: /interests_text_box.html
+Session: 7tV6Q6oPJKEHvC3tm0bLK7a-2RLO9FJHK-AwSVhlXrU
+Session Cookie: 7tV6Q6oPJKEHvC3tm0bLK7a-2RLO9FJHK-AwSVhlXrU
+request: /interests_text_box.html
+Session: OcHeNh_3-yi4LIuAVTtSkkLaTmOVIbASHts857v0oaU
+Session Cookie: OcHeNh_3-yi4LIuAVTtSkkLaTmOVIbASHts857v0oaU
+Session: W-iSe2Uvhsfx7m4RkK9hE2qEpj_kNb8fuck2SzD-Zyc
+Session Cookie: W-iSe2Uvhsfx7m4RkK9hE2qEpj_kNb8fuck2SzD-Zyc
+Session: SS0UBi2XSRcHkpK88Vf391rbHd-kt8DPKRLPXElTrfo
+Session Cookie: SS0UBi2XSRcHkpK88Vf391rbHd-kt8DPKRLPXElTrfo
+Session: TAzv_tRigjr-Epj5kLTEYNIgr5soof0J4IntE__R4Ag
+Session Cookie: TAzv_tRigjr-Epj5kLTEYNIgr5soof0J4IntE__R4Ag
+Session: aMK5arf3j5gIqNi3LH1UN-CyBcfhPHcISsPO8F9u4_8
+Session Cookie: aMK5arf3j5gIqNi3LH1UN-CyBcfhPHcISsPO8F9u4_8
+change password: FieldStorage(None, None, [])
+Session: AieATZKZy_sFj_3B0mMFT216AvFP_8xOlLmtuunlCTg
+Session Cookie: AieATZKZy_sFj_3B0mMFT216AvFP_8xOlLmtuunlCTg
+change password: FieldStorage(None, None, [])
+Session: dpIMoQPPDhgGTj2T7JunYn30TZnHSzCCxhJKZesLvYE
+Session Cookie: dpIMoQPPDhgGTj2T7JunYn30TZnHSzCCxhJKZesLvYE
+running
+change password: FieldStorage(None, None, [])
+Session: caDIeeU3ppmMa_VPf2_UODMBQPWAQLBX2QGXS8LWOmY
+Session Cookie: caDIeeU3ppmMa_VPf2_UODMBQPWAQLBX2QGXS8LWOmY
+running
+change password: FieldStorage(None, None, [])
+Session: eUPBHDPD6wHE1u-80jaW7YoqOTXhDca4tgw4xzZkcYM
+Session Cookie: eUPBHDPD6wHE1u-80jaW7YoqOTXhDca4tgw4xzZkcYM
+Session: CmZqUP4xVtgkAnOz9zNRi3hhmlJ8h4-leGvzsvX9P7o
+Session Cookie: CmZqUP4xVtgkAnOz9zNRi3hhmlJ8h4-leGvzsvX9P7o
+running
+change password: FieldStorage(None, None, [MiniFieldStorage('test', '1234'), MiniFieldStorage('password_current', '1234'), MiniFieldStorage('password_new', '1234')])
+Session: F1ZtnKrfbM5SHP3rhwe0rrzkjRZeq-jrLP1uGvYXuHY
+Session Cookie: F1ZtnKrfbM5SHP3rhwe0rrzkjRZeq-jrLP1uGvYXuHY
+running
+change password: FieldStorage(None, None, [MiniFieldStorage('test', '1234'), MiniFieldStorage('password_current', '12345'), MiniFieldStorage('password_new', '1234')])
+Session: Ybt9HHyDwGxAnnSsNlfJ4MHhoim9BNw7bj7LMUJ_swg
+Session Cookie: Ybt9HHyDwGxAnnSsNlfJ4MHhoim9BNw7bj7LMUJ_swg
+running
+change password: FieldStorage(None, None, [MiniFieldStorage('test', '1234'), MiniFieldStorage('password_current', '1234'), MiniFieldStorage('password_new', '1234')])
+Session: VQMLT4WOQs3NKqR1EgOzlq6SFZsIooOyMkxLtnEbHAA
+Session Cookie: VQMLT4WOQs3NKqR1EgOzlq6SFZsIooOyMkxLtnEbHAA
+running
+change password: FieldStorage(None, None, [MiniFieldStorage('test', '1234'), MiniFieldStorage('password_current', '12345'), MiniFieldStorage('password_new', '1234')])
+Session: lrimGq7b6kEmoMqsEMXGjWyKaIl-gv0nlUEPxNmPRsk
+Session Cookie: lrimGq7b6kEmoMqsEMXGjWyKaIl-gv0nlUEPxNmPRsk
+running
+change password: FieldStorage(None, None, [MiniFieldStorage('test', '1234'), MiniFieldStorage('password_current', '1234'), MiniFieldStorage('password_new', '1234')])
+Session: AMaqGg-vNHpmc364sOKZ4yeQUd6Yw9LxZzyQrq4F4_s
+Session Cookie: AMaqGg-vNHpmc364sOKZ4yeQUd6Yw9LxZzyQrq4F4_s
+running
+change password: FieldStorage(None, None, [MiniFieldStorage('test', '1234'), MiniFieldStorage('password_current', '1234'), MiniFieldStorage('password_new', '1234')])
+Session: ZAFbQUApGM1mzFtRSm_BEzqTlqPgcWo4G3N18-LKtew
+Session Cookie: ZAFbQUApGM1mzFtRSm_BEzqTlqPgcWo4G3N18-LKtew
+running
+change password: FieldStorage(None, None, [MiniFieldStorage('test', '1234'), MiniFieldStorage('password_current', '12345'), MiniFieldStorage('password_new', '1234')])
+Session: aPSR4ihZUnWgeu2LObRg1rzShBD3JgiobHJu8ymXvqQ
+Session Cookie: aPSR4ihZUnWgeu2LObRg1rzShBD3JgiobHJu8ymXvqQ
+running
+change password: FieldStorage(None, None, [MiniFieldStorage('test', '1234'), MiniFieldStorage('password_current', '12345'), MiniFieldStorage('password_new', '1234')])
+Session: UtvpoAm6uc6LELPEt4d1LzVmocGndCG3mFI7397fmQw
+Session Cookie: UtvpoAm6uc6LELPEt4d1LzVmocGndCG3mFI7397fmQw
+running
+change password: FieldStorage(None, None, [MiniFieldStorage('test', '1234'), MiniFieldStorage('password_current', '1234'), MiniFieldStorage('password_new', '12345')])
+request: /scripts/logout.py
+Session: 7WUMTDkgr02mHLPN3iggi8osRy6rBHhywLC-uRi2E7A
+Session Cookie: 7WUMTDkgr02mHLPN3iggi8osRy6rBHhywLC-uRi2E7A
+login complete: None.
+Session Cookie: hdh-p9cNQPyaXNRkGJd1at69Ap0jP7aR98WgmZbwlOs
+login complete: session(ID = 4).
+request: /scripts/account_details.py
+Session: MLjPqTChWVM1PemFR31pgceeRa1NPfcG7FuvriwuLA0
+Session Cookie: MLjPqTChWVM1PemFR31pgceeRa1NPfcG7FuvriwuLA0
+request: /messenger.html
+request: /scripts/messenger_submit.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/friends.py
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+request: /scripts/messenger_messages.py?ID1=%3C?ID1%3E&ID2=%3C?ID2%3E&last_ID=-1
+an SSE connection has been opened.
+Session: fkdfI2JL9KcS33ZhDdLzxqoTyo-BqTRK_ZunlK9jpIU
+Session Cookie: fkdfI2JL9KcS33ZhDdLzxqoTyo-BqTRK_ZunlK9jpIU
+request: /scripts/messenger_interface.py?ID=2
+Session: tUOqG0cPqfvoLI6i05BxYt-VHdGBKahLgbfpJbsUap0
+Session Cookie: tUOqG0cPqfvoLI6i05BxYt-VHdGBKahLgbfpJbsUap0
+request: /scripts/messenger_submit.py?ID1=1&ID2=2
+request: /scripts/messenger_messages.py?ID1=1&ID2=2&last_ID=-1
+an SSE connection has been opened.
+accessing: ========================> ['-1']
+SSE sent: "id: 1
+
+data:hello world
+
+"
+SSE sent: "id: 2
+
+data:hi
+
+"
+SSE sent: "id: 3
+
+data:cool
+
+"
+SSE sent: "id: 4
+
+data:nice to meet you.
+
+"
+SSE sent: "id: 5
+
+data:hi
+
+"
+SSE sent: "id: 6
+
+data:cool
+
+"
+request: /home.html
+request: /index.html
+an SSE connection has been closed.

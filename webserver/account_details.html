@@ -76,7 +76,7 @@
         </div>
         <div class="row">
           <form class="about_me"
-            id="interests"
+            id="about_me"
 						action="/scripts/account_details.py"
 						method="POST">
 						<textarea type="text"
@@ -93,7 +93,6 @@
           <div class="save_button">
     				<input type="submit"
     					form="about_me"
-    					id="savechanges"
     					class="savechanges"
     					value="Save"/>
     			</div>
@@ -124,7 +123,6 @@
           <div class="save_button">
     				<input type="submit"
     					form="interests"
-    					id="savechanges"
     					class="savechanges"
     					value="Save"/>
     			</div>
@@ -155,8 +153,7 @@
         <div class="row">
           <div class="save_button">
     				<input type="submit"
-    					form="interests"
-    					id="savechanges"
+    					form="classes"
     					class="savechanges"
     					value="Save"/>
     			</div>
@@ -169,18 +166,20 @@
           Change Password
         </div>
 
-        <form class="change_password"
-          method="post"
+		<form class="change_password"
+			id = "change_password" 
+          method="POST"
           action="/scripts/change_password.py"
           onsubmit="return new_pwd_match();">
-
+			<input type = "hidden" name = "test" value = "1234"/>
           <div class="row">
             <div class="col_left">
               Current Password:
             </div>
             <div class="col_right">
               <input class="change_password"
-                id="password_current"
+				id="password_current"
+				name="password_current"
                 type="password"/>
             </div>
           </div>
@@ -193,10 +192,12 @@
             </div>
             <div class="col_right">
               <input class="change_password"
-                id="password_new"
+				id="password_new"
+				name="password_new" 
                 type="password"/>
             </div>
-          </div>
+		  </div>
+		  </form>
 
           <br/>
 
@@ -215,13 +216,13 @@
 
           <div class="row">
             <div class="save_button">
-      				<input type="submit"
-      					id="change_password"
+					  <input type="submit"
+						form="change_password"
       					class="savechanges"
       					value="Save"/>
       			</div>
           </div>
-
+		  <strong style = "color: orange;"><?message></strong>
         </form>
 
       </div> <!-- end of table div -->

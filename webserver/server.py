@@ -11,7 +11,7 @@ from scripts import database
 #from scripts.UserAccountPropertySet import UserAccount 
 import scripts.logs as logs
 
-CONNECTION_TIMEOUT = 4
+CONNECTION_TIMEOUT = 20
 
 class Handler(CGIHTTPRequestHandler):
 	cgi_directories = ["/scripts"]
